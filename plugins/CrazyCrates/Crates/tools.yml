@@ -1,0 +1,183 @@
+Crate:
+  CrateType: Wonder
+  CrateName: '&0Идёт открытие кейса...'
+  StartingKeys: 0
+  InGUI: true
+  Slot: 14
+  OpeningBroadCast: false
+  BroadCast: '%Prefix%&6&l%Player% &7is opening a &e&lClassic Chest&7.'
+  Item: '54'
+  Glowing: false
+  Name: '▪ Денежный кейс'
+  Lore:
+          - '&7This crate contains classic items.'
+          - '&7You have &6%Keys% keys &7to open this crate with.'
+          - '&7&l(&e&l!&7&l) Right click to view rewards.'
+  PhysicalKey:
+          Name: '&e&lДенежного &e⛂ &e&lкейса'
+          Lore:
+            - '&7A special Key'
+            - '&7For a special Crate.'
+          Item: '131'
+          Glowing: true
+  Prizes:
+    0:
+      MaxRange: 100
+      Commands:
+      - give %Player% ironshovel 1 name:7 dig_speed:4 durability:2 loot_bonus_blocks:1
+      DisplayName: 'Железная лопата'
+      DisplayAmount: 1
+      Chance: 7
+      Glowing: true
+      DisplayItem: 256
+      Lore: object
+    1:
+      MaxRange: 100
+      Commands:
+      - give %Player% ironshovel 1 name:6 dig_speed:4 durability:2
+      DisplayName: 'Железная лопата'
+      DisplayAmount: 1
+      Chance: 6
+      Glowing: true
+      DisplayItem: 256
+      Lore: object
+    2:
+      MaxRange: 100
+      Commands:
+      - give %Player% ironshovel 1
+      DisplayName: 'Железная лопата'
+      DisplayAmount: 1
+      Chance: 5
+      Glowing: true
+      DisplayItem: 256
+      Lore: object
+    3:
+      MaxRange: 100
+      Commands:
+      - give %Player% ironpickaxe 1
+      DisplayName: 'Железная кирка'
+      DisplayAmount: 1
+      Chance: 7
+      Glowing: true
+      DisplayItem: 257
+      Lore: object
+    4:
+      MaxRange: 100
+      Commands:
+      - give %Player% ironpickaxe 1 dig_speed:4 durability:2
+      DisplayName: 'Железная кирка'
+      DisplayAmount: 1
+      Chance: 7
+      Glowing: true
+      DisplayItem: 257
+      Lore: object
+    5:
+      MaxRange: 100
+      Commands:
+      - give %Player% ironpickaxe 1 dig_speed:4 durability:2 loot_bonus_blocks:1
+      DisplayName: 'Железная кирка'
+      DisplayAmount: 1
+      Chance: 7
+      Glowing: true
+      DisplayItem: 257
+      Lore: object
+    6:
+      MaxRange: 100
+      Commands:
+      - give %Player% ironaxe 1
+      DisplayName: 'Железный топор'
+      DisplayAmount: 1
+      Chance: 8
+      Glowing: true
+      DisplayItem: 258
+      Lore: object
+    7:
+      MaxRange: 100
+      Commands:
+      - give %Player% ironaxe 1 dig_speed:4 durability:2
+      DisplayName: 'Железный топор'
+      DisplayAmount: 1
+      Chance: 8
+      Glowing: true
+      DisplayItem: 258
+      Lore: object
+    8:
+      MaxRange: 100
+      Commands:
+      - give %Player% ironaxe 1 dig_speed:4 durability:2 loot_bonus_blocks:1
+      DisplayName: 'Железный топор'
+      DisplayAmount: 1
+      Chance: 10
+      Glowing: true
+      DisplayItem: 258
+      Lore: object
+    9:
+      MaxRange: 100
+      Commands:
+      - give %Player% diamondaxe 1
+      DisplayName: 'Алмазный топор'
+      DisplayAmount: 1
+      Chance: 6
+      Glowing: true
+      DisplayItem: 279
+      Lore: object
+    10:
+      MaxRange: 100
+      Commands:
+      - give %Player% diamondaxe 1 dig_speed:5 durability:3 mending:1
+      DisplayName: 'Алмазный топор'
+      DisplayAmount: 1
+      Chance: 2
+      Glowing: true
+      DisplayItem: 279
+      Lore: object
+    11:
+      MaxRange: 100
+      Commands:
+      - give %Player% diamondpickaxe 1
+      DisplayName: 'Алмазная кирка'
+      DisplayAmount: 1
+      Chance: 6
+      Glowing: true
+      DisplayItem: 278
+      Lore: object
+    12:
+      MaxRange: 100
+      Commands:
+      - give %Player% diamondpickaxe 1 dig_speed:1 durability:1 loot_bonus_blocks:3
+      DisplayName: 'Алмазная кирка'
+      DisplayAmount: 1
+      Chance: 6
+      Glowing: true
+      DisplayItem: 278
+      Lore: object
+    13:
+      MaxRange: 100
+      Commands:
+      - give %Player% diamondaxe 1 dig_speed:3 durability:2
+      DisplayName: 'Алмазный топор'
+      DisplayAmount: 1
+      Chance: 5
+      Glowing: true
+      DisplayItem: 279
+      Lore: object
+    14:
+      MaxRange: 100
+      Commands:
+      - give %Player% diamondpickaxe 1 dig_speed:5 durability:3 loot_bonus_blocks:3 mending:1
+      DisplayName: 'Алмазная кирка'
+      DisplayAmount: 1
+      Chance: 6
+      Glowing: true
+      DisplayItem: 278
+      Lore: object
+    15:
+      MaxRange: 100
+      Commands:
+      - give %Player% diamondshovel 1
+      DisplayName: 'Алмазная лопата'
+      DisplayAmount: 1
+      Chance: 4
+      Glowing: true
+      DisplayItem: 277
+      Lore: object

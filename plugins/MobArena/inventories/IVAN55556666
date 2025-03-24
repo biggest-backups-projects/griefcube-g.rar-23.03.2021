@@ -1,0 +1,108 @@
+items:
+- ==: org.bukkit.inventory.ItemStack
+  type: ITEM_FRAME
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §r§a∘ §eМеню §a∘§I§t§e§m§J§o§i§n§0
+    lore:
+    - §8[§fПКМ§8] §fОткрыть
+- ==: org.bukkit.inventory.ItemStack
+  type: EMERALD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §r§aДонат §e☀§I§t§e§m§J§o§i§n§1
+    lore:
+    - §8[§fПКМ§8] §fОткрыть
+- ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §r§eПлюшки §a✈§I§t§e§m§J§o§i§n§2
+    lore:
+    - §8[§fПКМ§8] §fОткрыть
+    internal: H4sIAAAAAAAAAONiYOBi4AnOLs3JCSjKT8vMSeVgYPFLzE1l4MksS8wzBQIzIGBgAADyjaVoKQAAAA==
+    skull-owner: ivan55556666
+- ==: org.bukkit.inventory.ItemStack
+  type: WOOD_AXE
+- null
+- null
+- null
+- null
+- null
+- ==: org.bukkit.inventory.ItemStack
+  type: ARROW
+- ==: org.bukkit.inventory.ItemStack
+  type: ARROW
+- ==: org.bukkit.inventory.ItemStack
+  type: LOG
+  damage: 1
+- ==: org.bukkit.inventory.ItemStack
+  type: ARROW
+- ==: org.bukkit.inventory.ItemStack
+  type: LOG
+- ==: org.bukkit.inventory.ItemStack
+  type: APPLE
+  amount: 9
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: Яблочко
+    repair-cost: 1
+- ==: org.bukkit.inventory.ItemStack
+  type: LOG
+  damage: 2
+- ==: org.bukkit.inventory.ItemStack
+  type: LOG_2
+- ==: org.bukkit.inventory.ItemStack
+  type: LOG
+  damage: 3
+- null
+- null
+- null
+- ==: org.bukkit.inventory.ItemStack
+  type: STAINED_CLAY
+  damage: 10
+  amount: 64
+- ==: org.bukkit.inventory.ItemStack
+  type: STAINED_CLAY
+  damage: 14
+  amount: 64
+- null
+- null
+- ==: org.bukkit.inventory.ItemStack
+  type: POTION
+  damage: 8225
+- ==: org.bukkit.inventory.ItemStack
+  type: POTION
+  damage: 8267
+- null
+- null
+- null
+- null
+- ==: org.bukkit.inventory.ItemStack
+  type: REDSTONE_LAMP_OFF
+  amount: 11
+- ==: org.bukkit.inventory.ItemStack
+  type: BED
+- ==: org.bukkit.inventory.ItemStack
+  type: DIODE
+  amount: 2
+- null
+- null
+armor:
+- ==: org.bukkit.inventory.ItemStack
+  type: AIR
+  damage: -1
+  amount: 0
+- ==: org.bukkit.inventory.ItemStack
+  type: IRON_LEGGINGS
+- ==: org.bukkit.inventory.ItemStack
+  type: AIR
+  damage: -1
+  amount: 0
+- ==: org.bukkit.inventory.ItemStack
+  type: IRON_HELMET

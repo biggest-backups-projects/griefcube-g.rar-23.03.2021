@@ -1,0 +1,62 @@
+Crate:
+  CrateType: Wonder
+  CrateName: '&0Идёт открытие кейса...'
+  StartingKeys: 0
+  InGUI: true
+  Slot: 14
+  OpeningBroadCast: false
+  BroadCast: '%Prefix%&6&l%Player% &7открыл кейс с &e&lБожественным оружием&7.'
+  Item: '54'
+  Glowing: true
+  Name: '▪ Кейс с Божественным оружием'
+  Lore:
+  PhysicalKey:
+    Name: '&e&lКейс с Божественным оружием'
+    Lore:
+    Item: '131'
+    Glowing: true
+  Prizes:
+    8:
+      DisplayName: '&eБожественный меч'
+      DisplayItem: '276'
+      DisplayAmount: 1
+      Lore:
+      MaxRange: 100
+      Chance: 35
+      Firework: false
+      Glowing: true
+      Commands:
+        - 'lattyg lvl1sword %Player%'
+    16:
+      DisplayName: '&eБожественный меч'
+      DisplayItem: '276'
+      DisplayAmount: 1
+      Lore:
+      MaxRange: 100
+      Chance: 30
+      Firework: false
+      Glowing: true
+      Commands:
+        - 'lattyg lvl2sword %Player%'
+    24:
+      DisplayName: '&eБожественный меч'
+      DisplayItem: '276'
+      DisplayAmount: 1
+      Lore:
+      MaxRange: 100
+      Chance: 20
+      Firework: false
+      Glowing: true
+      Commands:
+        - 'lattyg lvl3sword %Player%'
+    32:
+      DisplayName: '&eБожественный меч'
+      DisplayItem: '276'
+      DisplayAmount: 1
+      Lore:
+      MaxRange: 100
+      Chance: 15
+      Firework: false
+      Glowing: true
+      Commands:
+        - 'lattyg lvl4sword %Player%'

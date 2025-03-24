@@ -1,0 +1,450 @@
+menu-settings:
+   name: '&0Броня Бога 5 LVL'
+   rows: 6
+
+item0:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 1
+   POSITION-Y: 1
+
+item1:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 2
+   POSITION-Y: 1
+
+item2:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 3
+   POSITION-Y: 1
+
+item3:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 4
+   POSITION-Y: 1
+
+item4:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 5
+   POSITION-Y: 1
+
+item5:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 6
+   POSITION-Y: 1
+
+item6:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 7
+   POSITION-Y: 1
+
+item7:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 8
+   POSITION-Y: 1
+
+item8:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 9
+   POSITION-Y: 1
+
+item9:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 1
+   POSITION-Y: 2
+
+item10:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 2
+   POSITION-Y: 2
+
+item11:
+   ID: 'DIAMOND_HELMET'
+   NAME: '&6Шлем бога &8⎰ &6&lLVL 5'
+   LORE:
+   - '&7Защита IV'
+   - '&7Огнеупорность II'
+   - '&7Взрывовоустойчивость II'
+   - '&7Подводное дыхание I'
+   - '&7Прочность III'
+   - '&7Защита от снарядов II'
+   - '&7Починка'
+   - '&e  [☀] &fШлем &6&lбога'
+   - '&fимеет возможности которых нет у других шлемов!'
+   - '&f'
+   - '  &c♮ &fДаёт эффект &6&lНочное зрение'
+   - '  &c♮ &fДаёт эффект &6&lУдача 2'
+   - ''
+   - '&8› &fЦена&8: &6㉿&e119 '
+   - '{papi}&8› &fБаланс&8: &6㉿&e%playerpoints_points%'
+   - '&a [нажми для покупки]'
+   ENCHANTMENT: 'protection, 1'
+   POINTS: 119
+   COMMAND:  'console:lgive lvl5helm {player};console:tm msg {player} &6Шлем бога &8⎰ &6&lLVL 5 \n &6&l[!] &fУспешно куплен за &6㉿&e119;console:sound {player} UI_TOAST_CHALLENGE_COMPLETE 10 5'
+   POSITION-X: 3
+   POSITION-Y: 2
+
+item12:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 4
+   POSITION-Y: 2
+
+item13:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 5
+   POSITION-Y: 2
+
+item14:
+   ID: 'DIAMOND_SPADE'
+   NAME: '&eЛопата бога &8⎰ &6&lLVL 5'
+   LORE:
+   - '&7Эффективность V'
+   - 'Прочность III'
+   - 'Удача III'
+   - 'Починка'
+   - '&e  [☀] &fЛопата &6&lбога'
+   - '&fимеет возможности которых нет у других лопат!'
+   - '&f'
+   - '  &c♮ &fДаёт эффект &6&lСпешка 2'
+   - ''
+   - '&8› &fЦена&8: &6㉿&e99 '
+   - '{papi}&8› &fБаланс&8: &6㉿&e%playerpoints_points%'
+   - '&a [нажми для покупки]'
+   ENCHANTMENT: 'protection, 1'
+   POINTS: 99
+   COMMAND:  'console:lgive lvl5sho {player};console:tm msg {player} &eЛопата бога &8⎰ &6&lLVL 5 \n &6&l[!] &fУспешно куплен за &6㉿&e99;console:sound {player} UI_TOAST_CHALLENGE_COMPLETE 10 5'
+   POSITION-X: 6
+   POSITION-Y: 2
+
+item15:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 7
+   POSITION-Y: 2
+
+item16:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 8
+   POSITION-Y: 2
+
+item17:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 9
+   POSITION-Y: 2
+
+item18:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 1
+   POSITION-Y: 3
+
+item19:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 2
+   POSITION-Y: 3
+
+item20:
+   ID: 'DIAMOND_CHESTPLATE'
+   NAME: '&eНагрудник Бога &8⎰ &6&lLVL 5'
+   LORE:
+   - '&7Защита IV'
+   - '&7Огнеупорность II'
+   - '&7Взрывовоустойчивость II'
+   - '&7Прочность III'
+   - '&7Защита от снарядов II'
+   - '&7Починка'
+   - '&e  [☀] &fНагрудник &6&lбога'
+   - '&fимеет возможности которых нет у других нагрудников!'
+   - '&f'
+   - '  &c♮ &fДаёт эффект &6&lСила 2'
+   - '  &c♮ &fДаёт эффект &6&lСкорость 1'
+   - '  &c♮ &fДаёт эффект &6&lОгнестойкость'
+   - ''
+   - '&8› &fЦена&8: &6㉿&e129 '
+   - '{papi}&8› &fБаланс&8: &6㉿&e%playerpoints_points%'
+   - '&a [нажми для покупки]'
+   ENCHANTMENT: 'protection, 1'
+   POINTS: 129
+   COMMAND:  'console:lgive lvl5chest {player};console:tm msg {player} &eНагрудник Бога &8⎰ &6&lLVL 5 \n &6&l[!] &fУспешно куплен за &6㉿&e129;console:sound {player} UI_TOAST_CHALLENGE_COMPLETE 10 5'
+   POSITION-X: 3
+   POSITION-Y: 3
+
+item21:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 4
+   POSITION-Y: 3
+
+item22:
+   ID: 'DIAMOND_SWORD'
+   NAME: '&eМеч Бога &8⎰ &6&lLVL 5'
+   LORE:
+   - '&7Острота V'
+   - 'Заговор огня II'
+   - 'Добыча III'
+   - 'Разящий клинок III'
+   - 'Прочность III'
+   - 'Починка'
+   - '&e  [☀] &fМеч &6&lбога'
+   - '&fимеет возможности которых нет у других мечей!'
+   - '&f'
+   - '  &c♮ &fДаёт эффект &6&lСила 2'
+   - '  &c♮ &fДаёт эффект &6&lСкорость 2'
+   - ''
+   - '&8› &fЦена&8: &6㉿&e139 '
+   - '{papi}&8› &fБаланс&8: &6㉿&e%playerpoints_points%'
+   - '&a [нажми для покупки]'
+   ENCHANTMENT: 'protection, 1'
+   POINTS: 139
+   COMMAND:  'console:lgive lvl5sword {player};console:tm msg {player} &eМеч Бога &8⎰ &6&lLVL 5 \n &6&l[!] &fУспешно куплен за &6㉿&e139;console:sound {player} UI_TOAST_CHALLENGE_COMPLETE 10 5'
+   POSITION-X: 5
+   POSITION-Y: 3
+
+item23:
+   ID: 'DIAMOND_AXE'
+   NAME: '&eТопор Бога &8⎰ &6&lLVL 5'
+   LORE:
+   - '&7Эффективность V'
+   - 'Прочность III'
+   - 'Удача III'
+   - 'Починка'
+   - '&e  [☀] &fТопор &6&lбога'
+   - '&fимеет возможности которых нет у других топоров!'
+   - '&f'
+   - '  &c♮ &fДаёт эффект &6&lСпешка 2'
+   - ''
+   - '&8› &fЦена&8: &6㉿&e99 '
+   - '{papi}&8› &fБаланс&8: &6㉿&e%playerpoints_points%'
+   - '&a [нажми для покупки]'
+   ENCHANTMENT: 'protection, 1'
+   POINTS: 99
+   COMMAND:  'console:lgive lvl5axe {player};console:tm msg {player} &eТопор Бога &8⎰ &6&lLVL 5 \n &6&l[!] &fУспешно куплен за &6㉿&e99;console:sound {player} UI_TOAST_CHALLENGE_COMPLETE 10 5'
+   POSITION-X: 6
+   POSITION-Y: 3
+
+item24:
+   ID: 'DIAMOND_PICKAXE'
+   NAME: '&eКирка Бога &8⎰ &6&lLVL 5'
+   LORE:
+   - '&7Эффективность V'
+   - 'Прочность III'
+   - 'Удача III'
+   - 'Починка'
+   - '&e  [☀] &fКирка &6&lбога'
+   - '&fимеет возможности которых нет у других кирок!'
+   - '&f'
+   - '  &c♮ &fДаёт эффект &6&lСпешка 2'
+   - ''
+   - '&8› &fЦена&8: &6㉿&e99 '
+   - '{papi}&8› &fБаланс&8: &6㉿&e%playerpoints_points%'
+   - '&a [нажми для покупки]'
+   ENCHANTMENT: 'protection, 1'
+   POINTS: 99
+   COMMAND:  'console:lgive lvl5pic {player};console:tm msg {player} &eКирка Бога &8⎰ &6&lLVL 5 \n &6&l[!] &fУспешно куплен за &6㉿&e99;console:sound {player} UI_TOAST_CHALLENGE_COMPLETE 10 5'
+   POSITION-X: 7
+   POSITION-Y: 3
+
+item25:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 8
+   POSITION-Y: 3
+
+item26:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 9
+   POSITION-Y: 3
+
+item27:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 1
+   POSITION-Y: 4
+
+item28:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 2
+   POSITION-Y: 4
+
+item29:
+   ID: 'DIAMOND_LEGGINGS'
+   NAME: '&eПоножи Бога &8⎰ &6&lLVL 5'
+   LORE:
+   - '&7Защита IV'
+   - '&7Огнеупорность II'
+   - '&7Взрывовоустойчивость II'
+   - '&7Прочность III'
+   - '&7Защита от снарядов II'
+   - '&7Починка'
+   - '&e  [☀] &fПоножи &6&lбога'
+   - '&fимеет возможности которых нет у других поножей!'
+   - '&f'
+   - '  &c♮ &fДаёт эффект &6&lОгнестойкость'
+   - '  &c♮ &fДаёт эффект &6&lПовышение здоровья'
+   - ''
+   - '&8› &fЦена&8: &6㉿&e139 '
+   - '{papi}&8› &fБаланс&8: &6㉿&e%playerpoints_points%'
+   - '&a [нажми для покупки]'
+   ENCHANTMENT: 'protection, 1'
+   POINTS: 139
+   COMMAND:  'console:lgive lvl5legg {player};console:tm msg {player} &eПоножи Бога &8⎰ &6&lLVL 5 \n &6&l[!] &fУспешно куплен за &6㉿&e139;console:sound {player} UI_TOAST_CHALLENGE_COMPLETE 10 5'
+   POSITION-X: 3
+   POSITION-Y: 4
+
+item30:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 4
+   POSITION-Y: 4
+
+item31:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 5
+   POSITION-Y: 4
+
+item32:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 6
+   POSITION-Y: 4
+
+item33:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 7
+   POSITION-Y: 4
+
+item34:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 8
+   POSITION-Y: 4
+
+item35:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 9
+   POSITION-Y: 4
+
+item36:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 1
+   POSITION-Y: 5
+
+item37:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 2
+   POSITION-Y: 5
+
+item38:
+   ID: 'DIAMOND_BOOTS'
+   NAME: '&eБотинки Бога &8⎰ &6&lLVL 5'
+   LORE:
+   - '&7Защита IV'
+   - '&7Огнеупорность II'
+   - '&7Невесомость IV'
+   - '&7Взрывовоустойчивость II'
+   - '&7Подводное дыхание I'
+   - '&7Прочность III'
+   - '&7Подводная ходьба III'
+   - '&7Защита от снарядов II'
+   - '&7Починка'
+   - '&e  [☀] &fБотинки &6&lбога'
+   - '&fимеет возможности которых нет у других ботинок!'
+   - '&f'
+   - '  &c♮ &fДаёт эффект &6&lСкорость 2'
+   - '  &c♮ &fДаёт эффект &6&lОгнестойкость'
+   - ''
+   - '&8› &fЦена&8: &6㉿&e119 '
+   - '{papi}&8› &fБаланс&8: &6㉿&e%playerpoints_points%'
+   - '&a [нажми для покупки]'
+   ENCHANTMENT: 'protection, 1'
+   POINTS: 119
+   COMMAND:  'console:lgive lvl5bots {player};console:tm msg {player} &eБотинки Бога &8⎰ &6&lLVL 5 \n &6&l[!] &fУспешно куплен за &6㉿&e119;console:sound {player} UI_TOAST_CHALLENGE_COMPLETE 10 5'
+   POSITION-X: 3
+   POSITION-Y: 5
+
+item39:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 4
+   POSITION-Y: 5
+
+item40:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 5
+   POSITION-Y: 5
+
+item41:
+   ID: 'skull:3'
+   NAME: '&6&l⚠ &fКупить весь набор &6&l5 LVL'
+   LORE: 
+   - '&8› &fЦена&8: &6㉿&e750 &7(-20% скидка)'
+   - '{papi}&8› &fБаланс&8: &6㉿&e%playerpoints_points%'
+   - '&a [нажми для покупки]'
+   COMMAND: 'open: 1lvl.yml;sound: BLOCK_STONE_BUTTON_CLICK_ON, 10, 10'
+   TEXTURES: '95732d3e57b9a62159b35d2754574452a32b4c221fc4fd363bff522ff04a577e'
+   POINTS: 750
+   COMMAND:  'console:lgive lvl5helm {player};
+   console:lgive lvl5chest {player};
+   console:lgive lvl5legg {player};
+   console:lgive lvl5bots {player};
+   console:lgive lvl5axe {player};
+   console:lgive lvl5sho {player};
+   console:lgive lvl5pic {player};
+   console:lgive lvl5sword {player};
+   console:tm msg {player} &fНабор &6&lLVL 5 \n &6&l[!] &fУспешно куплен за &6㉿&e750;console:sound {player} UI_TOAST_CHALLENGE_COMPLETE 10 5'
+   POSITION-X: 6
+   POSITION-Y: 5
+
+item42:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 7
+   POSITION-Y: 5
+
+item43:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 8
+   POSITION-Y: 5
+
+item44:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 9
+   POSITION-Y: 5
+
+item45:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 1
+   POSITION-Y: 6
+
+item46:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 2
+   POSITION-Y: 6
+
+item47:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 3
+   POSITION-Y: 6
+
+item48:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 4
+   POSITION-Y: 6
+
+STR2:
+  COMMAND: 'open:shoppvp.yml'
+  NAME: '&6&l⚠ &fВернуться'
+  ID: 'skull:3'
+  TEXTURES: '2d9287616343d833e9e7317159caa2cb3e59745113962c1379052ce478884fa'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 6
+
+item50:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 6
+   POSITION-Y: 6
+
+item51:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 7
+   POSITION-Y: 6
+
+item52:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 8
+   POSITION-Y: 6
+
+item53:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 9
+   POSITION-Y: 6

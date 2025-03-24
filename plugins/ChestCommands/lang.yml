@@ -1,0 +1,10 @@
+no-points: '&6&l[!] &8› &fНе хватает &eкредитов! &8| &fПокупка на сайте&8: &6&lGriefCube.Ru'
+no-open-permission: '&cYou don''t have permission &e{permission} &cto use this menu.'
+default-no-icon-permission: '&cYou don''t have permission for this icon.'
+open-menu: '&aOpening the menu "{menu}".'
+no-exp: '&8«&eУ Вас недостаточно уровня&8»'
+menu-not-found: '&cMenu not found! Please inform the staff.'
+no-money: '&6&l[!] &fТвой баланс меньше &e{money} &8| &fМеню заработка &6&l/money'
+no-required-item: '&e[⛂] &fУ тебя нет этого предмета или его не хватает'
+open-menu-others: '&aOpening the menu "{menu}" to {player}.'
+any: any

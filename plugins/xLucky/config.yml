@@ -1,0 +1,120 @@
+Settings:
+  SkullTexture:
+  - eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWUzYThmZDA4NTI5Nzc0NDRkOWZkNzc5N2NhYzA3YjhkMzk0OGFkZGM0M2YwYmI1Y2UyNWFlNzJkOTVkYyJ9fX0=
+  - eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDczYmE1NDZhNjJiMzJjNTE1Mzc2ZGQ3ZjNjOTJmYjM1YTMzNTI0ZjMyM2JiYjJiNTk3OGUzOGM3ZTVmNjJhIn19fQ==
+  - eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWM4NGY5ZGI0ZmM0YmQwOWEyMTQ5ZmQxOTczOGVlMmJkMjdjM2RmY2EzOTE5MmVmOGM3NDNiNmEyZTRjOSJ9fX0=
+  SpawnInterval: 180
+Messages:
+  NoPermissions: '&cУ Вас недостаточно прав!'
+  JoinSetupMode:
+  - ''
+  - ''
+  - '&aВы вошли в режим установки Лаки-Блоков'
+  - ''
+  - '&fДля того, чтобы начать установку, Вам необходимо ставить'
+  - '&fголовы &7(Лаки-блоки)&f, что находятся у Вас в инвенторе'
+  - '&fна нужные локации, где они будут спавниться.'
+  - ''
+  - '&cПосле завершения установки, для выхода из нее пропишите - /lb setup'
+  - ''
+  SetupMode: '&fРежим установки: {setup_mode}'
+Cooldown:
+  MaxBreakBlockForHours: 20
+  Message: '&cВы уже набрали шесть подарков, оставьте и другим! Ваш подарок сможете
+    взять снова через 1 час'
+Prize:
+  NoPrize: '&cВы ничего не выйграли!'
+  NoPrizeAllow: false
+  Message: ''
+  Items:
+    '1':
+      id: '33:0'
+      amount: 5
+      message: '&6&l[Подарки] &fВам выпало 5 поршней'
+    '2':
+      id: '264:0'
+      amount: 1
+      message: '&6&l[Подарки] &fВам выпал 1 алмаз'
+    '3':
+      id: '47:0'
+      amount: 1
+      message: '&6&l[Подарки] &fВам выпала книжная полка'
+    '4':
+      id: '388:0'
+      amount: 3
+      message: '&6&l[Подарки] &fВам выпало 3 изумруда'
+    '5':
+      id: '263:0'
+      amount: 8
+      message: '&6&l[Подарки] &fВам выпало 8 угля'
+    '6':
+      id: '265:0'
+      amount: 3
+      message: '&6&l[Подарки] &fВам выпало 3 железа'
+    '7':
+      id: '258:0'
+      amount: 1
+      message: '&6&l[Подарки] &fВам выпал железный топор'
+    '8':
+      id: '267:0'
+      amount: 1
+      message: '&6&l[Подарки] &fВам выпал железный мечь'
+    '9':
+      id: '260:0'
+      amount: 3
+      message: '&6&l[Подарки] &fВам выпало 3 яблока'
+    '10':
+      id: '322:0'
+      amount: 1
+      message: '&6&l[Подарки] &fВам выпало 1 золотое яблоко'
+    '11':
+      id: '442:0'
+      amount: 1
+      message: '&6&l[Подарки] &fВам выпал щит'
+    '12':
+      id: '17:0'
+      amount: 8
+      message: '&6&l[Подарки] &fВам выпало 8 дерева'
+    '13':
+      id: '297:0'
+      amount: 16
+      message: '&6&l[Подарки] &fВам выпало 16 хлеба'
+    '14':
+      id: '364:0'
+      amount: 4
+      message: '&6&l[Подарки] &fВам выпало 4 стейка'
+  Commands:
+    '1':
+      command: eco give {player} 50
+      message: ''
+    '2':
+      command: eco give {player} 100
+      message: ''
+    '3':
+      command: eco give {player} 250
+      message: ''
+    '4':
+      command: eco give {player} 25
+      message: ''
+Locations:
+- spawn;-87.0;18.0;42.0;0.0;0.0
+- spawn;-109.0;18.0;14.0;0.0;0.0
+- spawn;-110.0;23.0;41.0;0.0;0.0
+- spawn;-88.0;23.0;41.0;0.0;0.0
+- spawn;-101.0;18.0;17.0;0.0;0.0
+- spawn;-86.0;19.0;13.0;0.0;0.0
+- spawn;-106.0;18.0;33.0;0.0;0.0
+- spawn;-110.0;18.0;27.0;0.0;0.0
+- spawn;-87.0;19.0;27.0;0.0;0.0
+- spawn;-93.0;19.0;42.0;0.0;0.0
+- spawn;-100.0;18.0;44.0;0.0;0.0
+- spawn;-110.0;19.0;34.0;0.0;0.0
+- spawn;-110.0;19.0;33.0;0.0;0.0
+- spawn;-110.0;19.0;32.0;0.0;0.0
+- spawn;-110.0;19.0;31.0;0.0;0.0
+- spawn;-110.0;19.0;30.0;0.0;0.0
+- spawn;-110.0;19.0;34.0;0.0;0.0
+- spawn;-110.0;19.0;33.0;0.0;0.0
+- spawn;-110.0;19.0;32.0;0.0;0.0
+- spawn;-110.0;19.0;31.0;0.0;0.0
+- spawn;-110.0;19.0;30.0;0.0;0.0

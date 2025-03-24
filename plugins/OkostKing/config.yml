@@ -1,0 +1,22 @@
+timeout: 10
+top_location: spawn;-17;26;110
+hd_placeholder_id: '%gora'
+hd_placeholder_empty: '&6&lникто'
+king_more_players_message: '&6&l[ЦарьГоры]&f Твои результаты аннулированы :('
+king_more_players_remain_message: '&&6&l[ЦарьГоры]&f На платформе более 2-х игроков. У тебя
+  есть &6&l%time &6сек&f, чтоб очистить территорию'
+more_players_message: '&6&l[ЦарьГоры]&r На горе более &61&f игрока'
+remain_time_message: '&6&l[ЦарьГоры]&r Удержись еще &6&l%time&6 сек&f, чтобы стать Царем
+  Горы!'
+already_king_message: '&&6&l[ЦарьГоры]&r Ты уже Царь Горы!'
+already_zaxvatuvaut: '&6&l[ЦарьГоры]&r Гору уже захватывает &6%name&f, столкните его'
+fly_or_creative_message: '&6&l[ЦарьГоры]&f Отключи Флай/Креатив/Бессмертие, чтобы попробовать
+  стать Царем Горы'
+small_online_message: '&6&l[ЦарьГоры]&f Слишком мало игроков на сервере, чтоб играть в Царя
+  Горы'
+already_has_current_king: '&6&l[ЦарьГоры]&f Гору уже захватывает &6%name'
+actions:
+- broadcast:&6&l[ЦарьГоры]&f %prefix &7%name &fстал Царем Горы и получил &6&l70 &fмонеток
+- message:&6&l[ЦарьГоры]&r Поздравляем! Ты стал Царем Горы. Мы выплатили тебе &6&l70 &aмонеток
+- title:&r Ты теперь Царь Горы
+- command:eco give %name 70

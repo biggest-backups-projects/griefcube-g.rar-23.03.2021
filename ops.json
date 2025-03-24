@@ -1,0 +1,38 @@
+[
+  {
+    "uuid": "73f28392-67c5-3917-ac69-6b746b1d7937",
+    "name": "Turelint",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "105a6dee-6f99-3437-a7c5-aeda77a28105",
+    "name": "XakinYT",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "07890a83-3c30-301c-8f15-06097589e8b4",
+    "name": "NeverCookFirst",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "1fc5fee2-8a8f-3e6d-88a0-9d53b18278cc",
+    "name": "Exept",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "78d6a4ec-a749-33d6-9bfa-ac8982b4ae00",
+    "name": "Dojdik",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "a3eefff0-7aef-3593-a261-17b4183ff831",
+    "name": "TurikTrans",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

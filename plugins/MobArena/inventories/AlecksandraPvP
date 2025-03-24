@@ -1,0 +1,57 @@
+items:
+- null
+- null
+- null
+- null
+- null
+- null
+- ==: org.bukkit.inventory.ItemStack
+  type: WOOD_AXE
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- ==: org.bukkit.inventory.ItemStack
+  type: COAL
+  amount: 13
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+armor:
+- ==: org.bukkit.inventory.ItemStack
+  type: AIR
+  damage: -1
+  amount: 0
+- ==: org.bukkit.inventory.ItemStack
+  type: AIR
+  damage: -1
+  amount: 0
+- ==: org.bukkit.inventory.ItemStack
+  type: AIR
+  damage: -1
+  amount: 0
+- ==: org.bukkit.inventory.ItemStack
+  type: AIR
+  damage: -1
+  amount: 0

@@ -1,0 +1,35 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&8&lПодтверждение'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: ''
+  
+1:
+  COMMAND: 'c delete'
+  NAME: '&8«&cДА&8»'
+  LORE:
+    - '&a▶ &eНажмите чтобы удалить'
+  KEEP-OPEN: false
+  ID: 159:14, 1
+  POSITION-X: 3
+  POSITION-Y: 2
+2:
+  COMMAND: 'open:clan.yml'
+  NAME: '&8«&aНЕТ&8»'
+  LORE:
+    - '&a▶ &eНажмите чтобы отменить удаление'
+  KEEP-OPEN: false
+  ID: 159:5, 1
+  POSITION-X: 7
+  POSITION-Y: 2

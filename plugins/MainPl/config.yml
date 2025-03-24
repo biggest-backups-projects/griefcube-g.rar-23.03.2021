@@ -1,0 +1,3 @@
+#Игнорировать плагины на отключение или включение пример >
+#[Essentials, EssentialsSpawn, MainPl]
+ignored-plugins: [MainPl, Essentials]

@@ -1,0 +1,172 @@
+items:
+- ==: org.bukkit.inventory.ItemStack
+  type: STONE_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DURABILITY: 1
+- ==: org.bukkit.inventory.ItemStack
+  type: BOW
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DURABILITY: 1
+- ==: org.bukkit.inventory.ItemStack
+  type: STONE_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DURABILITY: 1
+- ==: org.bukkit.inventory.ItemStack
+  type: GOLD_AXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DURABILITY: 1
+- ==: org.bukkit.inventory.ItemStack
+  type: GOLD_SPADE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DURABILITY: 1
+- ==: org.bukkit.inventory.ItemStack
+  type: SHIELD
+  meta:
+    ==: ItemMeta
+    meta-type: TILE_ENTITY
+    internal: H4sIAAAAAAAAAONiYOBi4HPKyU/Ods0rySypDElMZ2ZgrGAAAiBdCaWrQDQHA1NmCgNbUmJeXmoRJwNHQGJJSWpRXjEDRBGLU2JxKpjNAADNjLW5VgAAAA==
+    blockMaterial: SHIELD
+- null
+- null
+- null
+- ==: org.bukkit.inventory.ItemStack
+  type: FLINT_AND_STEEL
+- ==: org.bukkit.inventory.ItemStack
+  type: BOAT
+- ==: org.bukkit.inventory.ItemStack
+  type: CHEST
+- ==: org.bukkit.inventory.ItemStack
+  type: FISHING_ROD
+- ==: org.bukkit.inventory.ItemStack
+  type: BUCKET
+- ==: org.bukkit.inventory.ItemStack
+  type: GOLD_HOE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DURABILITY: 1
+- ==: org.bukkit.inventory.ItemStack
+  type: ARROW
+  amount: 10
+- null
+- ==: org.bukkit.inventory.ItemStack
+  type: GRILLED_PORK
+  amount: 2
+- ==: org.bukkit.inventory.ItemStack
+  type: COOKIE
+  amount: 32
+- ==: org.bukkit.inventory.ItemStack
+  type: BEETROOT
+  amount: 64
+- ==: org.bukkit.inventory.ItemStack
+  type: TORCH
+  amount: 4
+- ==: org.bukkit.inventory.ItemStack
+  type: STONE
+  amount: 8
+- ==: org.bukkit.inventory.ItemStack
+  type: LOG
+  amount: 12
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- ==: org.bukkit.inventory.ItemStack
+  type: CHAINMAIL_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DURABILITY: 1
+- ==: org.bukkit.inventory.ItemStack
+  type: CHAINMAIL_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DURABILITY: 1
+- ==: org.bukkit.inventory.ItemStack
+  type: LEATHER_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: LEATHER_ARMOR
+    enchants:
+      DURABILITY: 1
+    color:
+      ==: Color
+      RED: 29
+      BLUE: 33
+      GREEN: 29
+- ==: org.bukkit.inventory.ItemStack
+  type: CHAINMAIL_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DURABILITY: 1
+- ==: org.bukkit.inventory.ItemStack
+  type: SHIELD
+  meta:
+    ==: ItemMeta
+    meta-type: TILE_ENTITY
+    internal: H4sIAAAAAAAAAONiYOBi4HPKyU/Ods0rySypDElMZ2ZgrGAAAiBdCaWrQDQHA1NmCgNbUmJeXmoRJwNHQGJJSWpRXjEDRBGLU2JxKpjNAADNjLW5VgAAAA==
+    blockMaterial: SHIELD
+armor:
+- ==: org.bukkit.inventory.ItemStack
+  type: CHAINMAIL_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DURABILITY: 1
+- ==: org.bukkit.inventory.ItemStack
+  type: CHAINMAIL_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DURABILITY: 1
+- ==: org.bukkit.inventory.ItemStack
+  type: LEATHER_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: LEATHER_ARMOR
+    enchants:
+      DURABILITY: 1
+    color:
+      ==: Color
+      RED: 29
+      BLUE: 33
+      GREEN: 29
+- ==: org.bukkit.inventory.ItemStack
+  type: CHAINMAIL_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DURABILITY: 1

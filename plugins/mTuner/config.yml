@@ -1,0 +1,17 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+noDamage: false # запрет урона
+noHunger: false # запрет голода
+noExplosion: true # запрет взрывов
+noBreak: false # запрет ломания блоков
+noPlace: false # запрет установки блоков
+noFire: false # запрет распространения огня
+noWeather: true # запрет погоды
+noWheat: false # запрет топтания пшеницы
+noTab: false # отключение отображения ников в табе
+noMessages: true # отключает сообщения при входе/выходе/кике/смерти
+noChat: false # отключает чат
+hidePlayers: false # отключает видимость всех игроков
+time:
+    fixed: false # Зафиксировать время
+    meaning: 13000 # Время на которое будет зафиксирован

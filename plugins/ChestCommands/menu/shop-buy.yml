@@ -1,0 +1,354 @@
+ ######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Торговля › Покупка'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 5
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: 'shopbuy'
+
+  # open-with-item - OPTIONAL (you can remove this or
+  # set the item to 0)
+  open-with-item:
+    item-id: 0
+    left-click: true
+    right-click: true
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+donate:
+ COMMAND: 'open:donaterank.yml' 
+ NAME: '&6&l⚠ &e&lДОНАТ' 
+ LORE:
+  - ''
+ ID: 264
+ ENCHANTMENT: Efficiency
+ KEEP-OPEN: false 
+ POSITION-X: 9
+ POSITION-Y: 2
+creditsshop:
+ COMMAND: 'open:shop.yml' 
+ NAME: '&6&l⚠ &e&lКРЕДИТНАЯ ЛАВКА' 
+ LORE:
+  - '&8∙ &eКниги зачарований'
+  - '&8∙ &eЛегендарная броня'
+  - '&8∙ &eВсё для PvP'
+  - '&8∙ &eПревращения'
+  - '&8∙ &eБустеры'
+  - '&8∙ &eДракон'
+ ID: 'skull:3'
+ TEXTURES: '9c96be7886eb7df75525a363e5f549626c21388f0fda988a6e8bf487a53'
+ KEEP-OPEN: false 
+ POSITION-X: 9
+ POSITION-Y: 3
+ 
+ 
+1:
+ PRICE: 2000
+ COMMAND: 'tell:&e[Покупка] &fВы успешно купили товар. &c[-⛂2000];tell:&e[Кошелёк] &fТеперь ваш баланс: &e{money};console:give {player} 264 9' 
+ NAME: '&aАлмазы х9'
+ LORE: 
+  - '&fЦена: &e⛂2000' 
+ ID: 264:0, 9
+ KEEP-OPEN: false 
+ POSITION-X: 2 
+ POSITION-Y: 2
+2:
+ PRICE: 2000
+ COMMAND: 'tell:&e[Покупка] &fВы успешно купили товар. &c[-⛂2000];tell:&e[Кошелёк] &fТеперь ваш баланс: &e{money};console:give {player} 266 16' 
+ NAME: '&aЗолото х16'
+ LORE: 
+  - '&fЦена: &e⛂2000' 
+ ID: 266:0, 16
+ KEEP-OPEN: false 
+ POSITION-X: 3 
+ POSITION-Y: 2
+3:
+ PRICE: 250
+ COMMAND: 'tell:&e[Покупка] &fВы успешно купили товар. &c[-⛂250];tell:&e[Кошелёк] &fТеперь ваш баланс: &e{money};console:give {player} 351:4 5' 
+ NAME: '&aЛазурит х5'
+ LORE: 
+  - '&fЦена: &e⛂250' 
+ ID: 351:4, 5
+ KEEP-OPEN: false 
+ POSITION-X: 4 
+ POSITION-Y: 2
+4:
+ PRICE: 1000
+ COMMAND: 'tell:&e[Покупка] &fВы успешно купили товар. &c[-⛂1000];tell:&e[Кошелёк] &fТеперь ваш баланс: &e{money};console:give {player} 265 16' 
+ NAME: '&aЖелезо х16'
+ LORE: 
+  - '&fЦена: &e⛂1000' 
+ ID: 265:0, 16
+ KEEP-OPEN: false 
+ POSITION-X: 5
+ POSITION-Y: 2
+5:
+ PRICE: 199
+ COMMAND: 'tell:&e[Покупка] &fВы успешно купили товар. &c[-⛂199];tell:&e[Кошелёк] &fТеперь ваш баланс: &e{money};console:give {player} 263 16' 
+ NAME: '&aУголь х16'
+ LORE: 
+  - '&fЦена: &e⛂199' 
+ ID: 263:0, 16
+ KEEP-OPEN: false 
+ POSITION-X: 6
+ POSITION-Y: 2
+6:
+ PRICE: 200
+ COMMAND: 'tell:&e[Покупка] &fВы успешно купили товар. &c[-⛂200];tell:&e[Кошелёк] &fТеперь ваш баланс: &e{money};console:give {player} 17 16' 
+ NAME: '&aДуб х16'
+ LORE: 
+  - '&fЦена: &e⛂200' 
+ ID: 17:0, 16
+ KEEP-OPEN: false 
+ POSITION-X: 2
+ POSITION-Y: 3
+8:
+ PRICE: 10000
+ COMMAND: 'tell:&e[Покупка] &fВы успешно купили товар. &c[-⛂10000];tell:&e[Кошелёк] &fТеперь ваш баланс: &e{money};console:give {player} 322 16' 
+ NAME: '&aЗолотые яблоки х16'
+ LORE: 
+  - '&fЦена: &e⛂10000' 
+ ID: 322:0, 16
+ KEEP-OPEN: false 
+ POSITION-X: 4
+ POSITION-Y: 3
+10:
+ PRICE: 3500
+ COMMAND: 'tell:&e[Покупка] &fВы успешно купили товар. &c[-⛂3500];tell:&e[Кошелёк] &fТеперь ваш баланс: &e{money};console:give {player} 289 16' 
+ NAME: '&aПорох х16'
+ LORE: 
+  - '&fЦена: &e⛂3500' 
+ ID: 289:0, 16
+ KEEP-OPEN: false 
+ POSITION-X: 6
+ POSITION-Y: 3
+11:
+ PRICE: 25000
+ COMMAND: 'tell:&e[Покупка] &fВы успешно купили товар. &c[-⛂25000];tell:&e[Кошелёк] &fТеперь ваш баланс: &e{money};console:give {player} 138 1' 
+ NAME: '&aМаяк'
+ LORE: 
+  - '&fЦена: &e⛂25000' 
+ ID: 138
+ KEEP-OPEN: false 
+ POSITION-X: 7
+ POSITION-Y: 3
+12:
+ PRICE: 17000
+ COMMAND: 'tell:&e[Покупка] &fВы успешно купили товар. &c[-⛂17000];tell:&e[Кошелёк] &fТеперь ваш баланс: &e{money};console:give {player} 449 1' 
+ NAME: '&aТотем бессмертия'
+ LORE: 
+  - '&fЦена: &e⛂17000' 
+ ID: 449
+ KEEP-OPEN: false 
+ POSITION-X: 8
+ POSITION-Y: 3
+13:
+ PRICE: 3999
+ COMMAND: 'tell:&e[Покупка] &fВы успешно купили товар. &c[-⛂3999];tell:&e[Кошелёк] &fТеперь ваш баланс: &e{money};console:give {player} 49 10' 
+ NAME: '&aОбсидиан'
+ LORE: 
+  - '&fЦена: &e⛂3999' 
+ ID: 49:0, 10
+ KEEP-OPEN: false 
+ POSITION-X: 3
+ POSITION-Y: 3
+14:
+ POINTS: 50
+ COMMAND: 'tell:&e[Покупка] &fВы успешно купили товар. &c[-㉿50];console:give {player} 7 1' 
+ NAME: '&aБедрок'
+ LORE: 
+  - '&fЦена: &e㉿50' 
+ ID: 7
+ KEEP-OPEN: false 
+ POSITION-X: 5
+ POSITION-Y: 3
+15:
+ PRICE: 5000
+ COMMAND: 'tell:&e[Покупка] &fВы успешно купили товар. &c[-⛂5000];tell:&e[Кошелёк] &fТеперь ваш баланс: &e{money};console:give {player} 47 15' 
+ NAME: '&aКнижная полка'
+ LORE: 
+  - '&fЦена: &e⛂5000' 
+ ID: 47:0, 15
+ KEEP-OPEN: false 
+ POSITION-X: 8
+ POSITION-Y: 2
+16:
+ PRICE: 1300
+ COMMAND: 'tell:&e[Покупка] &fВы успешно купили товар. &c[-⛂1300];tell:&e[Кошелёк] &fТеперь ваш баланс: &e{money};console:give {player} 341 4' 
+ NAME: '&aСлизь'
+ LORE: 
+  - '&fЦена: &e⛂1300' 
+ ID: 341:0, 4
+ KEEP-OPEN: false 
+ POSITION-X: 7
+ POSITION-Y: 2
+STR2:
+  COMMAND: 'open:shop-menu.yml;sound: BLOCK_STONE_BUTTON_CLICK_ON, 10, 10'
+  NAME: '&6&l⚠ &fВернуться'
+  ID: 'skull:3'
+  TEXTURES: '2d9287616343d833e9e7317159caa2cb3e59745113962c1379052ce478884fa'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 5
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+panel1:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 1
+ POSITION-Y: 1
+panel2:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 2
+ POSITION-Y: 1
+panel3:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 3
+ POSITION-Y: 1 
+panel44:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 4
+ POSITION-Y: 1
+panel5:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 5
+ POSITION-Y: 1
+panel6:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 6
+ POSITION-Y: 1
+panel7:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 7
+ POSITION-Y: 1
+ 
+
+panel111:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 1
+ POSITION-Y: 5
+panel222:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 2
+ POSITION-Y: 5
+panel333:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 3
+ POSITION-Y: 5 
+panel4444:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 4
+ POSITION-Y: 5
+panel666:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 6
+ POSITION-Y: 5
+panel777:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 7
+ POSITION-Y: 5 
+panel20:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 1
+ POSITION-Y: 2
+pane21:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 1
+ POSITION-Y: 3
+panel22:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 1
+ POSITION-Y: 4 
+panel24:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 9
+ POSITION-Y: 2
+pane25:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 9
+ POSITION-Y: 3
+panel26:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 9
+ POSITION-Y: 4 
+pan1el26:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 8
+ POSITION-Y: 1
+pa7nel26:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 9
+ POSITION-Y: 1
+p4an1el26:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 8
+ POSITION-Y: 5
+1pa7nel26:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 9
+ POSITION-Y: 5

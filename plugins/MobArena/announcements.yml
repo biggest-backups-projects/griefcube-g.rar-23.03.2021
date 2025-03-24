@@ -1,0 +1,78 @@
+arena-start: Игра &aНАЧАЛАСЬ
+arena-end: Арена завершена.
+arena-does-not-exist: That arena does not exist. Type &e/ma arenas&r for a list.
+arena-end-global: Arena &e%&r finished! Type &e/ma j %&r to join a new game!
+arena-join-global: Arena &e%&r is about to start! Type &e/ma j %&r to join!
+arena-lboard-not-found: That arena does not have a leaderboard set up.
+arena-auto-start: Игра автоматически начнется через &c%&r секунд(ы)
+arena-start-delay: Игра начнется через &c%&r секунд(ы)
+join-not-enabled: Временно отключено
+join-in-other-arena: Вы уже на арене! Оставьте это первым.
+join-arena-not-enabled: This arena is not enabled.
+join-arena-not-setup: This arena has not been set up yet.
+join-arena-edit-mode: Арена находится в режиме редактирования
+join-arena-permission: You don't have permission to join this arena.
+join-fee-required: 'Недостаточно монет! Цена&8: &e%&r'
+join-fee-paid: 'С твоего баланса снято&8: &e%&r'
+join-arena-is-running: Игра уже идет, ожидайте
+join-already-playing: Вы уже играете!
+join-arg-needed: Вы должны указать арену.
+join-no-permission: You don't have permission to join any arenas.
+join-too-far: You are too far away from the arena to join/spectate.
+join-empty-inv: You must empty your inventory to join the arena.
+join-player-limit-reached: В лобби максимальное количество игроков.
+join-store-inv-fail: Не удалось сохранить инвентарь. Попробуй еще раз.
+join-existing-inv-restored: Восстановлены старые предметы инвентаря.
+join-player-joined: Вы зашли в лобби, выберите класс
+leave-not-playing: Ты сейчас не в игре.
+leave-not-ready: Вы были кикнуты с игры, т.к не выбрали набор
+leave-player-left: Вы вышли с арены
+player-died: '&f%&r &eумер!'
+golem-died: Голем погиб!
+spec-player-spectate: Enjoy the show!
+spec-from-arena: Вы проиграли, но может попробуете снова?
+spec-not-running: This arena isn't running.
+spec-empty-inv: Сначала очистите свой инвентарь!
+spec-already-playing: Can't spectate when in the arena!
+not-ready-players: 'Ещё &cне готов&8: &e%&r'
+force-start-running: Игра уже идет, ожидайте
+force-start-not-ready: Игра не будет начата если все игроки не нажмут по &aЖЕЛЕЗНОМУ
+  БЛОКУ
+force-start-started: Принудительный запуск игры
+force-end-empty: На арене нет никого
+force-end-ended: Вынужденный конец арены
+force-end-idle: Вы были недостаточно быстры!
+rewards-give: Вот все ваши награды!
+lobby-drop-item: В настоящее время обмен не разрешен!
+lobby-player-ready: Вы были помечены как &aГОТОВ
+lobby-pick-class: Сначала вы должны выбрать класс!
+lobby-class-full: Этот класс больше не может быть выбран, предел класса достигнут!
+lobby-not-enough-players: Недостаточно игроков для начала. Нужно хотя бы &c%&r игроков
+lobby-right-click: Punch the sign. Don't right-click.
+lobby-class-picked: Вы выбрали класс &8- &e%&r, &fожидайте
+lobby-class-random: Вы получите случайный класс на старте арены
+lobby-class-permission: У вас нет разрешения на использование этого класса!
+lobby-class-price: This class costs &c%&r (paid on arena start).
+lobby-class-too-expensive: Вы не можете позволить себе этот класс (&c%&r)
+lobby-no-such-class: Нет класса с именем &c%&r.
+warp-to-arena: Warping to the arena not allowed!
+warp-from-arena: Деформирование с арены запрещено!
+wave-default: Волна &b#%&r!
+wave-special: Волна &b#%&r! [СПЕЦИАЛЬНАЯ]
+wave-swarm: Волна &b#%&r! [ПОДСТНОВКА]
+wave-supply: Волна &b#%&r! [СЮРПРИЗ]
+wave-upgrade: Волна &b#%&r! [ОБНОВЛЕНИЕ]
+wave-boss: Волна &b#%&r! [БОСС]
+wave-boss-ability: 'Босс использовал способность: &c%&r!'
+wave-boss-low-health: Босс почти умер!
+wave-reward: 'За волну ты получил: &e%&r'
+misc-list-players: 'Live players: &a%&r'
+misc-list-arenas: 'Выберите арену: %'
+misc-command-not-allowed: Вы не можете использовать команды! Выйти &8- &c/ma leave
+misc-no-access: У Вас нет доступа к этой команде
+misc-not-from-console: You can't use this command from the console.
+misc-help: Комманды не существует
+misc-multiple-matches: Did you mean one of these commands?
+misc-no-matches: Command not found. Type &e/ma help&r
+misc-ma-leave-reminder: После проиграша, выйдите с игры &8- &e/ma leave
+misc-none: '&6<none>&r'

@@ -1,0 +1,43 @@
+#-----------------------------------------#
+#                                         #
+#              LeaderHeads 2              #
+#    A full-fledged solution to manage    #
+#    statistics and create leaderboards   #
+#          (R) RobiRami 2016              #
+#                                         #
+#-----------------------------------------#
+#                                         #
+#            Database config              #
+#                                         #
+#-----------------------------------------#
+
+# MySQL details
+mysql-enabled: true
+mysql-host: 1.2.3.4
+mysql-port: 3306
+mysql-database: griefcube
+mysql-username: griefcube
+mysql-password: U6At3Sw9XnJbWlv7
+mysql-batch-size: 256
+mysql-connections: 10
+mysql-timeout: 120000
+
+
+# SQLite Batch size
+# Setting this higher than 500 will cause issues
+sqlite-batch-size: 256
+
+
+# Table names
+# Change this if you want to synchronize the
+# same statistic from multiple servers
+# These tables names are used for sending data 
+# from this server to the database
+all-time-data-table: leaderheadsplayersdata_alltime2
+daily-data-table: leaderheadsplayersdata_daily2
+weekly-data-table: leaderheadsplayersdata_weekly2
+monthly-data-table: leaderheadsplayersdata_monthly2
+
+# Version of the config
+# Do NOT change this
+config-version: 1

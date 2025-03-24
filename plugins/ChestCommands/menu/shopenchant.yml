@@ -1,0 +1,338 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+#  ENCHANTMENT: Infinity
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: 'Кредитная лавка › Книги'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 4
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: 'shop4'
+
+  # open-with-item - OPTIONAL (you can remove this or
+  # set the item to 0)
+  open-with-item:
+    item-id: 339
+    left-click: true
+    right-click: true
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+1:
+  COMMAND:  'console:give {player} 403 1 0 ENCHANTMENT: Protection,4;console:tm msg {player} &a⎰Черодейская книга⎱ \n &fУспешно куплен за &e㉿30;console:sound {player} UI_TOAST_CHALLENGE_COMPLETE 10 5'
+  NAME: '&eЧародейская книга'
+  POINTS: 40
+  LORE:
+    - '&7Защита IV'
+    - ''
+    - '&fЦена&8: &e㉿40'
+  ID: 403
+  KEEP-OPEN: false
+  POSITION-X: 2
+  POSITION-Y: 1
+2:
+  COMMAND:  'console:give {player} 403 1 0 ENCHANTMENT: BlastProtection,4;console:tm msg {player} &a⎰Черодейская книга⎱ \n &fУспешно куплен за &e㉿30;console:sound {player} UI_TOAST_CHALLENGE_COMPLETE 10 5'
+  NAME: '&eЧародейская книга'
+  POINTS: 5
+  LORE:
+    - '&7Взрывоустойчивость IV'
+    - ''
+    - '&fЦена&8: &e㉿5'
+  ID: 403
+  KEEP-OPEN: false
+  POSITION-X: 3
+  POSITION-Y: 1
+3:
+  COMMAND:  'console:give {player} 403 1 0 ENCHANTMENT: Respiration,4;console:tm msg {player} &a⎰Черодейская книга⎱ \n &fУспешно куплен за &e㉿30;console:sound {player} UI_TOAST_CHALLENGE_COMPLETE 10 5'
+  NAME: '&eЧародейская книга'
+  POINTS: 5
+  LORE:
+    - '&7Подводное дыхание III'
+    - ''
+    - '&fЦена&8: &e㉿5'
+  ID: 403
+  KEEP-OPEN: false
+  POSITION-X: 4
+  POSITION-Y: 1
+4:
+  COMMAND:  'console:give {player} 403 1 0 ENCHANTMENT: Sharpness,5;console:tm msg {player} &a⎰Черодейская книга⎱ \n &fУспешно куплен за &e㉿30;console:sound {player} UI_TOAST_CHALLENGE_COMPLETE 10 5'
+  NAME: '&eЧародейская книга'
+  POINTS: 5
+  LORE:
+    - '&7Острота V'
+    - ''
+    - '&fЦена&8: &e㉿5'
+  ID: 403
+  KEEP-OPEN: false
+  POSITION-X: 5
+  POSITION-Y: 1
+5:
+  COMMAND:  'console:give {player} 403 1 0 ENCHANTMENT: Fireaspect,2;console:tm msg {player} &a⎰Черодейская книга⎱ \n &fУспешно куплен за &e㉿30;console:sound {player} UI_TOAST_CHALLENGE_COMPLETE 10 5'
+  NAME: '&eЧародейская книга'
+  POINTS: 10
+  LORE:
+    - '&7Заговор огня II'
+    - ''
+    - '&fЦена&8: &e㉿10'
+  ID: 403
+  KEEP-OPEN: false
+  POSITION-X: 6
+  POSITION-Y: 1
+6:
+  COMMAND:  'console:give {player} 403 1 0 ENCHANTMENT: Sharpness,5 Knockback,2 Fireaspect,2 Looting,1 SweepingEdge,1;console:tm msg {player} &a⎰Черодейская книга⎱ \n &fУспешно куплен за &e㉿30;console:sound {player} UI_TOAST_CHALLENGE_COMPLETE 10 5'
+  NAME: '&eЧародейская книга для меча'
+  POINTS: 40
+  LORE:
+    - 'Острота V'
+    - 'Отдача II'
+    - 'Заговор огня II'
+    - 'Добыча I'
+    - 'Разящий клинок I'
+    - ''
+    - '&fЦена&8: &e㉿40'
+  ID: 387
+  KEEP-OPEN: false
+  POSITION-X: 2
+  POSITION-Y: 2
+7:
+  COMMAND:  'console:give {player} 403 1 0 ENCHANTMENT: Efficiency,5 Unbreaking,3 Fortune,3;console:tm msg {player} &a⎰Черодейская книга⎱ \n &fУспешно куплен за &e㉿30;console:sound {player} UI_TOAST_CHALLENGE_COMPLETE 10 5'
+  NAME: '&eЧародейская книга для инструментов'
+  POINTS: 40
+  LORE:
+    - 'Эффективность V'
+    - 'Прочность III'
+    - 'Удача III'
+    - ''
+    - '&fЦена&8: &e㉿40'
+  ID: 387
+  KEEP-OPEN: false
+  POSITION-X: 3
+  POSITION-Y: 2
+8:
+  COMMAND:  'console:give {player} 403 1 0 ENCHANTMENT: Lure,3 Unbreaking,3;console:tm msg {player} &a⎰Черодейская книга⎱ \n &fУспешно куплен за &e㉿30;console:sound {player} UI_TOAST_CHALLENGE_COMPLETE 10 5'
+  NAME: '&eЧародейская книга для удочки'
+  POINTS: 30
+  LORE:
+    - 'Приманка III'
+    - 'Прочность III'
+    - ''
+    - '&fЦена&8: &e㉿30'
+  ID: 387
+  KEEP-OPEN: false
+  POSITION-X: 4
+  POSITION-Y: 2
+9:
+  COMMAND:  'console:give {player} 403 1 0 ENCHANTMENT: Power,5 Punch,2 Flame,1 Infinity,1;console:tm msg {player} &a⎰Черодейская книга⎱ \n &fУспешно куплен за &e㉿30;console:sound {player} UI_TOAST_CHALLENGE_COMPLETE 10 5'
+  NAME: '&eЧародейская книга для лука'
+  POINTS: 40
+  LORE:
+    - 'Сила V'
+    - 'Отбрасываиние II'
+    - 'Горящая стрела I'
+    - 'Бесконечность I'
+    - ''
+    - '&fЦена&8: &e㉿40'
+  ID: 387
+  KEEP-OPEN: false
+  POSITION-X: 5
+  POSITION-Y: 2
+10:
+  COMMAND:  'console:give {player} 403 1 0 ENCHANTMENT: Protection,4 FireProtection,4 BlastProtection,4 ProjectileProtection,4 Thorns,3 Mending,1;console:tm msg {player} &a⎰Черодейская книга⎱ \n &fУспешно куплен за &e㉿30;console:sound {player} UI_TOAST_CHALLENGE_COMPLETE 10 5'
+  NAME: '&eЧародейская книга для брони'
+  POINTS: 40
+  LORE:
+    - 'Защита IV'
+    - 'Огнеупорность IV'
+    - 'Взрывоустойчивость IV'
+    - 'Защита от снарядов IV'
+    - 'Починка I'
+    - 'Шипы III'
+    - ''
+    - '&fЦена&8: &e㉿40'
+  ID: 387
+  KEEP-OPEN: false
+  POSITION-X: 6
+  POSITION-Y: 2
+  
+donate:
+ COMMAND: 'open:donaterank.yml' 
+ NAME: '&6&l⚠ &e&lДОНАТ' 
+ LORE:
+  - ''
+ ID: 264
+ ENCHANTMENT: Efficiency
+ KEEP-OPEN: false 
+ POSITION-X: 9
+ POSITION-Y: 2
+creditsshop:
+ NAME: '&6&l⚠ &e&lКРЕДИТНАЯ ЛАВКА ⚠》' 
+ LORE:
+  - '&fВ данный момент ты в ней находишься!'
+ ID: 'skull:3'
+ TEXTURES: '9c96be7886eb7df75525a363e5f549626c21388f0fda988a6e8bf487a53'
+ KEEP-OPEN: true
+ POSITION-X: 9
+ POSITION-Y: 3 
+STR1:
+  NAME: '&c•'
+  ID: 160:14, 1
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 4
+STR2:
+  COMMAND: 'open:shop.yml'
+  NAME: '&6&l⚠ &fВернуться'
+  ID: 'skull:3'
+  TEXTURES: '2d9287616343d833e9e7317159caa2cb3e59745113962c1379052ce478884fa'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 4
+STR3:
+  COMMAND:  'open:menu3.yml'
+  NAME: '&c• '
+  ID: 160:14, 1
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 4
+panel1:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ ID: 160:4, 1
+ KEEP-OPEN: true
+ POSITION-X: 8
+ POSITION-Y: 1
+panel2:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ ID: 160:4, 1
+ KEEP-OPEN: true
+ POSITION-X: 9
+ POSITION-Y: 1
+panel3:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ ID: 160:4, 1
+ KEEP-OPEN: true
+ POSITION-X: 8
+ POSITION-Y: 2
+panel4:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ ID: 160:4, 1
+ KEEP-OPEN: true
+ POSITION-X: 8
+ POSITION-Y: 3
+panel5:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ ID: 160:4, 1
+ KEEP-OPEN: true
+ POSITION-X: 8
+ POSITION-Y: 4
+panel6:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:4, 1
+ POSITION-X: 9
+ POSITION-Y: 4
+ 
+ 
+ 
+panelx1:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 1
+ POSITION-Y: 1
+panelx7:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 7
+ POSITION-Y: 1
+
+
+panelxx1:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 1
+ POSITION-Y: 3
+panelxx2:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 2
+ POSITION-Y: 3
+panelxx3:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 3
+ POSITION-Y: 3
+panelxx4:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 4
+ POSITION-Y: 3
+panelxx5:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 5
+ POSITION-Y: 3
+panelxx6:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 6
+ POSITION-Y: 3
+panelxx7:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 7
+ POSITION-Y: 3
+panelxx8:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 1
+ POSITION-Y: 2
+panelxx9:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 7
+ POSITION-Y: 2
+panelxx10:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 1
+ POSITION-Y: 4
+panelxx11:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 2
+ POSITION-Y: 4
+panelxxx12:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 6
+ POSITION-Y: 4
+panelxx12:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 7
+ POSITION-Y: 4

@@ -1,0 +1,33 @@
+Messages:
+  noperms: У вас недостаточно прав!
+  getMoney: Вы получили %money монет
+  nobreak: Вы еще не сломали ни одной руды!
+  broke: Вы получили %money монет
+  TitleEnter: Вы вошли в шахту!
+  SubtitleEnter: ''
+  TitleLeave: Вы вышли из шахты!
+  SubtitleLeave: ''
+  TitleCantBreak: Войдите в шахту что бы ломать блоки!
+  SubtitleCantBreak: ''
+  Help:
+  - '&b|&f ГавноКод написал ❯ &bvk.com/re1khsempai'
+  - ''
+  - '&b|&f Команды плагина:'
+  - '&b|&b /rmine create&f/&bc &f❯ Создать шахту'
+  - '&b|&b /rmine gm&f/&bgetmoney &f❯ Получить зарплату'
+  - ''
+  - '&b|&f        vk.com/re1khsempai'
+Blocks:
+  COAL_ORE:
+    earn: 20
+  DIAMOND_ORE:
+    earn: 30
+  EMERALD_ORE:
+    earn: 20
+Mine:
+  maxx: 28.0
+  minx: -29.0
+  maxy: 14.0
+  miny: 0.0
+  maxz: 92.0
+  minz: 46.0

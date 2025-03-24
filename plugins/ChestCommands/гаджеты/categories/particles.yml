@@ -1,0 +1,233 @@
+Particles:
+  Water Splash:
+    Name: '&aWater Splash Particle'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Над головой будут'
+    - '&7плескаться частицы воды.'
+    Material: NETHER_STAR
+  Drip Water:
+    Name: '&9Drip Water Particle'
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Над головой будет'
+    - '&7нимб из частиц воды.'
+    Material: WATER_BUCKET
+  Drip Lava:
+    Name: '&9Drip Lava Particle'
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Над головой будет'
+    - '&7нимб из частиц лавы.'
+    Material: LAVA_BUCKET
+  Crit:
+    Name: '&9Crit Particle'
+    Mystery Dust: 22
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Над головой будет'
+    - '&7нимб из частиц крит.удара.'
+    Material: STONE_SWORD
+  Magic Crit:
+    Name: '&9Magic Crit Particle'
+    Mystery Dust: 20
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Над головой будет'
+    - '&7нимб из частиц крит.зелья.'
+    Material: POTION:8204
+  Spell:
+    Name: '&5Spell Particle'
+    Mystery Dust: 30
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Над головой будет'
+    - '&7нимб из белых частиц зелья.'
+    Material: ENDER_CHEST
+  Instant Spell:
+    Name: '&5Instant Spell Particle'
+    Mystery Dust: 32
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Над головой будет'
+    - '&7нимб из белых частиц.'
+    Material: GHAST_TEAR
+  Mob Spell:
+    Name: '&5Mob Spell Particle'
+    Mystery Dust: 35
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Над головой будет'
+    - '&7нимб из частиц всех зелий.'
+    Material: EXPERIENCE_BOTTLE
+  Witch Spell:
+    Name: '&6Witch Spell Particle'
+    Mystery Dust: 40
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Над головой будет'
+    - '&7нимб из магических частиц.'
+    Material: POTION:8260
+  Angry Villager:
+    Name: '&5Angry Villager Particle'
+    Mystery Dust: 32
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Над головой будет'
+    - '&7спираль, эффекта злого жителя.'
+    Material: FIRE_CHARGE
+  Happy Villager:
+    Name: '&5Happy Villager Particle'
+    Mystery Dust: 35
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Над головой будет'
+    - '&7нимб из частиц, счастливого жителя.'
+    Material: EMERALD
+  Town Aura:
+    Name: '&aTown Aura Particle'
+    Mystery Dust: 18
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Над головой будет'
+    - '&7нимб из частиц бедрока.'
+    Material: MYCELIUM
+  Note:
+    Name: '&5Note Particle'
+    Mystery Dust: 35
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Вокруг лица будут'
+    - '&7музыкальные частиц.'
+    Material: NOTE_BLOCK
+  Portal:
+    Name: '&aPortal Particle'
+    Mystery Dust: 18
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Над головой будет'
+    - '&7спираль из эндер портала.'
+    Material: ENDER_PEARL
+  Enchantment Table:
+    Name: '&9Enchantment Table Particle'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Над головой будет'
+    - '&7нимб из букв зачарований.'
+    Material: ENCHANTING_TABLE
+  Flame:
+    Name: '&aFlame Particle'
+    Mystery Dust: 45
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Над головой будет'
+    - '&7нимб из частиц огня.'
+    Material: GOLD_NUGGET
+  Redstone:
+    Name: '&aRedstone Particle'
+    Mystery Dust: 48
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Над головой будет'
+    - '&7нимб из разных частиц редстоуна.'
+    Material: REDSTONE
+  Heart:
+    Name: '&9Heart Particle'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Над головой будет'
+    - '&7спираль из сердец.'
+    Material: POPPY
+  Fireworks Spark:
+    Name: '&6Fireworks Spark Particle'
+    Mystery Dust: 52
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7По всему телу будет'
+    - '&7спираль из частиц фейерверк.'
+    Material: FIREWORK_ROCKET
+  Smoke:
+    Name: '&aSmoke Particle'
+    Mystery Dust: 18
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Над головой будет'
+    - '&7нимб из разных частиц дыма.'
+    Material: FIREWORK_STAR
+  Slime:
+    Name: '&aSlime Particle'
+    Mystery Dust: 22
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Display a custom slime'
+    - '&7particles around you'
+    - '&7in lobby.'
+    Material: SLIME_BALL

@@ -1,0 +1,679 @@
+Suits:
+  Frog:
+    Name: ' &8▪ &aЛягушка'
+    Enabled: true
+    Lore:
+    - ' &8▪ &7Популярность&8: &a☉☉☉☉&7☉☉☉☉'
+    - ''
+    - '&c› &7Чтобы ты получил способности'
+    - '&c› &7нужно надеть весь костюм!'
+    - ''
+    - '&bСуперспособность&8:'
+    - '&7В этом костюме ты сможешь'
+    - '&7очень высоко прыгать!'
+    - ''
+    - '&c› &7Способность включается&8: &aавтоматически'
+    - ''
+    - '&fДоступно от &e☾Создатель☽'
+    - '&fНажми чтобы надеть костюм'
+    Equipments:
+      Frog Helmet:
+        Name: '&b① &fМаска лягушки'
+        Mystery Dust: 80
+        Rarity: Legendary
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Frog Chestplate:
+        Name: '&b② &fНагрудник лягушки'
+        Mystery Dust: 32
+        Rarity: Epic
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Frog Leggings:
+        Name: '&b③ &fПоножи лягушки'
+        Mystery Dust: 18
+        Rarity: Rare
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Frog Boots:
+        Name: '&b④ &fБотинки лягушки'
+        Mystery Dust: 7
+        Rarity: Common
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+    Cooldown: 0
+  Ninja:
+    Name: ' &8▪ &aНинзя'
+    Enabled: true
+    Lore:
+    - ' &8▪ &7Популярность&8: &a☉☉☉☉&7☉☉☉☉'
+    - ''
+    - '&c› &7Чтобы ты получил способности'
+    - '&c› &7нужно надеть весь костюм!'
+    - ''
+    - '&bСуперспособность&8:'
+    - '&7Ты будешь пускать сюрикены!'
+    - ''
+    - '&c› &7Пустить сюрикен&8: &aЛКМ'
+    - ''
+    - '&fДоступно от &e☾Создатель☽'
+    - '&fНажми чтобы надеть костюм'
+    Equipments:
+      Ninja Helmet:
+        Name: '&b① &fМаска нинзи'
+        Mystery Dust: 80
+        Rarity: Legendary
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Ninja Chestplate:
+        Name: '&b② &fНагрудник нинзи'
+        Mystery Dust: 35
+        Rarity: Epic
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Ninja Leggings:
+        Name: '&b③ &fПоножи нинзи'
+        Mystery Dust: 20
+        Rarity: Rare
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Ninja Boots:
+        Name: '&b④ &fБотинки нинзи'
+        Mystery Dust: 10
+        Rarity: Common
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+    Cooldown: 0
+  Speedster:
+    Name: ' &8▪ &aФлэш'
+    Enabled: true
+    Lore:
+    - ' &8▪ &7Популярность&8: &a☉☉☉☉☉&7☉☉☉'
+    - ''
+    - '&c› &7Чтобы ты получил способности'
+    - '&c› &7нужно надеть весь костюм!'
+    - ''
+    - '&bСуперспособность&8:'
+    - '&7Ты будешь бегать так быстро'
+    - '&7что от твоих ног будет пар!'
+    - ''
+    - '&c› &7Способность включается&8: &aавтоматически'
+    - ''
+    - '&fДоступно от &e☾Создатель☽'
+    - '&fНажми чтобы надеть костюм'
+    Equipments:
+      Speedster Helmet:
+        Name: '&b① &fМаска флэша'
+        Mystery Dust: 80
+        Rarity: Legendary
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Speedster Chestplate:
+        Name: '&b② &fНагрудник флэша'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Speedster Leggings:
+        Name: '&b③ &fПоножи флэша'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Speedster Boots:
+        Name: '&b④ &fБотинки флэша'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+    Cooldown: 0
+  Ghostly:
+    Name: '&6Ghostly Skeleton Suit'
+    Enabled: false
+    Lore:
+    - ''
+    - '&7Are you feeling spooky? Then'
+    - '&7equip this spooky scary Ghostly'
+    - '&7Skeleton Suit!'
+    - ''
+    - '&7Full Set Ability: Makes the'
+    - '&7wearer invisible under the suit!'
+    Equipments:
+      Ghostly Helmet:
+        Name: '&6Ghostly Skeleton Suit Helmet'
+        Mystery Dust: 80
+        Rarity: Legendary
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Ghostly Chestplate:
+        Name: '&5Ghostly Skeleton Suit Chestplate'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Ghostly Leggings:
+        Name: '&9Ghostly Skeleton Suit Leggings'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Ghostly Boots:
+        Name: '&aGhostly Skeleton Suit Boots'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+    Cooldown: 0
+  Disco:
+    Name: ' &8▪ &aДиджей'
+    Enabled: false
+    Lore:
+    - ' &8▪ &7Популярность&8: &a☉☉&7☉☉☉☉☉☉'
+    - ''
+    - '&c› &7Чтобы ты получил способности'
+    - '&c› &7нужно надеть весь костюм!'
+    - ''
+    - '&bСуперспособность&8:'
+    - '&7Броня будет'
+    - '&7'
+    - ''
+    - '&fДоступно от &e☾Создатель☽'
+    - '&fНажми чтобы надеть костюм'
+    Equipments:
+      Disco Helmet:
+        Name: '&6Disco Suit Helmet'
+        Mystery Dust: 80
+        Rarity: Legendary
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Disco Chestplate:
+        Name: '&5Disco Suit Chestplate'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Disco Leggings:
+        Name: '&9Disco Suit Leggings'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Disco Boots:
+        Name: '&aDisco Suit Boots'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+    Cooldown: 0
+  Mermaid:
+    Name: '&6Mermaid Suit'
+    Enabled: false
+    Lore:
+    - ''
+    - '&7Everything''s better down where'
+    - '&7it''s wetter! Head under the sea'
+    - '&7with this Mermaid Suit!'
+    - ''
+    - '&7Full Set Ability: Transform into'
+    - '&7a beautiful Squid when under'
+    - '&7water.'
+    Equipments:
+      Mermaid Helmet:
+        Name: '&6Mermaid Suit Helmet'
+        Mystery Dust: 70
+        Rarity: Legendary
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Mermaid Chestplate:
+        Name: '&5Mermaid Suit Chestplate'
+        Mystery Dust: 30
+        Rarity: Epic
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Mermaid Leggings:
+        Name: '&9Mermaid Suit Leggings'
+        Mystery Dust: 16
+        Rarity: Rare
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Mermaid Boots:
+        Name: '&aMermaid Suit Boots'
+        Mystery Dust: 6
+        Rarity: Common
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+    Cooldown: 0
+  Spooderman:
+    Name: ' &8▪ &aЧеловек паук'
+    Enabled: true
+    Lore:
+    - ' &8▪ &7Популярность&8: &a☉☉☉☉☉☉☉☉'
+    - ''
+    - '&c› &7Чтобы ты получил способности'
+    - '&c› &7нужно надеть весь костюм!'
+    - ''
+    - '&bСуперспособность&8:'
+    - '&7Ты сможешь передвигаться'
+    - '&7с помощью паутины!'
+    - ''
+    - '&c› &7Пустить паутину&8: &aЛКМ'
+    - ''
+    - '&fДоступно от &e☾Создатель☽'
+    - '&fНажми чтобы надеть костюм'
+    Equipments:
+      Spooderman Helmet:
+        Name: '&b① &fМаска человека паука'
+        Mystery Dust: 75
+        Rarity: Legendary
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Spooderman Chestplate:
+        Name: '&b② &fНагрудник человека паука'
+        Mystery Dust: 33
+        Rarity: Epic
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Spooderman Leggings:
+        Name: '&b③ &fПоножи человека паука'
+        Mystery Dust: 17
+        Rarity: Rare
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Spooderman Boots:
+        Name: '&b④ &fБотинки человека паука'
+        Mystery Dust: 8
+        Rarity: Common
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+    Cooldown: 0
+  Warrior:
+    Name: ' &8▪ &aЗлой маг'
+    Enabled: true
+    Lore:
+    - ' &8▪ &7Популярность&8: &a☉☉☉☉☉☉&7☉☉'
+    - ''
+    - '&c› &7Чтобы ты получил способности'
+    - '&c› &7нужно надеть весь костюм!'
+    - ''
+    - '&bСуперспособность&8:'
+    - '&7Создавать землетрясение вокруг себя!'
+    - '&7В любом месте, даже на спавне!'
+    - ''
+    - '&c› &7Создать землетрясение&8: &aЛКМ'
+    - ''
+    - '&fДоступно от &e☾Создатель☽'
+    - '&fНажми чтобы надеть костюм'
+    Equipments:
+      Warrior Helmet:
+        Name: '&b① &fМаска'
+        Mystery Dust: 75
+        Rarity: Legendary
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Warrior Chestplate:
+        Name: '&b② &fНагрудник злого мага'
+        Mystery Dust: 30
+        Rarity: Epic
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Warrior Leggings:
+        Name: '&b③ &fПоножи злого мага'
+        Mystery Dust: 16
+        Rarity: Rare
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Warrior Boots:
+        Name: '&b④ &fБотинки злого мага'
+        Mystery Dust: 6
+        Rarity: Common
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+    Cooldown: 0
+  Necromancer:
+    Name: ' &8▪ &aНекромант'
+    Enabled: true
+    Lore:
+    - ' &8▪ &7Популярность&8: &a☉☉☉☉☉☉☉&7☉'
+    - ''
+    - '&c› &7Чтобы ты получил способности'
+    - '&c› &7нужно надеть весь костюм!'
+    - ''
+    - '&bСуперспособность&8:'
+    - '&7Создание портала из которого'
+    - '&7выйдет много монстров!'
+    - ''
+    - '&c› &7Призвать монстров&8: &aЛКМ'
+    - ''
+    - '&fДоступно от &e☾Создатель☽'
+    - '&fНажми чтобы надеть костюм'
+    Equipments:
+      Necromancer Helmet:
+        Name: '&b① &fМаска некроманта'
+        Mystery Dust: 80
+        Rarity: Legendary
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Necromancer Chestplate:
+        Name: '&b② &fНагрудник некроманта'
+        Mystery Dust: 35
+        Rarity: Epic
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Necromancer Leggings:
+        Name: '&b③ &fПоножи некроманта'
+        Mystery Dust: 20
+        Rarity: Rare
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Necromancer Boots:
+        Name: '&b④ &fБотинки некроманта'
+        Mystery Dust: 10
+        Rarity: Common
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+    Cooldown: 0
+  Thor:
+    Name: ' &8▪ &aТор'
+    Enabled: true
+    Lore:
+    - ' &8▪ &7Популярность&8: &a☉☉☉☉☉&7☉☉☉'
+    - ''
+    - '&c› &7Чтобы ты получил способности'
+    - '&c› &7нужно надеть весь костюм!'
+    - ''
+    - '&bСуперспособность&8:'
+    - '&7Ты сможешь метнуть молот'
+    - '&7в любое место и он ударит молнией!'
+    - ''
+    - '&c› &7Метнуть молот&8: &aЛКМ'
+    - ''
+    - '&fДоступно от &e☾Создатель☽'
+    - '&fНажми чтобы надеть костюм'
+    Equipments:
+      Thor Helmet:
+        Name: '&b① &fМаска тора'
+        Mystery Dust: 70
+        Rarity: Legendary
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Thor Chestplate:
+        Name: '&b② &fНагрудник тора'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Thor Leggings:
+        Name: '&b③ &fПоножи тора'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Thor Boots:
+        Name: '&b④ &fБотинки тора'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+    Cooldown: 0
+  Baker:
+    Name: ' &8▪ &aПовар'
+    Enabled: true
+    Lore:
+    - ' &8▪ &7Популярность&8: &a☉☉☉☉☉☉&7☉☉'
+    - ''
+    - '&c› &7Чтобы ты получил способности'
+    - '&c› &7нужно надеть весь костюм!'
+    - ''
+    - '&bСуперспособность&8:'
+    - '&7Ты сможешь кидаться'
+    - '&7бесконечной едой!'
+    - ''
+    - '&c› &7Кинуть еду&8: &aЛКМ'
+    - ''
+    - '&fДоступно от &e☾Создатель☽'
+    - '&fНажми чтобы надеть костюм'
+    Equipments:
+      Baker Helmet:
+        Name: '&b① &fМаска повара'
+        Mystery Dust: 70
+        Rarity: Legendary
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Baker Chestplate:
+        Name: '&b② &fНагрудник повара'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Baker Leggings:
+        Name: '&b③ &fПоножи повара'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Baker Boots:
+        Name: '&b④ &fБотинки повара'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+    Cooldown: 0
+  Bumblebee:
+    Name: '&6Bumblebee Suit'
+    Enabled: false
+    Lore:
+    - ''
+    - '&7We aren''t sure what all the buzz'
+    - '&7is about this suit.'
+    - ''
+    - '&7Full Set Ability: This Suit will'
+    - '&7play a classical song when you'
+    - '&7fly or left click!'
+    Equipments:
+      Bumblebee Helmet:
+        Name: '&6Bumblebee Suit Helmet'
+        Mystery Dust: 70
+        Rarity: Legendary
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Bumblebee Chestplate:
+        Name: '&5Bumblebee Suit Chestplate'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Bumblebee Leggings:
+        Name: '&9Bumblebee Suit Leggings'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Bumblebee Boots:
+        Name: '&aBumblebee Suit Boots'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+    Cooldown: 0
+  Plumber:
+    Name: ' &8▪ &aМарио'
+    Enabled: true
+    Lore:
+    - ' &8▪ &7Популярность&8: &a☉☉☉☉&7☉☉☉☉'
+    - ''
+    - '&c› &7Чтобы ты получил способности'
+    - '&c› &7нужно надеть весь костюм!'
+    - ''
+    - '&bСуперспособность&8:'
+    - '&7Ты сможешь кидать огонь!'
+    - ''
+    - '&c› &7Кинуть огонь&8: &aЛКМ'
+    - ''
+    - '&fДоступно от &e☾Создатель☽'
+    - '&fНажми чтобы надеть костюм'
+    Equipments:
+      Plumber Helmet:
+        Name: '&b① &fМаска марио'
+        Mystery Dust: 73
+        Rarity: Legendary
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Plumber Chestplate:
+        Name: '&b② &fНагрудник марио'
+        Mystery Dust: 32
+        Rarity: Epic
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Plumber Leggings:
+        Name: '&b③ &fПоножи марио'
+        Mystery Dust: 18
+        Rarity: Rare
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Plumber Boots:
+        Name: '&b④ &fБотинки марио'
+        Mystery Dust: 7
+        Rarity: Common
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+    Cooldown: 0
+  Ice Walker:
+    Name: ' &8▪ &aКороль холода'
+    Enabled: true
+    Lore:
+    - ' &8▪ &7Популярность&8: &a☉☉&7☉☉☉☉☉☉'
+    - ''
+    - '&c› &7Чтобы ты получил способности'
+    - '&c› &7нужно надеть весь костюм!'
+    - ''
+    - '&bСуперспособность&8:'
+    - '&7При твоей ходьбе всё будет замерзать'
+    - '&7и появлятся снег'
+    - ''
+    - '&c› &7Способность включается&8: &aавтоматически'
+    - ''
+    - '&fДоступно от &e☾Создатель☽'
+    - '&fНажми чтобы надеть костюм'
+    Equipments:
+      Ice Walker Helmet:
+        Name: '&b① &fМаска короля холода'
+        Mystery Dust: 70
+        Rarity: Legendary
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Ice Walker Chestplate:
+        Name: '&b② &fНагрудник короля холода'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Ice Walker Leggings:
+        Name: '&b③ &fПоножи короля холода'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Ice Walker Boots:
+        Name: '&b④ &fБотинки короля холода'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+    Cooldown: 0
+  Vampire:
+    Name: '&6Vampire Suit'
+    Enabled: false
+    Lore:
+    - ''
+    - '&7Like a bat out of hell, become a'
+    - '&7blood-craving villain with this'
+    - '&7Vampire Suit!'
+    - ''
+    - '&7Full Set Ability: Transform into'
+    - '&7a bat when you fly.'
+    Equipments:
+      Vampire Helmet:
+        Name: '&6Vampire Suit Helmet'
+        Mystery Dust: 74
+        Rarity: Legendary
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Vampire Chestplate:
+        Name: '&5Vampire Suit Chestplate'
+        Mystery Dust: 34
+        Rarity: Epic
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Vampire Leggings:
+        Name: '&9Vampire Suit Leggings'
+        Mystery Dust: 18
+        Rarity: Rare
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+      Vampire Boots:
+        Name: '&aVampire Suit Boots'
+        Mystery Dust: 7
+        Rarity: Common
+        CanBeFound: false
+        Purchasable: true
+        Lore: ''
+    Cooldown: 0

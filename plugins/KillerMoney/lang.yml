@@ -1,0 +1,87 @@
+GENERAL:
+  PREFIX: '&6&l[Убийства] '
+  CURRENCY: $
+  YOU_KILLED_AN_ENTITY_AND_EARN_MONEY: '&fВы убили &7(&6{1}&7). &fИ получили &6⛂{2}'
+  YOU_KILLED_AN_ENTITY_AND_LOSE_MONEY: '&fВы были убиты &7(&6{1}&7). Вы потеряли &6⛂{2}'
+  YOU_PICKED_UP_MONEY: '&fВы подняли &6${0}'
+  CONFIGS_ARE_RELOADED: '&fКонфиг релоадТВ'
+  LIMIT_REACHED: '&fЛимит достигнут&7! &fЛимит будет сброшен через {0}'
+  YOU_KILLED_A_PLAYER: '&fВы убили игрока &7(&6{0}&7). &fПолучено &6${1}&7. '
+  YOU_KILLED_BY_PLAYER: '&fВы были убиты игроком &7(&6{0}&7). Потеряно &6${1}&7.'
+MULTIPLIER:
+  SET_NEW_MULTIPLIER_VALUE: '&7You set multiplier to &6{0}x&7. Time left: &6{1}'
+  GET_CURRENT_MULTIPLIER: '&7Current multiplier value is &6{0}x&7. Time left: &6{1}'
+  CANCEL_CUSTOM_MULTIPLIER: '&7You cancelled custom multiplier value. Set it to default
+    value (&61x&7)'
+  THERE_IS_NOT_CUSTOM_MULTIPLIER_SET: '&7There is not custom multiplier set'
+  THE_MULTIPLIER_MUST_BE_GREATER_THAN_ZERO: '&7The multiplier must be greater than
+    0'
+  THE_MINUTE_MUST_BE_GREATER_THAN_ZERO: '&7The minute must be greater than 0'
+  INVALID_VALUE: '&7Invalid value: Multiplier and minutes must be a positive number
+    and greater than 0'
+COMMANDS:
+  SHARED_THIS_COMMAND_ONLY_USABLE_BY_PLAYER: '&7This command is only usable by player'
+  SHARED_THIS_COMMAND_ONLY_USABLE_BY_CONSOLE: '&7This command is only usable by console'
+  SHARED_YOU_HAVE_NOT_ENOUGH_PERMISSION: '&7You have not enough permission (&6{0}&7)'
+  SHARED_INVALID_VALUE: '&7Invalid value: Must be on or off'
+  KM_MESSAGES_ENABLED: '&7Kill messages &6enabled&7.'
+  KM_MESSAGES_DISABLED: '&7Kill messages &6disabled&7.'
+  KM_MESSAGES_CURRENTLY_ENABLED: '&7The kill messages enabled. You can disable it
+    with &6/km enable-messages off'
+  KM_MESSAGES_CURRENTLY_DISABLED: '&7The kill messages disabled. You can enable it
+    with &6/km enable-messages on'
+  KMADMIN_LIMIT_RESET: '&7You reset all limit values to 0.'
+  KMADMIN_COMMAND_MULTIPLIER_USAGE: '&7Usage: &6/km multiplier &7<&6set&7, &6get&7,
+    &6cancel&7>'
+  KMADMIN_COMMAND_MULTIPLIER_SET_USAGE: '&7Usage: &6/km multiplier set &7<&6multiplier
+    value&7> <&6minute&7>'
+  KMADMIN_COMMAND_LIMIT_USAGE: '&7Missing parameter. Usage: &6/km limit reset'
+ENTITIES:
+  BAT: летучую мышь
+  BLAZE: ифрита
+  CAVE_SPIDER: пещерного паука
+  CHICKEN: петуха
+  COW: корову
+  CREEPER: крипера
+  DONKEY: Аслана
+  ELDER_GUARDIAN: древнего стража
+  ENDER_DRAGON: дракона
+  ENDERMAN: эндермена
+  ENDERMITE: эндермита
+  EVOKER: заклинателя
+  GHAST: гаста
+  GIANT: гиганта
+  GUARDIAN: стража
+  HORSE: лошадку
+  HUSK: недозомби
+  IRON_GOLEM: железного голема
+  LLAMA: ламу
+  MAGMA_CUBE: магмовый куб
+  MULE: мула
+  MUSHROOM_COW: мухомора
+  OCELOT: оцелота
+  PIG: свинку
+  PIG_ZOMBIE: свинозомби
+  PARROT: попугая
+  PLAYER: игрока
+  POLAR_BEAR: полярного медведя
+  RABBIT: кролика
+  SHEEP: овцу
+  SHULKER: шалкера
+  SILVERFISH: чешуйницу
+  SKELETON: скелета
+  SKELETON_HORSE: лошадку-скелета
+  SLIME: слизня
+  SNOWMAN: снежного человека
+  SPIDER: паукана
+  SQUID: сквидварда
+  STRAY: зимогора
+  VEX: вредину
+  VILLAGER: жителя
+  VINDICATOR: Vindicator
+  WITCH: ведьму
+  WITHER_SKELETON: черного скелетона
+  WOLF: волка
+  ZOMBIE: зомбака
+  ZOMBIE_HORSE: лошадку-зомби
+  ZOMBIE_VILLAGER: зомби жителя

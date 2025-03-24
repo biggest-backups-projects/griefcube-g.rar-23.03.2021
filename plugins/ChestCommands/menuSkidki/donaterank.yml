@@ -1,0 +1,398 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+#  ENCHANTMENT: Infinity
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Донат › Главная'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 4
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: 'donate;donat;don;донат'
+
+  # open-with-item - OPTIONAL (you can remove this or
+  # set the item to 0)
+  open-with-item:
+    item-id: 
+    left-click: true
+    right-click: true
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+case:
+  COMMAND:  'warp case'
+  NAME: '&e&lДОНАТ-КЕЙСЫ &8⎱ &7От &e&l&n50&7 рублей '
+  LORE:
+    - '&7Покупка на сайте &6&lGriefCube.ru '
+    - '&7&m┏━━━━&6 [&lПривилегии в кейсе&6]'
+    - '&7⎥ &8⋅ &6&lWarlock'
+    - '&7⎥ &8⋅ &e&lBerserk'
+    - '&7⎥ &8⋅ &7&lDark'
+    - '&7⎥ &8⋅ &c&lTitan'
+    - '&7⎥ &8⋆ &b&lGod'
+    - '&7⎥ &8⋆ &4&lAres'
+    - '&7&m&l┝&m━━━━&6 [&lЦены&6]'
+    - '&7⎥ &8⚷ &e&l1&7 ключ: &e50 рублей'
+    - '&7⎥ &8⚷ &e&l3&7 ключей: &e100 рублей'
+    - '&7⎥ &8⚷ &e&l10&7 ключей: &e299 рублей'
+    - '&7&m&l┝&m━━━━&6 [&lШансы&6]'
+    - '&7⎥ &8⋇ &7Шанс выпадения дорогих привилегий'
+    - '&7⎥ &8⋇ &7увеличен на &6⇪%15&7'
+    - '&7&7&m┗━━━━━━━━━━━━━━━━'
+  ID: 'SKULL_ITEM:3'
+  SKULL-OWNER: 'Tom25W'
+  POSITION-X: 4
+  POSITION-Y: 4
+
+Warlock:
+  COMMAND:  'tell: &6&l[!]&f Покупка на сайте: &6&lGriefCube.ru ; console: tm msg {player} &6&l Grief&f&lCube \n&fСайт: &6GriefCube.ru&f'
+  NAME: '&6&lWARLOCK &8⁙ &7{player} &8⎱ &6&l&n10&7 рублей/навсегда'
+  LORE:
+    - '&7Покупка на сайте &6&lGriefCube.ru '
+    - '&7&m┏━━━━&6 [&lКоманды&6]'
+    - '&7⎥ &8⋅ &7Доступ к верстаку: &6/workbench'
+    - '&7⎥ &8⋅ &7Открыть личный эндер сундук: &6/ec'
+    - '&7⎥ &8⋅ &7Надеть блок на голову: &6/hat'
+    - '&7⎥ &8⋅ &7Узнать ID предмета: &6/dura'
+    - '&7⎥ &8⋅ &7Узнать крафт предмета - &6/recipe'
+    - '&7⎥ &8⋅ &7Набор: &6/kit warlock'
+    - '&7&m&l┝&m━━━━&6 [&lПрочее&6]'
+    - '&7⎥ &8⊡ &7Префикс &6&lWarlock &7в чате/табе/над головой'
+    - '&7⎥ &8⊡ &7Доступно &63 &7регионов привата: &6/rg claim'
+    - '&7⎥ &8⊡ &7Доступно &63 &7точек дома: &6/sethome'
+    - '&7⎥ &8⊡ &7Слотов на аукционе: &6+5'
+    - '&7⎥ &8⊡ &7Сообщение о входе: &6&lWarlock &8⁙ &7{player} &fзашёл на сервер'
+    - '&7&7&m┗━━━━━━━━━━━━━━━━'
+  ENCHANTMENT: Efficiency
+  ID: 'skull:3'
+  TEXTURES: 'a0fff144ef4350e28fcf14768a246eb4a10b27c3b3627b69fe24eed2412cf88'
+  POSITION-X: 3
+  POSITION-Y: 2
+Berserk:
+  COMMAND:  'tell: &6&l[!]&f Покупка на сайте: &6&lGriefCube.ru ; console: tm msg {player} &6&l Grief&f&lCube \n&fСайт: &6GriefCube.ru&f'
+  NAME: '&e&lBERSERK &8⁙ &7{player} &8⎱ &e&l&n40&7 рублей/навсегда'
+  LORE:
+    - '&7Покупка на сайте &e&lGriefCube.ru'
+    - '&7&m┏━━━━&e [&lКоманды&e]'
+    - '&7⎥ &8⋅ &7игнорировать игрока - &e/ignore'
+    - '&7⎥ &8⋅ &7посмотреть инвентарь игрока - &e/invsee'
+    - '&7⎥ &8⋅ &7утолить голод - &e/feed'
+    - '&7⎥ &8⋅ &7изменить личное время &e/ptime'
+    - '&7⎥ &8⋅ &7Набор: &e/kit Berserk'
+    - '&7&m&l┝&m━━━━&e [&lПрочее&e]'
+    - '&7⎥ &8⊡ &7Префикс &e&lBerserk &7в чате/табе/над головой'
+    - '&7⎥ &8⊡ &7Доступно &e7 &7регионов привата: &e/rg claim'
+    - '&7⎥ &8⊡ &7Доступно &e7 &7точек дома: &e/sethome'
+    - '&7⎥ &8⊡ &7Слотов на аукционе: &e+10'
+    - '&7⎥ &8⊡ &7Монет за убийство мобов: &ex3'
+    - '&7⎥ &8⊡ &7Сообщение о входе: &e&lBerserk &8⁙ &7{player} &fзашёл на сервер'
+    - '&7⎥ &8⊡ &7Команды привилегии: &6&lWarlock'
+    - '&7&7&m┗━━━━━━━━━━━━━━━━'
+  ENCHANTMENT: Efficiency
+  ID: 'skull:3'
+  TEXTURES: '90c4a13f7e2e698d9c2ccb2be6421e91e32ad8d3e685a789d5404a2ff363c9b6'
+  POSITION-X: 4
+  POSITION-Y: 2
+titan:
+  COMMAND:  'tell: &6&l[!]&f Покупка на сайте: &6&lGriefCube.ru ; console: tm msg {player} &6&l Grief&f&lCube \n&fСайт: &6GriefCube.ru&f'
+  NAME: '&8&lDARK &8⁙ &7{player} &8⎱ &8&l&n119&7 рублей/навсегда'
+  LORE: 
+    - '&7Покупка на сайте &8&lGriefCube.ru'
+    - '&7&m┏━━━━&8 [&lКоманды&8]'
+    - '&7⎥ &8⋅ &7встать в режим афк &8/afk'
+    - '&7⎥ &8⋅ &7починить предмет &8/repair'
+    - '&7⎥ &8⋅ &7очистить свой инвентарь &8/ci'
+    - '&7⎥ &8⋅ &7увидеть игроков поблизости &8/near'
+    - '&7⎥ &8⋅ &7узнать настоящий ник игрока &8/realname'
+    - '&7⎥ &8⋅ &7Набор: &8/kit dark'
+    - '&7&m&l┝&m━━━━&8 [&lПрочее&8]'
+    - '&7⎥ &8⊡ &7Префикс &8&lDARK &7в чате/табе/над головой'
+    - '&7⎥ &8⊡ &7Доступно &810 &7регионов привата: &8/rg claim'
+    - '&7⎥ &8⊡ &7Доступно &810 &7точек дома: &8/sethome'
+    - '&7⎥ &8⊡ &7Слотов на аукционе: &8+15'
+    - '&7⎥ &8⊡ &7Монет за убийство мобов: &8x4'
+    - '&7⎥ &8⊡ &7Сообщение о входе: &8&lDARK &8⁙ &7{player} &fзашёл на сервер'
+    - '&7⎥ &8⊡ &7Команды привилегий: &6&lWarlock&7, &e&lBerserk'
+    - '&7&7&m┗━━━━━━━━━━━━━━━━'
+  ID: 'skull:3'
+  TEXTURES: '9843e3e836ad050827df31892f1fe157f513cfdce047de4c4d8e531cc580872e'
+  ENCHANTMENT: Efficiency
+  POSITION-X: 5
+  POSITION-Y: 2
+Titan:
+  COMMAND:  'tell: &6&l[!]&f Покупка на сайте: &6&lGriefCube.ru ; console: tm msg {player} &6&l Grief&f&lCube \n&fСайт: &6GriefCube.ru&f'
+  NAME: '&c&lTITAN &8⁙ &7{player} &8⎱ &c&l&n199&7 рублей/навсегда'
+  LORE: 
+    - '&7Покупка на сайте &4&lGriefCube.ru'
+    - '&7&m┏━━━━&4 [&lКоманды&4]'
+    - '&7⎥ &8⋅ &7Выдать себе монеток - &c/givemoney [сумма]'
+    - '&7⎥ &8⋅ &7выдать себе опыт - &c/xp'
+    - '&7⎥ &8⋅ &7следить за личкой игроков - &c/socialspy'
+    - '&7⎥ &8⋅ &7узнать чужой эндерчест - &c/ec [ник]'
+    - '&7⎥ &8⋅ &7потушить себя себя &c/ext'
+    - '&7⎥ &8⋅ &7исцелить себя &c/heal'
+    - '&7⎥ &8⋅ &7Набор: &c/kit Titan'
+    - '&7&m&l┝&m━━━━&4 [&lПрочее&4]'
+    - '&7⎥ &8⊡ &7Префикс &c&lTITAN &7в чате/табе/над головой'
+    - '&7⎥ &8⊡ &7Доступно &c20 &7регионов привата: &c/rg claim'
+    - '&7⎥ &8⊡ &7Доступно &c20 &7точек дома: &c/sethome'
+    - '&7⎥ &8⊡ &7Слотов на аукционе: &c+20'
+    - '&7⎥ &8⊡ &7Монет за убийство мобов: &cx4'
+    - '&7⎥ &8⊡ &7Сообщение о входе: &c&lTITAN &8⁙ &7{player} &fзашёл на сервер'
+    - '&7⎥ &8⊡ &7Команды привилегий: &6&lWarlock&7, &e&lBerserk&7, &8&lDark'
+    - '&7&7&m┗━━━━━━━━━━━━━━━━'
+  ID: 'skull:3'
+  TEXTURES: 'a2921c2645696f216b2eeb4ba6d9e0bd67ab8fe24853cb0e30ed4e94951d6e7'
+  ENCHANTMENT: Efficiency
+  POSITION-X: 6
+  POSITION-Y: 2
+God:
+  COMMAND:  'tell: &6&l[!]&f Покупка на сайте: &6&lGriefCube.ru ; console: tm msg {player} &6&l Grief&f&lCube \n&fСайт: &6GriefCube.ru&f'
+  NAME: '&b&lGOD&8 ⁙ &7{player} &8⎱ &b&l&n399&7 рублей/навсегда'
+  LORE:
+    - '&7Покупка на сайте &b&lGriefCube.ru'
+    - '&7&m┏━━━━&3 [&lКоманды&3]'
+    - '&7⎥ &8⋅ &7Запретить телепортации - &b/tptoggle'
+    - '&7⎥ &8⋅ &7Запретить личные сообщения - &b/msgtoggle'
+    - '&7⎥ &8⋅ &7Изменить свой никнейм - &b/name'
+    - '&7⎥ &8⋅ &7Переименовать предмет в своей руке - &b/rename'
+    - '&7⎥ &8⋅ &7Возможность выдать донат - &b/grant'
+    - '&7⎥ &8⋅ &7Возможность выдать мут игроку - &b/tempmute'
+    - '&7⎥ &8⋅ &7Набор: &b/kit GOD'
+    - '&7&m&l┝&m━━━━&3 [&lПрочее&3]'
+    - '&7⎥ &8⊡ &7Префикс &b&lGOD&7 &7в чате/табе/над головой'
+    - '&7⎥ &8⊡ &7Доступно &b999+ &7регионов привата: &b/rg claim'
+    - '&7⎥ &8⊡ &7Доступно &b999+ &7точек дома: &b/sethome'
+    - '&7⎥ &8⊡ &7Слотов на аукционе: &b+35'
+    - '&7⎥ &8⊡ &7Сообщение о входе: &b&lGOD&8 ⁙ &7{player} &fзашёл на сервер'
+    - '&7⎥ &8⊡ &7Команды привилегий: &6&lWarlock&7, &e&lBerserk&7, &8&lDark, &c&lTitan'
+    - '&7&7&m┗━━━━━━━━━━━━━━━━'
+  ID: 'skull:3'
+  TEXTURES: '43a2b69fcae48256be37706706c6748576e1860b1f5c9634b5c2207d5e1c70e9'
+  ENCHANTMENT: Efficiency
+  POSITION-X: 7
+  POSITION-Y: 2
+youtube:
+  COMMAND: 'tell:&6&l[!] &fСсылка на группу: &6&lvk.me/GriefCube_ru'
+  NAME: '&f&lY&c&lT &8⁙ &7{player} &8⎱ &7От &c&l&n500&7 подписчиков'
+  LORE:
+    - '&7Получение через &c&lvk.me/GriefCube_ru &8| &7Писать с пометкой &c&l#youtube'
+    - '&7&m┏━━━━&4 [&lКоманды&4]'
+    - '&7⎥ &8⋅ &7Писать обьявления в чате - &c/bc'
+    - '&7⎥ &8⋅ &7Проверить лаги сервера - &c/lag'
+    - '&7⎥ &8⋅ &7Установить варп - &c/setwarp'
+    - '&7⎥ &8⋅ &7Установить день - &c/day'
+    - '&7⎥ &8⋅ &7Установить ночь - &c/night'
+    - '&7⎥ &8⋅ &7И ещё: &c25 команд'
+    - '&7&m&l┝&m━━━━&4 [&lПрочее&4]'
+    - '&7⎥ &8⊡ &7Префикс &f&lY&c&lT &7в чате/табе/над головой'
+    - '&7⎥ &8⊡ &7Разрешено рекламировать свои ролики'
+  ID: 'skull:3'
+  TEXTURES: 'bb7688da46586b859a1cde40cae1cdbc15abe35615c4bc5296fad09394105d0'
+  POSITION-X: 6
+  POSITION-Y: 4
+
+ares:
+  COMMAND: 'tell: &6&l[!]&f Покупка на сайте: &6&lGriefCube.ru ; console: tm msg {player} &6&l Grief&f&lCube \n&fСайт: &6GriefCube.ru&f'
+  NAME: '&4&lARES&8 ⁙ &7{player} &8⎱ &4&l&n799&7 рублей/навсегда'
+  LORE:
+    - '&7&m┏━━━━&4 [&lКоманды&4]'
+    - '&7⎥ &8⋅ &7Писать обьявления в чате - &4/bc'
+    - '&7⎥ &8⋅ &7Проверить лаги сервера - &4/lag'
+    - '&7⎥ &8⋅ &7Установить варп - &4/setwarp'
+    - '&7⎥ &8⋅ &7Выдать донат другу - &4/grant'
+    - '&7⎥ &8⋅ &7Установить день - &4/day'
+    - '&7⎥ &8⋅ &7Установить ночь - &4/night'
+    - '&7⎥ &8⋅ &7Кикнуть нарушителя (СТРОГО ПО ПРАВИЛАМ) - &4/kick'
+    - '&7⎥ &8⋅ &7И ещё: &425 команд'
+    - '&7&m&l┝&m━━━━&4 [&lПрочее&4]'
+    - '&7⎥ &8⊡ &7Префикс &4&lAres&7 &7в чате/табе/над головой'
+    - '&7⎥ &8⊡ &7Доступно &4999+ &7регионов привата: &4/rg claim'
+    - '&7⎥ &8⊡ &7Доступно &4999+ &7точек дома: &4/sethome'
+    - '&7⎥ &8⊡ &7Слотов на аукционе: &4+35'
+    - '&7⎥ &8⊡ &7Сообщение о входе: &4&lAres&8 ⁙ &7{player} &fзашёл на сервер'
+    - '&7⎥ &8⊡ &7Команды привилегий: &6&lWarlock&7, &e&lBerserk&7, &8&lDark, &c&lTitan&7, &b&lGod'
+    - '&7&7&m┗━━━━━━━━━━━━━━━━'
+  ID: 'skull:3'
+  TEXTURES: '11827e965da3f9d8ada413335e4aa6a0718f38725e74987ae3036cb925d6cc63'
+  POSITION-X: 5
+  POSITION-Y: 3
+
+panel1:
+ NAME: '&6&lGRIEF&f&lCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 1
+ POSITION-Y: 1
+panel2:
+ NAME: '&6&lGRIEF&f&lCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 1
+ POSITION-Y: 2
+panel3:
+ NAME: '&6&lGRIEF&f&lCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 1
+ POSITION-Y: 3
+panel4:
+ NAME: '&6&lGRIEF&f&lCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 1
+ POSITION-Y: 4
+panel5:
+ NAME: '&6&lGRIEF&f&lCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 2
+ POSITION-Y: 4
+panel6:
+ NAME: '&6&lGRIEF&f&lCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 2
+ POSITION-Y: 1
+panel7:
+ NAME: '&6&lGRIEF&f&lCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 8
+ POSITION-Y: 1
+panel8:
+ NAME: '&6&lGRIEF&f&lCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 9
+ POSITION-Y: 1
+panel9:
+ NAME: '&6&lGRIEF&f&lCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 9
+ POSITION-Y: 2
+panel10:
+ NAME: '&6&lGRIEF&f&lCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 9
+ POSITION-Y: 3
+panel11:
+ NAME: '&6&lGRIEF&f&lCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 9
+ POSITION-Y: 4
+panel12:
+ NAME: '&6&lGRIEF&f&lCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 8
+ POSITION-Y: 4
+panel13:
+ NAME: '&6&lGRIEF&f&lCUBE' 
+ KEEP-OPEN: true
+ ID: 160:4, 1
+ POSITION-X: 3
+ POSITION-Y: 1
+panel14:
+ NAME: '&6&lGRIEF&f&lCUBE' 
+ KEEP-OPEN: true
+ ID: 160:4, 1
+ POSITION-X: 4
+ POSITION-Y: 1
+panel15:
+ NAME: '&6&lGRIEF&f&lCUBE' 
+ KEEP-OPEN: true
+ ID: 160:4, 1
+ POSITION-X: 5
+ POSITION-Y: 1
+panel16:
+ NAME: '&6&lGRIEF&f&lCUBE' 
+ KEEP-OPEN: true
+ ID: 160:4, 1
+ POSITION-X: 6
+ POSITION-Y: 1
+panel17:
+ NAME: '&6&lGRIEF&f&lCUBE' 
+ KEEP-OPEN: true
+ ID: 160:4, 1
+ POSITION-X: 7
+ POSITION-Y: 1
+panel18:
+ NAME: '&6&lGRIEF&f&lCUBE' 
+ KEEP-OPEN: true
+ ID: 160:4, 1
+ POSITION-X: 2
+ POSITION-Y: 2
+panel19:
+ NAME: '&6&lGRIEF&f&lCUBE' 
+ KEEP-OPEN: true
+ ID: 160:4, 1
+ POSITION-X: 8
+ POSITION-Y: 2
+panel20:
+ NAME: '&6&lGRIEF&f&lCUBE' 
+ KEEP-OPEN: true
+ ID: 160:4, 1
+ POSITION-X: 2
+ POSITION-Y: 3
+panel21:
+ NAME: '&6&lGRIEF&f&lCUBE' 
+ KEEP-OPEN: true
+ ID: 160:4, 1
+ POSITION-X: 8
+ POSITION-Y: 3
+panel22:
+ NAME: '&6&lGRIEF&f&lCUBE' 
+ KEEP-OPEN: true
+ ID: 160:4, 1
+ POSITION-X: 7
+ POSITION-Y: 3
+panel23:
+ NAME: '&6&lGRIEF&f&lCUBE' 
+ KEEP-OPEN: true
+ ID: 160:4, 1
+ POSITION-X: 3
+ POSITION-Y: 3
+panelx3:
+ NAME: '&6&lGRIEF&f&lCUBE' 
+ KEEP-OPEN: true
+ ID: 160:4, 1
+ POSITION-X: 3
+ POSITION-Y: 4
+panelx4:
+ NAME: '&6&lGRIEF&f&lCUBE' 
+ KEEP-OPEN: true
+ ID: 160:4, 1
+ POSITION-X: 4
+ POSITION-Y: 3
+panelx6:
+ NAME: '&6&lGRIEF&f&lCUBE' 
+ KEEP-OPEN: true
+ ID: 160:4, 1
+ POSITION-X: 6
+ POSITION-Y: 3
+panelx7:
+ NAME: '&6&lGRIEF&f&lCUBE' 
+ KEEP-OPEN: true
+ ID: 160:4, 1
+ POSITION-X: 7
+ POSITION-Y: 4
+panelx8:
+ NAME: '&6&lGRIEF&f&lCUBE' 
+ KEEP-OPEN: true
+ ID: 160:4, 1
+ POSITION-X: 5
+ POSITION-Y: 4

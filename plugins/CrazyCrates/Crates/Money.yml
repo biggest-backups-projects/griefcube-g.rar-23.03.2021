@@ -1,0 +1,92 @@
+Crate:
+  CrateType: Wonder
+  CrateName: '&0Идёт открытие кейса...'
+  StartingKeys: 0
+  InGUI: true
+  Slot: 14
+  OpeningBroadCast: false
+  BroadCast: '%Prefix%&6&l%Player% &7открыл кейс с &e&lмонетками&7.'
+  Item: '54'
+  Glowing: false
+  Name: '▪ Денежный кейс'
+  Lore:
+  PhysicalKey:
+    Name: '&e&lДенежного &e⛂ &e&lкейса'
+    Lore:
+      - '&7A special Key'
+      - '&7For a special Crate.'
+    Item: '131'
+    Glowing: true
+  Prizes:
+    1:
+      DisplayName: '&e⛂1000'
+      DisplayItem: '175'
+      DisplayAmount: 1
+      Lore:
+      MaxRange: 100
+      Chance: 20
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'eco give %Player% 1000'
+        #- 'bc &7Игрок &6%Player% &7открыл &6&l&k|&e&l&k!&6&l&k|&e Кейс с ⛂монетками &6&l&k|&e&l&k!&6&l&k|&7 и выиграл &e⛂1000'
+    2:
+      DisplayName: '&e⛂3000'
+      DisplayItem: '175'
+      DisplayAmount: 1
+      Lore:
+      MaxRange: 100
+      Chance: 20
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'eco give %Player% 3000'
+        #- 'bc &7Игрок &6%Player% &7открыл &6&l&k|&e&l&k!&6&l&k|&e Кейс с ⛂монетками &6&l&k|&e&l&k!&6&l&k|&7 и выиграл &e⛂3000'
+    3:
+      DisplayName: '&e⛂4500'
+      DisplayItem: '175'
+      DisplayAmount: 1
+      Lore:
+      MaxRange: 100
+      Chance: 27
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'eco give %Player% 4500'
+        #- 'bc &7Игрок &6%Player% &7открыл &6&l&k|&e&l&k!&6&l&k|&e Кейс с ⛂монетками &6&l&k|&e&l&k!&6&l&k|&7 и выиграл &e⛂4500'
+    4:
+      DisplayName: '&e⛂9000'
+      DisplayItem: '175'
+      DisplayAmount: 1
+      Lore:
+      MaxRange: 100
+      Chance: 15
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'eco give %Player% 9000'
+        #- 'bc &7Игрок &6%Player% &7открыл &6&l&k|&e&l&k!&6&l&k|&e Кейс с ⛂монетками &6&l&k|&e&l&k!&6&l&k|&7 и выиграл &e⛂9000'
+    5:
+      DisplayName: '&e⛂15000'
+      DisplayItem: '175'
+      DisplayAmount: 1
+      Lore:
+      MaxRange: 100
+      Chance: 15
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'eco give %Player% 15000'
+        #- 'bc &7Игрок &6%Player% &7открыл &6&l&k|&e&l&k!&6&l&k|&e Кейс с ⛂монетками &6&l&k|&e&l&k!&6&l&k|&7 и выиграл &e⛂15000'
+    6:
+      DisplayName: '&e⛂20000'
+      DisplayItem: '175'
+      DisplayAmount: 1
+      Lore:
+      MaxRange: 100
+      Chance: 3
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'eco give %Player% 20000'
+        #- 'bc &7Игрок &6%Player% &7открыл &6&l&k|&e&l&k!&6&l&k|&e Кейс с ⛂монетками &6&l&k|&e&l&k!&6&l&k|&7 и выиграл &e⛂20000'

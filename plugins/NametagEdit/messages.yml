@@ -1,0 +1,29 @@
+configuration:
+  chat: '{prefix}'
+  tab: '{prefix} &7'
+
+
+# Сообщения
+messages:
+  woarguments:
+    - ' &6⎧'
+    - ' &6⎪ &6[ §lСмена префикса &6]'
+    - ' &6⎪ &fСмена префикса в &eчате &f- &6/prefix chat &7[префикс]'
+    - ' &6⎪ &fСмена префикса в &eтабе &f- &6/prefix tab &7[префикс]'
+    - ' &6⎪ &fСмена префикса в &eчате &fи в &eтабе &f- &6/prefix all &7[префикс]'
+    - ' &6⎩'
+  cantprefixchat: '&6&l[!] &fУ вас нет прав'
+  cantprefixtab: '&6&l[!] &fУ вас нет прав'
+  cantprefixall: '&6&l[!] &fУ вас нет прав'
+  maxlength: '&6&l[!] &fМаксимальная длина префикса - 15 символов, включая цветовые коды!'
+  prefixchanged:
+    - '&6&l[!] &fПрефикс в &eчате &fсменен на {prefix}'
+    - '&6&l[!] &fОтключить префикс - &6/prefix chat off'
+  prefixtabchanged:
+    - '&6&l[!] &fПрефикс в &eтабе &fсменен на {prefix}'
+    - '&fОтключить префикс - &6/prefix tab off'
+  prefixallchanged:
+    - '&6&l[!] &fПрефикс в &eчате &fи в &eтабе &fсменен на {prefix}'
+    - '&6&l[!] &fОтключить префикс - &6/prefix all off'
+  prefixoff: '&6&l[!] &fПрефикс отключен!'
+  needprefix: '&6&l[!] &fУкажите префикс!'

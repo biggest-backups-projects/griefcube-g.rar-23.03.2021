@@ -1,0 +1,196 @@
+gui:
+  name: '§8§lКейсы'
+  rows: 6
+  #можно указать не более 9 слотов
+  history_slots: '45,46,47,48,49,50,51,52,53'
+  history_item:
+    #{id} - заменяет на айди предмета выигрыша, {player} - заменяет на ник игрока. Чтобы поставить голову - 397:3;{player}
+    id: '{id}'
+    name: '&e&l{player} &f- &a&l{prize}'
+    lore:
+    - ''
+    - ' Время выигрыша: &a&l{date} {time}'
+    - ''
+  update_item:
+    time: 600
+    slot: 13
+    default_id: 397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjIyMWRhNDQxOGJkM2JmYjQyZWI2NGQyYWI0MjljNjFkZWNiOGY0YmY3ZDRjZmI3N2ExNjJiZTNkY2IwYjkyNyJ9fX0===
+    update_id: 397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjQ2MjhhY2U3YzNhZmM2MWE0NzZkYzE0NDg5M2FhYTY0MmJhOTc2ZDk1MmI1MWVjZTI2YWJhZmI4OTZiOCJ9fX0=
+    default_name: '&c&lПовышение шансов'
+    update_name: '&6&lШансы повышены!'
+    default_lore:
+    - ''
+    - '&fПовысьте свои &eшансы &fна &a100%'
+    - '&fВозможность выдается только на &c10 минут'
+    - ''
+    update_lore:
+    - ''
+    - '&e+100% &fк шансу'
+    - '&fОставшееся время: &a&l{time}'
+    - ''
+  boxes_items:
+    donate:
+      slot: 20
+      id: 397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTU3MzJkM2U1N2I5YTYyMTU5YjM1ZDI3NTQ1NzQ0NTJhMzJiNGMyMjFmYzRmZDM2M2JmZjUyMmZmMDRhNTc3ZSJ9fX0=
+      name: '&a&lДонат-Кейс'
+      lore:
+      - ''
+      - 'У вас ключей: &6&l{keys}'
+      - ''
+      - '&cНажмиты, чтобы открыть'
+      - ''
+  default_items:
+    glass1:
+      slot: 0
+      id: '160:7'
+      name: ''
+      lore: {}
+    glass2:
+      slot: 1
+      id: '160:7'
+      name: ''
+      lore: {}
+    glass3:
+      slot: 2
+      id: '160:7'
+      name: ''
+      lore: {}
+    glass4:
+      slot: 3
+      id: '160:7'
+      name: ''
+      lore: {}
+    glass5:
+      slot: 4
+      id: '160:7'
+      name: ''
+      lore: {}
+    glass6:
+      slot: 5
+      id: '160:7'
+      name: ''
+      lore: {}
+    glass7:
+      slot: 6
+      id: '160:7'
+      name: ''
+      lore: {}
+    glass8:
+      slot: 7
+      id: '160:7'
+      name: ''
+      lore: {}
+    glass9:
+      slot: 8
+      id: '160:7'
+      name: ''
+      lore: {}
+    glass10:
+      slot: 9
+      id: '160:7'
+      name: ''
+      lore: {}
+    glass11:
+      slot: 17
+      id: '160:7'
+      name: ''
+      lore: {}
+    glass12:
+      slot: 18
+      id: '160:7'
+      name: ''
+      lore: {}
+    glass13:
+      slot: 26
+      id: '160:7'
+      name: ''
+      lore: {}
+    glass14:
+      slot: 27
+      id: '160:7'
+      name: ''
+      lore: {}
+    glass35:
+      slot: 35
+      id: '160:7'
+      name: ''
+      lore: {}
+    glass36:
+      slot: 36
+      id: '160:7'
+      name: ''
+      lore: {}
+    glass45:
+      slot: 37
+      id: '160:7'
+      name: ''
+      lore: {} 
+    glass46:
+      slot: 38
+      id: '160:7'
+      name: ''
+      lore: {} 
+    glass47:
+      slot: 39
+      id: '160:7'
+      name: ''
+      lore: {} 
+    glass49:
+      slot: 41
+      id: '160:7'
+      name: ''
+      lore: {} 
+    glass50:
+      slot: 42
+      id: '160:7'
+      name: ''
+      lore: {} 
+    glass51:
+      slot: 43
+      id: '160:7'
+      name: ''
+      lore: {}
+    glass52:
+      slot: 44
+      id: '160:7'
+      name: ''
+      lore: {}   
+    glass31:
+      slot: 31
+      id: '160:7'
+      name: ''
+      lore: {} 
+    glass32:
+      slot: 32
+      id: '160:7'
+      name: ''
+      lore: {} 
+    glass30:
+      slot: 30
+      id: '160:7'
+      name: ''
+      lore: {} 
+    last:
+      slot: 40
+      id: '339'
+      name: '&6❬ &fПоследние выигрыши &6❭'
+      lore: {}       
+    info:
+      slot: 24
+      id: '386'
+      name: '&eИнформация'
+      lore:
+      - '&fwww.Galaxy773.ru'
+      - ''
+      - '&fЕсли Вам выпадет привилегия ниже,'
+      - '&fчем у Вас имеется, то она &eНЕ &aЗАМЕНИТ&f ее.'
+      - '&fУ вас в любом случае останется та'
+      - '&fпривилегия, которая выше!'
+      - '&aИспытай свою удачу!'
+      - ''
+      - '&2> 5 &fключей - &225 &fрублей &7(скидка 20%)'
+      - '&a> 10 &fключей - &a42 &fрублей &7(скидка 30%)'
+      - '&e> 20 &fключей - &e89 &fрублей &7(скидка 40%)'
+      - '&6> 30 &fключей - &6139 &fрублей &7(скидка 50%)'
+      - ''
+      - '&fПокупка донат-коробок на сайте: &eGalaxy773.ru'

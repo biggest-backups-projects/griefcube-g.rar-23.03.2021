@@ -1,0 +1,298 @@
+﻿menu-settings:
+   name: '&0Меню › Варпы'
+
+  # rows - the number of rows of the chest - REQUIRED
+
+  # command - OPTIONAL (you can remove this or set it to '')
+   command: 'warp;warps;ewarps;ewarp'
+   rows: 6
+
+item0:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 1
+   POSITION-Y: 1
+
+item1:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 2
+   POSITION-Y: 1
+
+item2:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 3
+   POSITION-Y: 1
+
+item3:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 4
+   POSITION-Y: 1
+
+item4:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 5
+   POSITION-Y: 1
+
+item5:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 6
+   POSITION-Y: 1
+
+item6:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 7
+   POSITION-Y: 1
+
+item7:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 8
+   POSITION-Y: 1
+
+item8:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 9
+   POSITION-Y: 1
+
+item9:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 1
+   POSITION-Y: 2
+
+item10:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 2
+   POSITION-Y: 2
+
+item11:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 3
+   POSITION-Y: 2
+
+item12:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 4
+   POSITION-Y: 2
+
+item13:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 5
+   POSITION-Y: 2
+
+item14:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 6
+   POSITION-Y: 2
+
+item15:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 7
+   POSITION-Y: 2
+
+item16:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 8
+   POSITION-Y: 2
+
+item17:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 9
+   POSITION-Y: 2
+
+item18:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 1
+   POSITION-Y: 3
+
+item19:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 2
+   POSITION-Y: 3
+
+item20:
+   ID: 'DIAMOND_SWORD'
+   COMMAND: 'warp pvp'
+   NAME: '&6&l⚠ &fPvP арена' 
+   POSITION-X: 3
+   POSITION-Y: 3
+
+item21:
+   ID: 'IRON_PICKAXE'
+   COMMAND: 'warp mine'
+   NAME: '&6&l⚠ &fКарьер'
+   POSITION-X: 4
+   POSITION-Y: 3
+
+item22:
+   ID: 'SKULL_ITEM:4'
+   COMMAND: 'warp mobarena'
+   NAME: '&6&l⚠ &fМоб-Арена'
+   POSITION-X: 5
+   POSITION-Y: 3
+
+item23:
+   ID: 'GOLD_INGOT'
+   NAME: '&6&l⚠ &fЗароботок'
+   COMMAND: 'open: money.yml;sound: BLOCK_STONE_BUTTON_CLICK_ON, 10, 10'
+   POSITION-X: 6
+   POSITION-Y: 3
+
+item24:
+   ID: 'ENCHANTMENT_TABLE'
+   NAME: '&6&l⚠ &fЧаровальня'
+   COMMAND: 'warp enchant'
+   POSITION-X: 7
+   POSITION-Y: 3
+
+item25:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 8
+   POSITION-Y: 3
+
+item26:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 9
+   POSITION-Y: 3
+
+item27:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 1
+   POSITION-Y: 4
+
+item28:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 2
+   POSITION-Y: 4
+
+item29:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 3
+   POSITION-Y: 4
+
+item30:
+   ID: 'ENDER_PORTAL_FRAME'
+   NAME: '&6&l⚠ &fПорталы'
+   COMMAND: 'warp portals'
+   POSITION-X: 4
+   POSITION-Y: 4
+
+item31:
+   ID: 'CHEST'
+   NAME: '&6&l⚠ &fКейсы'
+   COMMAND: 'warp case'
+   POSITION-X: 5
+   POSITION-Y: 4
+
+item32:
+   ID: 'LOG:0'
+   NAME: '&6&l⚠ &fЛесопилка'
+   COMMAND: 'warp woodcutter'
+   POSITION-X: 6
+   POSITION-Y: 4
+
+item33:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 7
+   POSITION-Y: 4
+
+item34:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 8
+   POSITION-Y: 4
+
+item35:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 9
+   POSITION-Y: 4
+
+item36:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 1
+   POSITION-Y: 5
+
+item37:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 2
+   POSITION-Y: 5
+
+item38:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 3
+   POSITION-Y: 5
+
+item39:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 4
+   POSITION-Y: 5
+
+item40:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 5
+   POSITION-Y: 5
+
+item41:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 6
+   POSITION-Y: 5
+
+item42:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 7
+   POSITION-Y: 5
+
+item43:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 8
+   POSITION-Y: 5
+
+item44:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 9
+   POSITION-Y: 5
+
+item45:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 1
+   POSITION-Y: 6
+
+item46:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 2
+   POSITION-Y: 6
+
+item47:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 3
+   POSITION-Y: 6
+
+item48:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 4
+   POSITION-Y: 6
+
+item49:
+   COMMAND: 'open:menu.yml;sound: BLOCK_STONE_BUTTON_CLICK_ON, 10, 10'
+   NAME: '&6&l⚠ &fВернуться'
+   ID: 'skull:3'
+   TEXTURES: '2d9287616343d833e9e7317159caa2cb3e59745113962c1379052ce478884fa'
+   POSITION-X: 5
+   POSITION-Y: 6
+
+item50:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 6
+   POSITION-Y: 6
+
+item51:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 7
+   POSITION-Y: 6
+
+item52:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 8
+   POSITION-Y: 6
+
+item53:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 9
+   POSITION-Y: 6
+

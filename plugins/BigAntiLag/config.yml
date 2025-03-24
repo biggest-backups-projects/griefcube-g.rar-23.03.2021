@@ -1,0 +1,24 @@
+onlineThreshold: 10 # Онлайн, после которого включается антилаг
+tpsThreshold: 19.0 # TPS, ниже которого включается антилаг
+# Сообщения
+msgEnabled: ""
+msgDisabled: ""
+
+# Настройки для блоков
+noBlockBurn: false
+noBlockIgnite: false
+noBlockForm: true
+noBlockPhysics: false
+noBlockSpread: false
+noLeavesDecay: true
+noLiquidFlow: false
+
+# Настройки для существ
+noEntityExplode: false
+noExplosionPrime: true
+noCreatureSpawn: false
+
+# Удаление существ
+deleteEntities:
+- FALLING_BLOCK
+- SNOWBALL

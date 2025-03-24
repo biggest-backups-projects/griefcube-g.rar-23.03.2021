@@ -1,0 +1,35 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&8&lТорговля'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: 'trade'
+  
+fire:
+  COMMAND: 'auctionhouse'
+  NAME: '            &8«&eАукцион&8»'
+  LORE:
+    - ''
+    - '   &cАукцион &7поможет Вам &cпродать    '
+    - '   &7вещи игрокам по Вашей &cцене&7.  '
+    - '   &cАукцион &7поможет Вам &cкупить   '
+    - '   &7вещи игроков.'
+    - '      &f>>>> СОВЕТ <<<<    '
+    - '   &7Ставьте &cцену &7продажи меньше, '
+    - '&f➥ &7чем в &cмагазине &8(/shop)     '
+    - ''
+    - '&a▶ &eНажмите для открытия'
+  KEEP-OPEN: true
+  ID: 54
+  POSITION-X: 5
+  POSITION-Y: 2

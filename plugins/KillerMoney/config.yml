@@ -1,0 +1,39 @@
+# Please check documentation at https://github.com/diecode/KillerMoney/blob/master/docs/Config.md
+# Do not modify this
+Config-version: 1
+Check-update: true
+Global-settings:
+  Money:
+    Decimal-places: 2
+    Item-drop:
+      Enabled: false
+      Item-name: '&c${amount}'
+      Anyone-can-pick-it-up: false
+  Farming:
+    Disable-spawner-farming: true
+    Disable-spawner-egg-farming: false
+  General:
+    Message-method: CHAT
+    Allowed-gamemodes: SURVIVAL, CREATIVE
+  Limit:
+    Reset-time: 24
+    Reached-limit-message: true
+Configurable-permissions:
+  Money-multipliers:
+    warlock: 1.5
+    berserk: 1.5
+    dark: 1.5
+    titan: 1.5
+    god: 1.5
+    ares: 2
+  Limit-multipliers:
+    warlock: 1.5
+    berserk: 1.5
+    dark: 1.5
+    titan: 1.5
+    god: 1.5
+    ares: 2
+Hook:
+  MobArena:
+    Enabled: false
+    Disable-rewards-in-arena: true

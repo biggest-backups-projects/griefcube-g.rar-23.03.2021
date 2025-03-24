@@ -1,0 +1,18 @@
+mysql:
+  host: 1.2.3.4
+  user: griefcube
+  password: U6At3Sw9XnJbWlv7
+  database: griefcube
+  table: kits
+cooldowns:
+  start: 900
+  warlock: 93600
+  berserk: 93600
+  dark: 93600
+  titan: 259200
+  god: 93600
+  ares: 172800
+  yt: 172800
+messages:
+  cooldown_message: '&6&l[Киты] &fВы сможете снова использовать данный кит через:
+    &6&l{time}'

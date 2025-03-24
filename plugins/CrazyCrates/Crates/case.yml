@@ -1,0 +1,223 @@
+Crate:
+  CrateType: Wonder
+  CrateName: '&0Идёт открытие кейса...'
+  StartingKeys: 0
+  InGUI: true
+  Slot: 14
+  OpeningBroadCast: false
+  BroadCast: '%Prefix%&6&l%Player% &7is opening a &e&lClassic Chest&7.'
+  Item: '54'
+  Glowing: false
+  Name: '▪ Денежный кейс'
+  Lore:
+          - '&7This crate contains classic items.'
+          - '&7You have &6%Keys% keys &7to open this crate with.'
+          - '&7&l(&e&l!&7&l) Right click to view rewards.'
+  PhysicalKey:
+          Name: '&e&lДенежного &e⛂ &e&lкейса'
+          Lore:
+            - '&7A special Key'
+            - '&7For a special Crate.'
+          Item: '131'
+          Glowing: true
+  Prizes:
+    0:
+      MaxRange: 100
+      Commands:
+      - give %Player% totem 1 
+      DisplayName: 'Тотем'
+      DisplayAmount: 1
+      Chance: 1
+      Glowing: true
+      DisplayItem: 449
+      Lore: object
+    1:
+      MaxRange: 100
+      Commands:
+      - give %Player% enchantedgoldenapple:1 1 
+      DisplayName: 'Зачаренное яблоко'
+      DisplayAmount: 1
+      Chance: 1
+      Glowing: true
+      DisplayItem: 322
+      Lore: object
+    2:
+      MaxRange: 100
+      Commands:
+      - give %Player% purpleshulkerbox 1 
+      DisplayName: 'Шалкер-бокс'
+      DisplayAmount: 1
+      Chance: 3
+      Glowing: true
+      DisplayItem: 229
+      Lore: object
+    3:
+      MaxRange: 100
+      Commands:
+      - give %Player% enchantedbook 1 mending:1
+      DisplayName: 'Зачарованная книга'
+      DisplayAmount: 1
+      Chance: 2
+      Glowing: true
+      DisplayItem: 403
+      Lore: object
+    4:
+      MaxRange: 100
+      Commands:
+      - give %Player% goldenapple 16 
+      DisplayName: 'Золотые яблоки'
+      DisplayAmount: 16
+      Chance: 3
+      Glowing: true
+      DisplayItem: 322
+      Lore: object
+    5:
+      MaxRange: 100
+      Commands:
+      - give %Player% diamondhelmet 1 protection_environmental:2 thorns:1 durability:1
+      DisplayName: 'Алмазный шлем'
+      DisplayAmount: 1
+      Chance: 6
+      Glowing: true
+      DisplayItem: 310
+      Lore: object
+    6:
+      MaxRange: 100
+      Commands:
+      - give %Player% diamondchestplate 1 protection_environmental:2 thorns:1 durability:1
+      DisplayName: 'Алмазный нагрудник'
+      DisplayAmount: 1
+      Chance: 6
+      Glowing: true
+      DisplayItem: 311
+      Lore: object
+    7:
+      MaxRange: 100
+      Commands:
+      - give %Player% diamondleggings 1 protection_environmental:2 thorns:1 durability:1
+      DisplayName: 'Алмазные поножи'
+      DisplayAmount: 1
+      Chance: 6
+      Glowing: true
+      DisplayItem: 312
+      Lore: object
+    8:
+      MaxRange: 100
+      Commands:
+      - give %Player% diamondboots 1 protection_environmental:2 thorns:1 durability:1
+      DisplayName: 'Алмазные ботинки'
+      DisplayAmount: 1
+      Chance: 6
+      Glowing: true
+      DisplayItem: 313
+      Lore: object
+    9:
+      MaxRange: 100
+      Commands:
+      - give %Player% diamondsword 1 damage_all:2 knockback:1 durability:1
+      DisplayName: 'Алмазный меч'
+      DisplayAmount: 1
+      Chance: 6
+      Glowing: true
+      DisplayItem: 276
+      Lore: object
+    10:
+      MaxRange: 100
+      Commands:
+      - give %Player% stickypistonbase 16 
+      DisplayName: 'Липкий поршень'
+      DisplayAmount: 16
+      Chance: 6
+      Glowing: true
+      DisplayItem: 29
+      Lore: object
+    11:
+      MaxRange: 100
+      Commands:
+      - give %Player% gunpowder 16 
+      DisplayName: 'Взрывчатое вещество'
+      DisplayAmount: 16
+      Chance: 6
+      Glowing: true
+      DisplayItem: 289
+      Lore: object
+    12:
+      MaxRange: 100
+      Commands:
+      - give %Player% goldingot 64 
+      DisplayName: 'Золотой слиток'
+      DisplayAmount: 64
+      Chance: 6
+      Glowing: true
+      DisplayItem: 266
+      Lore: object
+    13:
+      MaxRange: 100
+      Commands:
+      - give %Player% piston 64 
+      DisplayName: 'Поршень'
+      DisplayAmount: 64
+      Chance: 6
+      Glowing: true
+      DisplayItem: 33
+      Lore: object
+    14:
+      MaxRange: 100
+      Commands:
+      - give %Player% ironingot 64 
+      DisplayName: 'Железный слиток'
+      DisplayAmount: 64
+      Chance: 6
+      Glowing: true
+      DisplayItem: 265
+      Lore: object
+    15:
+      MaxRange: 100
+      Commands:
+      - give %Player% enderpearl 16 
+      DisplayName: 'Эндер-пёрл'
+      DisplayAmount: 16
+      Chance: 6
+      Glowing: true
+      DisplayItem: 368
+      Lore: object
+    16:
+      MaxRange: 100
+      Commands:
+      - give %Player% diamond 32 
+      DisplayName: 'Алмаз'
+      DisplayAmount: 32
+      Chance: 6
+      Glowing: true
+      DisplayItem: 264
+      Lore: object
+    17:
+      MaxRange: 100
+      Commands:
+      - give %Player% bow 1 arrow_damage:3 arrow_fire:1
+      DisplayName: 'Лук'
+      DisplayAmount: 1
+      Chance: 6
+      Glowing: true
+      DisplayItem: 261
+      Lore: object
+    18:
+      MaxRange: 100
+      Commands:
+      - give %Player% book 64 
+      DisplayName: 'Книга'
+      DisplayAmount: 64
+      Chance: 6
+      Glowing: true
+      DisplayItem: 340
+      Lore: object
+    19:
+      MaxRange: 100
+      Commands:
+      - give %Player% hopper 64 
+      DisplayName: 'Воронка'
+      DisplayAmount: 64
+      Chance: 6
+      Glowing: true
+      DisplayItem: 154
+      Lore: object

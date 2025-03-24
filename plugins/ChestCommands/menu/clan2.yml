@@ -1,0 +1,183 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&8&lКланы стр.2'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: 'claninfo2'
+  
+1:
+  COMMAND: 'c members'
+  NAME: '&8«&eУчастники клана&8»'
+  LORE: 
+    - ''
+    - '&7Команда&8: &c/c members'
+    - ''
+    - '&a➥ &eНажмите чтобы узнать всех участников клана '
+  ID: 54
+  KEEP-OPEN: false
+  POSITION-X: 2
+  POSITION-Y: 2
+2:
+  COMMAND: 'c top'
+  NAME: '&8«&eТоп кланов&8»'
+  LORE: 
+    - ''
+    - '&7Хотите узнать какой клан лидирует&c?'
+    - '&7Легко&c!'
+    - ''
+    - '&7Команда&8: &c/c top'
+    - ''
+    - '&f➥ &eНажмите чтобы узнать топ кланов'
+  ID: 386
+  KEEP-OPEN: false
+  POSITION-X: 4
+  POSITION-Y: 2
+3:
+  COMMAND: 'tell:&7Команда&8: &c/c invite &f[&7ник&f]'
+  NAME: '&8«&eОтправить запрос&8»'
+  LORE:
+    - ''
+    - '&7Чтобы пригласить игрока к себе в клан'
+    - '&7отправьте ему запрос'
+    - ''
+    - '&7Команда&8: &c/c invite &f[&7ник&f]'
+  KEEP-OPEN: false
+  ID: 397:3, 1
+  ENCHANTMENT: Efficiency
+  POSITION-X: 6
+  POSITION-Y: 2
+4:
+  COMMAND: 'c'
+  NAME: '&8«&eВсе команды&8»'
+  LORE:
+    - '&f➥ &eНажмите чтобы узнать все команды'
+  KEEP-OPEN: false
+  ID: 323
+  ENCHANTMENT: Efficiency
+  POSITION-X: 8
+  POSITION-Y: 2
+stained-324566:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 1
+  POSITION-Y: 1
+stained-545678:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 2
+  POSITION-Y: 1
+stained-567865:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 3
+  POSITION-Y: 1
+stained-878676:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 4
+  POSITION-Y: 1
+stained-098980:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 5
+  POSITION-Y: 1
+stained-333225:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 6
+  POSITION-Y: 1
+stained-765643:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 7
+  POSITION-Y: 1
+stained-765455:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 8
+  POSITION-Y: 1
+stained-445534:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 9
+  POSITION-Y: 1
+stained-3245661:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 1
+  POSITION-Y: 3
+stained-5456781:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 2
+  POSITION-Y: 3
+stained-5678651:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 3
+  POSITION-Y: 3
+stained-8786761:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 4
+  POSITION-Y: 3
+stained-098980211:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 5
+  POSITION-Y: 3
+stained-3332251:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 6
+  POSITION-Y: 3
+stained-7656431:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 7
+  POSITION-Y: 3
+stained-7654551:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 8
+  POSITION-Y: 3
+stained-4455314:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 9
+  POSITION-Y: 3
+stained-44553142:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 1
+  POSITION-Y: 2
+stained-44553143:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 9
+  POSITION-Y: 2
+stained-12344553143:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 3
+  POSITION-Y: 2
+stained-44553142133:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 5
+  POSITION-Y: 2
+stained-4453253143:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 7
+  POSITION-Y: 2

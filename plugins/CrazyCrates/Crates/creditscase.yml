@@ -1,0 +1,90 @@
+Crate:
+  CrateType: Wonder
+  CrateName: '&0Идёт открытие кейса...'
+  StartingKeys: 0
+  InGUI: true
+  Slot: 14
+  OpeningBroadCast: false
+  BroadCast: '%Prefix%&6&l%Player% &7открыл кейс с &e&lкредитами&7.'
+  Item: '54'
+  Glowing: false
+  Name: '▪ Кейс с кредитами'
+  Lore:
+  PhysicalKey:
+    Name: '&e&lКейс с кредитами'
+    Lore:
+    Item: '131'
+    Glowing: true
+  Prizes:
+    1:
+      DisplayName: '&4㉿&c15'
+      DisplayItem: '175'
+      DisplayAmount: 1
+      Lore:
+      MaxRange: 100
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'points give %Player% 15'
+        #- 'bc &7Игрок &6%Player% &7открыл &4&l&k|&c&l&k!&4&l&k|&c Кейс с ㉿кредитами &4&l&k|&c&l&k!&4&l&k|&7 и выиграл &4㉿&c15'
+    2:
+      DisplayName: '&4㉿&c30'
+      DisplayItem: '175'
+      DisplayAmount: 1
+      Lore:
+      MaxRange: 100
+      Chance: 35
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'points give %Player% 30'
+        #- 'bc &7Игрок &6%Player% &7открыл &4&l&k|&c&l&k!&4&l&k|&c Кейс с ㉿кредитами &4&l&k|&c&l&k!&4&l&k|&7 и выиграл &4㉿&c30'
+    3:
+      DisplayName: '&4㉿&c80'
+      DisplayItem: '175'
+      DisplayAmount: 1
+      Lore:
+      MaxRange: 100
+      Chance: 30
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'points give %Player% 80'
+        #- 'bc &7Игрок &6%Player% &7открыл &4&l&k|&c&l&k!&4&l&k|&c Кейс с ㉿кредитами &4&l&k|&c&l&k!&4&l&k|&7 и выиграл &4㉿&c80'
+    4:
+      DisplayName: '&4㉿&c125'
+      DisplayItem: '175'
+      DisplayAmount: 1
+      Lore:
+      MaxRange: 100
+      Chance: 6
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'points give %Player% 125'
+        #- 'bc &7Игрок &6%Player% &7открыл &4&l&k|&c&l&k!&4&l&k|&c Кейс с ㉿кредитами &4&l&k|&c&l&k!&4&l&k|&7 и выиграл &4㉿&c125'
+    5:
+      DisplayName: '&4㉿&c200'
+      DisplayItem: '175'
+      DisplayAmount: 1
+      Lore:
+      MaxRange: 100
+      Chance: 6
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'points give %Player% 200'
+        #- 'bc &7Игрок &6%Player% &7открыл &4&l&k|&c&l&k!&4&l&k|&c Кейс с ㉿кредитами &4&l&k|&c&l&k!&4&l&k|&7 и выиграл &4㉿&c200'
+    6:
+      DisplayName: '&4㉿&c250'
+      DisplayItem: '175'
+      DisplayAmount: 1
+      Lore:
+      MaxRange: 100
+      Chance: 3
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'points give %Player% 250'
+        #- 'bc &7Игрок &6%Player% &7открыл &4&l&k|&c&l&k!&4&l&k|&c Кейс с ㉿кредитами &4&l&k|&c&l&k!&4&l&k|&7 и выиграл &4㉿&c250'

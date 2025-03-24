@@ -1,0 +1,264 @@
+menu-settings:
+   name: '&0Меню › Главная'
+   rows: 4
+   open-action: 'sound: BLOCK_STONE_BUTTON_CLICK_ON, 10, 10'
+   command: 'menu'
+
+item0:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: 'STAINED_GLASS_PANE:1'
+   KEEP-OPEN: false 
+   POSITION-X: 1
+   POSITION-Y: 1
+
+item1:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: 'STAINED_GLASS_PANE:1'
+   KEEP-OPEN: false 
+   POSITION-X: 2
+   POSITION-Y: 1
+
+item2:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: 'STAINED_GLASS_PANE:1'
+   KEEP-OPEN: false 
+   POSITION-X: 3
+   POSITION-Y: 1
+
+item3:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: 'STAINED_GLASS_PANE:1'
+   KEEP-OPEN: false 
+   POSITION-X: 4
+   POSITION-Y: 1
+
+item4:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: 'STAINED_GLASS_PANE:1'
+   KEEP-OPEN: false 
+   POSITION-X: 5
+   POSITION-Y: 1
+
+item5:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: 'STAINED_GLASS_PANE:1'
+   KEEP-OPEN: false 
+   POSITION-X: 6
+   POSITION-Y: 1
+
+item6:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: 'STAINED_GLASS_PANE:1'
+   KEEP-OPEN: false 
+   POSITION-X: 7
+   POSITION-Y: 1
+
+item7:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: 'STAINED_GLASS_PANE:1'
+   KEEP-OPEN: false 
+   POSITION-X: 8
+   POSITION-Y: 1
+
+item8:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: 'STAINED_GLASS_PANE:1'
+   KEEP-OPEN: false 
+   POSITION-X: 9
+   POSITION-Y: 1
+
+item9:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: 'STAINED_GLASS_PANE:1'
+   KEEP-OPEN: false 
+   POSITION-X: 1
+   POSITION-Y: 2
+
+item10:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: 'STAINED_GLASS_PANE:4'
+   KEEP-OPEN: false 
+   POSITION-X: 2
+   POSITION-Y: 2
+
+item11:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   KEEP-OPEN: false 
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 3
+   POSITION-Y: 2
+
+item12:
+   ID: 'END_CRYSTAL'
+   COMMAND: 'open:donaterank.yml;sound: BLOCK_STONE_BUTTON_CLICK_ON, 10, 10' 
+   KEEP-OPEN: true 
+   NAME: '&6&l⚠ &fДонат' 
+   POSITION-X: 4
+   POSITION-Y: 2
+
+item13:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: 'STAINED_GLASS_PANE:4'
+   KEEP-OPEN: false 
+   POSITION-X: 5
+   POSITION-Y: 2
+
+item14:
+   ID: 'skull:3'
+   TEXTURES: '9c96be7886eb7df75525a363e5f549626c21388f0fda988a6e8bf487a53'
+   NAME: '&6&l⚠ &fКредитная лавка' 
+   COMMAND: 'open:credits.yml;sound: BLOCK_STONE_BUTTON_CLICK_ON, 10, 10' 
+   KEEP-OPEN: true 
+   POSITION-X: 6
+   POSITION-Y: 2
+
+item15:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: 'STAINED_GLASS_PANE:4'
+   KEEP-OPEN: false 
+   POSITION-X: 7
+   POSITION-Y: 2
+
+item16:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: 'STAINED_GLASS_PANE:4'
+   KEEP-OPEN: false 
+   POSITION-X: 8
+   POSITION-Y: 2
+
+item17:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: 'STAINED_GLASS_PANE:1'
+   KEEP-OPEN: false 
+   POSITION-X: 9
+   POSITION-Y: 2
+
+item18:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: 'STAINED_GLASS_PANE:1'
+   KEEP-OPEN: false 
+   POSITION-X: 1
+   POSITION-Y: 3
+
+item19:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: 'STAINED_GLASS_PANE:4'
+   KEEP-OPEN: false 
+   POSITION-X: 2
+   POSITION-Y: 3
+
+item20:
+   ID: 'COMPASS'
+   COMMAND: 'warp;sound: BLOCK_STONE_BUTTON_CLICK_ON, 10, 10' 
+   NAME: '&6&l⚠ &fВарпы сервера'
+   KEEP-OPEN: true 
+   POSITION-X: 3
+   POSITION-Y: 3
+
+item21:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: 'STAINED_GLASS_PANE:4'
+   KEEP-OPEN: false 
+   POSITION-X: 4
+   POSITION-Y: 3
+
+item22:
+   ID: 'BREWING_STAND_ITEM'
+   COMMAND: 'shop;sound: BLOCK_STONE_BUTTON_CLICK_ON, 10, 10' 
+   NAME: '&6&l⚠ &fТорговые площадки' 
+   KEEP-OPEN: true 
+   POSITION-X: 5
+   POSITION-Y: 3
+
+item23:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: 'STAINED_GLASS_PANE:4'
+   KEEP-OPEN: false 
+   POSITION-X: 6
+   POSITION-Y: 3
+
+item24:
+   ID: 'CHEST'
+   COMMAND: 'open:kit.yml;sound: BLOCK_STONE_BUTTON_CLICK_ON, 10, 10' 
+   KEEP-OPEN: false 
+   NAME: '&6&l⚠ &fНаборы' 
+   POSITION-X: 7
+   POSITION-Y: 3
+
+item25:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: 'STAINED_GLASS_PANE:4'
+   KEEP-OPEN: false 
+   POSITION-X: 8
+   POSITION-Y: 3
+
+item26:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   KEEP-OPEN: false 
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 9
+   POSITION-Y: 3
+
+item27:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: 'STAINED_GLASS_PANE:1'
+   KEEP-OPEN: false 
+   POSITION-X: 1
+   POSITION-Y: 4
+
+item28:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   KEEP-OPEN: false 
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 2
+   POSITION-Y: 4
+
+item29:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: 'STAINED_GLASS_PANE:1'
+   KEEP-OPEN: false 
+   POSITION-X: 3
+   POSITION-Y: 4
+
+item30:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: 'STAINED_GLASS_PANE:1'
+   KEEP-OPEN: false 
+   POSITION-X: 4
+   POSITION-Y: 4
+
+item31:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: 'STAINED_GLASS_PANE:1'
+   KEEP-OPEN: false 
+   POSITION-X: 5
+   POSITION-Y: 4
+
+item32:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: 'STAINED_GLASS_PANE:1'
+   KEEP-OPEN: false 
+   POSITION-X: 6
+   POSITION-Y: 4
+
+item33:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: 'STAINED_GLASS_PANE:1'
+   KEEP-OPEN: false 
+   POSITION-X: 7
+   POSITION-Y: 4
+
+item34:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: 'STAINED_GLASS_PANE:1'
+   KEEP-OPEN: false 
+   POSITION-X: 8
+   POSITION-Y: 4
+
+item35:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: 'STAINED_GLASS_PANE:1'
+   KEEP-OPEN: false 
+   POSITION-X: 9
+   POSITION-Y: 4
+

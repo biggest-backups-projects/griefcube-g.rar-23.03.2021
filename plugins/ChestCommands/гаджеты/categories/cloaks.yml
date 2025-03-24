@@ -1,0 +1,110 @@
+Cloaks:
+  Superhero:
+    Name: '&6Superhero Cloak'
+    Mystery Dust: 65
+    Rarity: Legendary
+    Enabled: false
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Straight from the comic'
+    - '&7books comes that signature'
+    - '&7red cloak!'
+    Material: ROSE_RED
+  Mystical:
+    Name: '&bМагический'
+    Mystery Dust: 85
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Данный плащ состоит из'
+    - '&7иероглифов зачарования и'
+    - '&7создает защитное поле из'
+    - '&7магический частиц.'
+    - '&7'
+    - '&5&oДействует когда ты стоишь'
+    Material: BOOK
+  Firewings:
+    Name: '&bКрылья демона'
+    Mystery Dust: 72
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Крылья из огненых частиц.'
+    - '&7'
+    - '&5&oДействует когда ты стоишь'
+    Material: BLAZE_POWDER
+  Vampire Wings:
+    Name: '&bКрылья Бэтмена'
+    Mystery Dust: 78
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Крылья в форме летучей мыши.'
+    - '&7из честиц дыма.'
+    - '&7'
+    - '&5&oДействует когда ты стоишь'
+    Material: REDSTONE
+  Icewings:
+    Name: '&bКрылья ангела'
+    Mystery Dust: 72
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Крылья из ледяных частиц.'
+    - '&7'
+    - '&5&oДействует когда ты стоишь'
+    Material: ICE
+  Shaman:
+    Name: '&bСпираль доброты'
+    Mystery Dust: 85
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Красивая спираль из частиц фейерверка.'
+    - '&7'
+    - '&5&oДействует когда ты стоишь'
+    Material: BONE
+  Firerings:
+    Name: '&bКольца ада'
+    Mystery Dust: 50
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Изящные кольца из огня.'
+    - '&7'
+    - '&5&oДействует когда ты стоишь'
+    Material: BLAZE_ROD
+  Scanner:
+    Name: '&6Scanner Cloak'
+    Mystery Dust: 65
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Bleep Bloop!'
+    Material: BEACON
+  Frosty:
+    Name: '&6Frosty Cloak'
+    Mystery Dust: 78
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7The cold never bothered me'
+    - '&7anyway!'
+    Material: SNOWBALL

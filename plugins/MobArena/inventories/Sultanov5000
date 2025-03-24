@@ -1,0 +1,119 @@
+items:
+- ==: org.bukkit.inventory.ItemStack
+  type: ITEM_FRAME
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §r§a∘ §eМеню §a∘§I§t§e§m§J§o§i§n§0
+    lore:
+    - §8[§fПКМ§8] §fОткрыть
+- ==: org.bukkit.inventory.ItemStack
+  type: EMERALD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §r§aДонат §e☀§I§t§e§m§J§o§i§n§1
+    lore:
+    - §8[§fПКМ§8] §fОткрыть
+- ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §r§eПлюшки §a✈§I§t§e§m§J§o§i§n§2
+    lore:
+    - §8[§fПКМ§8] §fОткрыть
+    internal: H4sIAAAAAAAAAE1UyY6jWBCkWzNSdWk+Y25WyeyYwxyw2R7mAcbsmgurwX5gmx2+qT9yqNscUpmKzIjIvOQnhn1if10fA0JW+ywqlH9gP0GG/c0V3CHNKfqL5ZLii+LS+IsnGPorp1m6oFkq5ljqE/vcSK+87au8+4V99PncD23efWIY9uMD+3Wtbk38jfz8XUPcpadA3zHgiDpBnawTOb+HxOqYWNOoMczuJT++KmbHeqx2Vvj7FD1lSygJI0fn1ied0giJypPPQicleg3I/azGxKg8piMXXLbtD769rNQ1sD0e9fnRZzlctI5G0DIdtH1ErQ/yFAdeuCxNJw5y3XHCSgS6zWt9K3UeQwfnlye+m/ZN4RGHeL41RWuQkQVOpcl11ijknMBTs3x6KTG/q6Odrt3ECTbyWeuC3rxANaT53fkSuIlWTvL8ppPCESg5K8snriR5j5LDI+KqWuvkumHUaxQf2KFE13xnFiee3RMHthEeVnS7LNQ0ETpe5sqlf+2Jt8vpZ6B4xXO3BpDnZVrRDjq1P77WEKa7c0amRZ255DxMYHDac8Nbyz5qoEhHgphoXmCN50ZLqnqxyynB5ZHRgtN9kvz3DR0cGibmvhEUBunBFYJySoWTBAPVtVia2eX784viNbm/MnFnj6YEIoh7XNl75HNPOUDrIX6Q+HT0e9eue47ZL8Viu8ytot0J2TxXkEBJ/fOQ1s97fNqthc3yYYzQXXNMBiQD6+2MR2oXpCLdZ1PydimohVUZUebCA9SGvT21HssvlkW5l8tcpaj1apcv0YRqrVcnyFVlSpKjDbLqKfjDoF1nZE5PVm3WRPWUwAcvSgxw3HGtWG9BKL3Fh6K3ikn0Zq2qRzQD2hJ7UdhL04Wrn/98YH96MRryH//mi4bHPoFSyi6TQKjMu0RAETDmFoYDZlOEHWiOS0JGr0TxtOgEWHAXCKO+TCEJF3h3p/C+1Y7LhKtdhY5xhySgYB2uoS8jUE1VqmpjVKMucpky8d3KrDQn82c89Jkx2/hQFCr9pK2xnw1hYBNp7V2jQCbiQEPffpmqEdF1qjLFozPVW6IAVmbTVS7ea04F2O2GjTN96z4z1Z7M6jD+b3ZIfDREvrGEfoTrNYOyE49HQYlnm75OQmbDH6YjTXC1y7AGVHi/rSHpkltNGls2ndsc3gENSQ+Z4tarJcpYbytcIRkpHoqcCx2uMjLEG2740uYDqiIgeAz7wP4w4jrf3s+A+rh5jgyO4xj2H/l82veTBAAA
+    skull-owner: Sultanov5000
+- ==: org.bukkit.inventory.ItemStack
+  type: STONE_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §8«§eМеч новичка§8»
+- ==: org.bukkit.inventory.ItemStack
+  type: STONE_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §8«§eИнструмент§8»
+- ==: org.bukkit.inventory.ItemStack
+  type: STONE_AXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §8«§eИнструмент§8»
+- ==: org.bukkit.inventory.ItemStack
+  type: COOKED_MUTTON
+  amount: 32
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §8«§eМясо§8»
+- null
+- null
+- null
+- null
+- ==: org.bukkit.inventory.ItemStack
+  type: GLASS
+  amount: 32
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §8«§eОбработанное стекло§8»
+- ==: org.bukkit.inventory.ItemStack
+  type: LOG
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §8«§eCпиленный дуб§8»
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+armor:
+- ==: org.bukkit.inventory.ItemStack
+  type: LEATHER_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: LEATHER_ARMOR
+    display-name: §8«§cМеховые сапоги§8»
+- ==: org.bukkit.inventory.ItemStack
+  type: LEATHER_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: LEATHER_ARMOR
+    display-name: §8«§cТеплые штаны§8»
+- ==: org.bukkit.inventory.ItemStack
+  type: LEATHER_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: LEATHER_ARMOR
+    display-name: §8«§cТеплый тулуп§8»
+- ==: org.bukkit.inventory.ItemStack
+  type: LEATHER_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: LEATHER_ARMOR
+    display-name: §8«§cТеплая шапка§8»

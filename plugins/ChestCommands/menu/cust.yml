@@ -1,0 +1,19 @@
+menu-settings:
+   name: '&0&lКастомизации'
+   command: 'customization;cust;custom'
+   rows: 3
+
+item12:
+   ID: 'NAME_TAG'
+   COMMAND: 'open: prefix.yml;sound: BLOCK_STONE_BUTTON_CLICK_ON, 10, 10'
+   NAME: '&e&lПрефиксы' 
+   POSITION-X: 4
+   POSITION-Y: 2
+
+item14:
+   ID: 'PAPER'
+   COMMAND: 'open: uJoin.yml;sound: BLOCK_STONE_BUTTON_CLICK_ON, 10, 10'
+   NAME: '&6&lСообщения при входе' 
+   POSITION-X: 6
+   POSITION-Y: 2
+

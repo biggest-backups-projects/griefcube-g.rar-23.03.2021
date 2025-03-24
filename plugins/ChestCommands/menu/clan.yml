@@ -1,0 +1,325 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&8&lКланы стр.1'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 5
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: 'claninfo'
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+  
+1:
+  COMMAND: 'tell:&7Команда&8: &c/c create &f[&7название&f]'
+  NAME: '&8«&eСоздание клана&8»'
+  LORE:
+    - ''
+    - '&7Команда&8: &c/c create &f[&7название&f]'
+  KEEP-OPEN: false
+  ID: 58
+  POSITION-X: 2 
+  POSITION-Y: 2
+2:
+  COMMAND: 'open:clandelete.yml'
+  NAME: '&8«&eУдалить клан&8»'
+  LORE:
+    - '&a➥ &eНажмите чтобы открыть меню удаления'
+  KEEP-OPEN: false
+  ID: 166
+  POSITION-X: 4
+  POSITION-Y: 2
+3:
+  COMMAND: 'tell:&7Выдать модератора&8: &c/c addmoder &f[&7ник&f];tell:&7Удалить модератора&8: &c/c removemoder &f[&7ник&f]'
+  NAME: '&8«&eДобавить&7/&eудалить модератора&8»'
+  LORE:
+    - ''
+    - '   &7Клан всегда будет нуждаться в лидерах&c!'
+    - '   &7Если Вы доверяете игроку то дайте ему модератора клана&c!   '
+    - ''
+    - '&7Выдать модератора&8: &c/c addmoder &f[&7ник&f]'
+    - '&7Удалить модератора&8: &c/c removemoder &f[&7ник&f]'
+  KEEP-OPEN: false
+  ID: 388
+  POSITION-X: 6
+  POSITION-Y: 2
+4:
+  COMMAND: 'tell:&7Выдать ранг&8: &c/c rank &f[&7ник&f] &f[&7номер ранга&f];tell:&7Узнать ранг&8: &c/c rank &f[&7ник&f]'
+  NAME: '&8«&eРанги в клане&8»'
+  LORE:
+    - ''
+    - '   &7Вы можете повышать&8/&7понижать &7своих бойцов&c!    '
+    - '   &7В системе кланов есть &c9 &7рангов'
+    - ''
+    - ' &a1&8: §f[§7Новичок§f]'
+    - ' &a2&8: §f[§6Боец§f]'
+    - ' &a3&8: §f[§6Офицер§f]'
+    - ' &a4&8: §f[§6Командир§f]'
+    - ' &a5&8: §f[§eГенерал§f]'
+    - ' &a6&8: §f[§eЛегенда§f]'
+    - ' &a7&8: §f[§cМодератор§f]'
+    - ' &a8&8: §f[§cЗаместитель§f]'
+    - ' &a9&8: §f[§4Глава§f]'
+    - ''
+    - '&7Выдать ранг&8: &c/c rank &f[&7ник&f] &f[&7номер ранга&f]'
+    - '&7Узнать ранг&8: &c/c rank &f[&7ник&f]'
+  KEEP-OPEN: false
+  ID: 421
+  POSITION-X: 8
+  POSITION-Y: 2
+5:
+  COMMAND: 'tell:&7Объявить войну&8: &c/c war &f[&7имя клана&f]'
+  NAME: '&8«&cВойна&8»'
+  LORE: 
+    - ''
+    - '&7Хотите быть первыми&c? &7Тогда докажите это&c! '
+    - '&7Устраивайте войны и получайте &eрепутацию'
+    - ''
+    - '&cБой &7во время &cвойны &7происходит без &eзолотых яблок '
+    - '&7По окончанию &cвойны &7клан получает &eрепутацию'
+    - '&8&n                                                       '
+    - ''
+    - '&7Объявить войну можно когда на сервере &a5 &7участников'
+    - '&7вашего клана и клана соперника&c!&7 Так-же на сервере'
+    - '&7должен быть &cвладелец &7клана которому объявлена &cвойна'
+    - '&8&n                                                       '
+    - ''
+    - '&7Объявить войну&8: &c/c war &f[&7имя клана&f]'
+  KEEP-OPEN: false
+  ID: 377
+  POSITION-X: 2
+  POSITION-Y: 4
+6:
+  COMMAND: ''
+  NAME: '&8«&eРепутация&8»'
+  LORE: 
+    - ''
+    - '&7Чтобы клан &cлидировал &7,ему нужна &eрепутация '
+    - '&7Заработать её можно несколькими способами'
+    - ''
+    - '&f▶ &cУбийство &7владельца клана'
+    - '&f▶ &cУбийство &7участников клана'
+    - '&f▶ &cПобеда &7в войне'
+  ID: 145
+  KEEP-OPEN: false
+  POSITION-X: 6
+  POSITION-Y: 4
+7:
+  COMMAND: 'open:clan2.yml'
+  NAME: '&8«&eСтраница 2&8»'
+  LORE:
+    - '&f➥ &eНажмите для открытия '
+  ID: 262
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 4
+8:
+  COMMAND: 'c stats'
+  NAME: '&8«&eСтатистика клана&8»'
+  LORE: 
+    - ''
+    - '&7В статистике Вы сможете узнать&8:'
+    - '&fКоличество участников'
+    - '&fРепутацию клана'
+    - ''
+    - '&7Команда&8: &c/c stats'
+    - ''
+    - '&f➥ &eНажмите чтобы узнать статистику клана'
+  ID: 137
+  KEEP-OPEN: false
+  POSITION-X: 4
+  POSITION-Y: 4
+stained-324566:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 1
+  POSITION-Y: 1
+stained-545678:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 2
+  POSITION-Y: 1
+stained-567865:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 3
+  POSITION-Y: 1
+stained-878676:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 4
+  POSITION-Y: 1
+stained-098980:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 5
+  POSITION-Y: 1
+stained-333225:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 6
+  POSITION-Y: 1
+stained-765643:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 7
+  POSITION-Y: 1
+stained-765455:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 8
+  POSITION-Y: 1
+stained-445534:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 9
+  POSITION-Y: 1
+stained-3245661:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 1
+  POSITION-Y: 3
+stained-5456781:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 2
+  POSITION-Y: 3
+stained-5678651:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 3
+  POSITION-Y: 3
+stained-8786761:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 4
+  POSITION-Y: 3
+stained-0989801:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 5
+  POSITION-Y: 3
+stained-3332251:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 6
+  POSITION-Y: 3
+stained-7656431:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 7
+  POSITION-Y: 3
+stained-7654551:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 8
+  POSITION-Y: 3
+stained-4455314:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 9
+  POSITION-Y: 3
+stained-44553142:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 1
+  POSITION-Y: 2
+stained-44553143:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 9
+  POSITION-Y: 2
+stained-4455314123:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 3
+  POSITION-Y: 2
+stained-44553145123:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 5
+  POSITION-Y: 2
+stained-44531253143:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 7
+  POSITION-Y: 2
+stained-54567812:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 2
+  POSITION-Y: 5
+stained-56786513:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 3
+  POSITION-Y: 5
+stained-87867614:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 4
+  POSITION-Y: 5
+stained-0989801225:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 7
+  POSITION-Y: 5
+stained-33322516:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 6
+  POSITION-Y: 5
+stained-76564317:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 5
+  POSITION-Y: 5
+stained-76545518:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 8
+  POSITION-Y: 5
+stained-44553149:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 9
+  POSITION-Y: 5
+stained-44553142159:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 1
+  POSITION-Y: 4
+stained-445531422159:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 9
+  POSITION-Y: 4
+stained-414553142159:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 3
+  POSITION-Y: 4
+stained-445531421559:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 5
+  POSITION-Y: 4
+stained-445531424159:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 7
+  POSITION-Y: 4
+stained-4455311424159:
+  NAME: '&8Закрыть'
+  ID: stained_glass_pane:15
+  POSITION-X: 1
+  POSITION-Y: 5

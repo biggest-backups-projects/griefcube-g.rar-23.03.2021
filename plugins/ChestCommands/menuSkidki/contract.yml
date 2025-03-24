@@ -1,0 +1,266 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Меню › Заработок › Контракт'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 4
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: 'contract'
+
+  # open-with-item - OPTIONAL (you can remove this or
+  # set the item to 0)
+  open-with-item:
+    item-id: 0
+    left-click: false
+    right-click: true
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+drinks:
+  COMMAND: 'contracts take'
+  NAME: '&4<&c!&4> &cВзять контракт'
+  ID: 276
+  POSITION-X: 2
+  POSITION-Y: 2
+narkotiki:
+  COMMAND: 'contracts target'
+  NAME: '&4<&c!&4> &cЦель для убийства'
+  ID: '397:3'
+  KEEP-OPEN: false
+  POSITION-X: 4
+  POSITION-Y: 2
+vape:
+  COMMAND: 'contracts cancel'
+  NAME: '&4<&c!&4> &cОтменить контракт'
+  ID: 166
+  KEEP-OPEN: false
+  POSITION-X: 6
+  POSITION-Y: 2
+donate:
+ COMMAND: 'open:donaterank.yml' 
+ NAME: '&6&l⚠ &e&lДОНАТ' 
+ LORE:
+  - ''
+ ID: 264
+ ENCHANTMENT: Efficiency
+ KEEP-OPEN: false 
+ POSITION-X: 9
+ POSITION-Y: 2
+creditsshop:
+ COMMAND: 'open:shop.yml' 
+ NAME: '&6&l⚠ &e&lКРЕДИТНАЯ ЛАВКА' 
+ LORE:
+  - '&8∙ &eКниги зачарований'
+  - '&8∙ &eЛегендарная броня'
+  - '&8∙ &eВсё для PvP'
+  - '&8∙ &eПревращения'
+  - '&8∙ &eБустеры'
+  - '&8∙ &eДракон'
+ ID: 'skull:3'
+ TEXTURES: '9c96be7886eb7df75525a363e5f549626c21388f0fda988a6e8bf487a53'
+ KEEP-OPEN: false 
+ POSITION-X: 9
+ POSITION-Y: 3 
+STR1:
+  NAME: '&c•'
+  ID: 160:14, 1
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 4
+STR2:
+  COMMAND: 'open:money.yml'
+  NAME: '&6&l⚠ &fВернуться'
+  ID: 'skull:3'
+  TEXTURES: '2d9287616343d833e9e7317159caa2cb3e59745113962c1379052ce478884fa'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 4
+STR3:
+  NAME: '&c• '
+  ID: 160:14, 1
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 4
+panel1:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ ID: 160:4, 1
+ KEEP-OPEN: true
+ POSITION-X: 8
+ POSITION-Y: 1
+panel2:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ ID: 160:4, 1
+ KEEP-OPEN: true
+ POSITION-X: 9
+ POSITION-Y: 1
+panel3:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ ID: 160:4, 1
+ KEEP-OPEN: true
+ POSITION-X: 8
+ POSITION-Y: 2
+panel4:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ ID: 160:4, 1
+ KEEP-OPEN: true
+ POSITION-X: 8
+ POSITION-Y: 3
+panel5:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ ID: 160:4, 1
+ KEEP-OPEN: true
+ POSITION-X: 8
+ POSITION-Y: 4
+panel6:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:4, 1
+ POSITION-X: 9
+ POSITION-Y: 4
+panelx1:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 1
+ POSITION-Y: 1
+panelx2:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 2
+ POSITION-Y: 1
+panelx3:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 3
+ POSITION-Y: 1
+panelx4:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 4
+ POSITION-Y: 1
+panelx5:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 5
+ POSITION-Y: 1
+panelx6:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 6
+ POSITION-Y: 1
+panelx7:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 7
+ POSITION-Y: 1
+ 
+ 
+panelxx1:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 1
+ POSITION-Y: 3
+panelxx2:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 2
+ POSITION-Y: 3
+panelxx3:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 3
+ POSITION-Y: 3
+panelxx4:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 4
+ POSITION-Y: 3
+panelxx5:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 5
+ POSITION-Y: 3
+panelxx6:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 6
+ POSITION-Y: 3
+panelxx7:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 7
+ POSITION-Y: 3
+anelxx10:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 1
+ POSITION-Y: 4
+panelxx11:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 2
+ POSITION-Y: 4
+panelxxx12:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 6
+ POSITION-Y: 4
+panelxx13:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 7
+ POSITION-Y: 4
+panelxx14:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 1
+ POSITION-Y: 2
+panelxx15:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 3
+ POSITION-Y: 2
+panelxx16:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 5
+ POSITION-Y: 2
+panelxx17:
+ NAME: '&6&lGRIEF&F&LCUBE' 
+ KEEP-OPEN: true
+ ID: 160:1, 1
+ POSITION-X: 7
+ POSITION-Y: 2

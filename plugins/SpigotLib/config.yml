@@ -1,0 +1,59 @@
+allowAllPermsForAuthor: +
+animationApiThreads: 4
+bungee:
+  currentServerName: 1000000
+  forceEnable: -
+  ipOnJoin: -
+  playerCount: 100
+  playerList: -1
+  serverIP: -1
+  servers: 1000000
+  uuidAll: -1
+debug:
+defaultLang: en
+disablePluginsOnCrash: +
+disableWeatherChange: -
+logPlayerConfigLoadUnload: -
+economy:
+  balanceTypes:
+    exp:
+      defaultValue: 0
+      fullName: experience levels
+      name: exp
+      suffix: EXP
+      useKMBT: -
+    default:
+      defaultValue: 100
+      fullName: ingame money
+      name: default
+      suffix: $
+      useKMBT: -#Migrate all the Economy data through Vault from an other Economy plugin, i.e. Essentials.
+  
+  migrate: -#The type of SpigotLibs vault hook, available options:
+  #NONE - do NOT hook to Vault at all (not suggested)
+  #USER - hook to Vault as an Economy user (suggested if you don't want to use SpigotLibs Economy management)
+  #PROVIDER - hook to Vault as an Economy provider (override other Economy plugins, like Essentials)
+  
+  vaultHookType: USER
+forceReducedMode: -
+mysqlSSL: +
+phaHook: +
+playerEval: -
+playerFile:
+  backend: FILE
+  keepOfflineDataLoaded: +
+  file: players.yml
+  mysql:
+    table: PlayerData
+    database: SpigotLib
+    host: 127.0.0.1
+    password: root
+    timeout: 10000
+    username: root
+purgePF: -
+silentErrors: -
+tpsMeter:
+  checkTime: 10000
+  enabled: +
+  limit: 15
+  reportCrashAfter: 4

@@ -1,0 +1,7 @@
+mysql:
+  uri: ''
+  username: ''
+  password: ''
+message: "&6[&lПодключился&6] &7↝ {group} &7{nick} {message}"
+message-set: "&6[&lСообщения&6] &fВы установили сообщение {message}"
+default: "&6[&lПодключился&6] &7↝ {group} &7{nick} &fзашёл на сервер"

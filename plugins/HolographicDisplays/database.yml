@@ -1,0 +1,167 @@
+spawn:
+  location: spawn, -30.500, 25.000, 116.500
+  lines:
+  - '&e&l▶ &6&lGrief&f&lCube &e&l◀'
+  - ''
+  - '&fПриветствуем Вас на &6лучшем'
+  - '&fМайнкрафт сервере для &c&nГриферов'
+  - ''
+  - '&fПокупка на сайте &8» &6/menu'
+  - '&fДонат &8» &6/donate'
+  - ''
+  - '&fСайт сервера &8» &6GriefCube.Ru'
+  - '&fМы Вконтакте &8» &6vk.com/griefcube_ru'
+king:
+  location: spawn, -19.500, 21.000, 107.500
+  lines:
+  - '&6&l&nЦарь горы'
+  - '&fПродержись на вершине горы &6&l10 &fсекунд'
+  - '&fЗа это ты получишь &6&l70&6$'
+  - '&fСейчас царь горы - &6&l%gora'
+king2:
+  location: spawn, -16.500, 29.000, 110.500
+  lines:
+  - '&fГору держит &6&l%gora'
+  - 'ICON: skull item:3'
+les:
+  location: spawn, -62.500, 20.375, -19.500
+  lines:
+  - '&6&l&nРабота дровосека&r'
+  - ''
+  - '&fПодходите к любому &eдереву'
+  - '&fи &eруби &fего топором или'
+  - '&fрукой, чтобы получить деньги'
+  - ''
+  - '&fЗа каждый срубленный блок ты получишь &6&l2&e⛂'
+  - 'ICON: iron axe'
+mine:
+  location: spawn, -2.500, 22.250, 88.500
+  lines:
+  - '&6&l&nКарьер&r'
+  - ''
+  - '&fУ тебя &c&lнету&r &fресурсов или денег?'
+  - '&fНе беда! Здесь их &a&lлегко&r можно заработать.'
+  - ''
+  - '&fЗаработок за руду:'
+  - '&8&l1&r &fУголь           &8❭ &6&l5&e⛂'
+  - '&7&l1&r &fруда железа     &8❭ &6&l10&e⛂'
+  - '&6&l1&r &fруда золота     &8❭ &6&l15&e⛂'
+  - '&b&l1&r &fруда алмазов    &8❭ &6&l30&e⛂'
+  - '&2&l1&r &fруда изумрудов  &8❭ &6&l40&e⛂'
+  - ''
+  - '&fЧтобы получить деньги, нужно сгрузить'
+  - '&fруду на &6платформу&f, в &c&lначале&r &fшахты.'
+  - 'ICON: iron pickaxe'
+case:
+  location: spawn, -30.500, 20.000, 86.500
+  lines:
+  - '&6&l&nКейсы'
+  - ''
+  - '&fОткрой кейс и выиграй приз!'
+  - 'ICON: ender chest'
+items:
+  location: spawn, -32.500, 24.000, 72.500
+  lines:
+  - '&6&l&k|&e&l&k|&6&l&k|&6&l Кейс Грифера &6&l&k|&e&l&k|&6&l&k|'
+  - 'ICON: tnt'
+dc:
+  location: spawn, -30.500, 24.000, 71.500
+  lines:
+  - '&3&l&k|&b&l&k|&3&l&k|&b&l Донат Кейс &3&l&k|&b&l&k|&3&l&k|'
+  - 'ICON: enchanted book'
+prefix:
+  location: spawn, -28.500, 24.000, 72.500
+  lines:
+  - '&2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+  - 'ICON: name tag'
+bal:
+  location: spawn, -1.500, 22.000, 50.500
+  lines:
+  - '&6[ &6&lТОП БОГАЧЕЙ&6 ]'
+  - ''
+  - '&f<balance_name_1> - &6<balance_score_1>&e⛂'
+  - '&f<balance_name_2> - &6<balance_score_2>&e⛂'
+  - '&f<balance_name_3> - &6<balance_score_3>&e⛂'
+  - '&f<balance_name_4> - &6<balance_score_4>&e⛂'
+  - '&f<balance_name_5> - &6<balance_score_5>&e⛂'
+  - '&f<balance_name_6> - &6<balance_score_6>&e⛂'
+  - '&f<balance_name_7> - &6<balance_score_7>&e⛂'
+  - '&f<balance_name_8> - &6<balance_score_8>&e⛂'
+  - '&f<balance_name_9> - &6<balance_score_9>&e⛂'
+  - '&f<balance_name_10> - &6<balance_score_10>&e⛂'
+  - ''
+  - '&fОбновляется каждые &6&l3 &fминуты'
+kills:
+  location: spawn, -1.500, 22.000, 55.500
+  lines:
+  - '&6[ &6&lТОП УБИЙЦ&6 ]'
+  - ''
+  - '&f<kills_name_1> - &6<kills_score_1>&c⚔'
+  - '&f<kills_name_2> - &6<kills_score_2>&c⚔'
+  - '&f<kills_name_3> - &6<kills_score_3>&c⚔'
+  - '&f<kills_name_4> - &6<kills_score_4>&c⚔'
+  - '&f<kills_name_5> - &6<kills_score_5>&c⚔'
+  - '&f<kills_name_6> - &6<kills_score_6>&c⚔'
+  - '&f<kills_name_7> - &6<kills_score_7>&c⚔'
+  - '&f<kills_name_8> - &6<kills_score_8>&c⚔'
+  - '&f<kills_name_9> - &6<kills_score_9>&c⚔'
+  - '&f<kills_name_10> - &6<kills_score_10>&c⚔'
+  - ''
+  - '&fОбновляется каждые &6&l3 &fминуты'
+mob:
+  location: spawn, 10.500, 24.000, 3.500
+  lines:
+  - '&6[ &lМОБ-АРЕНА &6]'
+  - ''
+  - Убивай монстров и выживай
+  - волна за волной и их будет больше!
+  - '&cВыживай&f и получай &eмонетки!'
+  - ''
+  - '&a[&nНажми&a, для игры]'
+shop:
+  location: spawn, -22.500, 20.700, 60.500
+  lines:
+  - '&6[ &lМагазин &6]'
+  - '&f&nНажми&f, чтобы открыть'
+pvpshop:
+  location: spawn, -38.500, 20.700, 60.500
+  lines:
+  - '&6[ &lТорговец PVP товарами &6]'
+  - '&f&nНажми&f, чтобы открыть'
+ah:
+  location: spawn, -14.700, 20.700, 64.700
+  lines:
+  - '&6[ &lАукцион &6]'
+  - '&f&nНажми&f, чтобы открыть'
+credits:
+  location: spawn, -47.500, 20.700, 64.500
+  lines:
+  - '&6[ &lКредитная лавка &6]'
+  - '&f&nНажми&f, чтобы открыть'
+pvp1:
+  location: spawn, -76.500, 22.700, 28.500
+  lines:
+  - '&6[ &lВойти на PvP Арену &6]'
+  - '&f&nНажми&f, чтобы открыть'
+pvp2:
+  location: spawn, -107.500, 23.700, 32.500
+  lines:
+  - '&6[ &lВыход &6]'
+  - '&f&nНажми&f, чтобы открыть'
+miner:
+  location: spawn, 31.500, 10.000, 64.500
+  lines:
+  - '&6[ &6&lТОП ШАХТЕРОВ&6 ]'
+  - ''
+  - '&f<mine_name_1> - &6<mine_score_1>&7⚒'
+  - '&f<mine_name_2> - &6<mine_score_2>&7⚒'
+  - '&f<mine_name_3> - &6<mine_score_3>&7⚒'
+  - '&f<mine_name_4> - &6<mine_score_4>&7⚒'
+  - '&f<mine_name_5> - &6<mine_score_5>&7⚒'
+  - '&f<mine_name_6> - &6<mine_score_6>&7⚒'
+  - '&f<mine_name_7> - &6<mine_score_7>&7⚒'
+  - '&f<mine_name_8> - &6<mine_score_8>&7⚒'
+  - '&f<mine_name_9> - &6<mine_score_9>&7⚒'
+  - '&f<mine_name_10> - &6<mine_score_10>&7⚒'
+  - ''
+  - '&fОбновляется каждые &6&l3 &fминуты'

@@ -1,0 +1,24 @@
+lastAccountName: Exept
+timestamps:
+  login: 1616523784179
+  lastteleport: 1613929814020
+  logout: 1613928248131
+  kits:
+    start: 1613929726431
+ipAddress: 127.0.0.1
+lastlocation:
+  world: spawn
+  x: 6.699999988079072
+  y: 2.0
+  z: 75.91093071338422
+  yaw: -141.4596
+  pitch: 6.44993
+godmode: false
+money: '370321.0'
+logoutlocation:
+  world: spawn
+  x: -30.794578310803434
+  y: 30.864608691394174
+  z: 120.06330986373273
+  yaw: -10.359525
+  pitch: 31.649881

@@ -1,0 +1,18 @@
+[
+  {
+    "uuid": "e0ff1edb-46ea-31fd-ab18-4e8e3295022c",
+    "name": "Mishand",
+    "created": "2019-10-29 21:12:42 +0300",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "f5e3f9d3-7664-3a56-ae91-f97e706e6fc8",
+    "name": "crosh",
+    "created": "2019-11-01 09:24:55 +0300",
+    "source": "Console",
+    "expires": "forever",
+    "reason": "Продажа аккаунта"
+  }
+]

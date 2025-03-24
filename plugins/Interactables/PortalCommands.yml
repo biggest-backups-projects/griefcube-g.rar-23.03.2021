@@ -1,0 +1,115 @@
+Portals:
+  rtp:
+    cooldown: 0
+    world: spawn
+    exitCommands: []
+    uses: 0
+    messages: []
+    max:
+      ==: Vector
+      x: 82.0
+      y: 36.0
+      z: 137.0
+    commands:
+    - rtp:player
+    exitMessages: []
+    min:
+      ==: Vector
+      x: -117.0
+      y: 0.0
+      z: 84.0
+  rtp2:
+    min:
+      ==: Vector
+      x: 31.0
+      y: 0.0
+      z: -62.0
+    uses: 0
+    world: spawn
+    messages: []
+    exitCommands: []
+    exitMessages: []
+    commands:
+    - rtp:player
+    cooldown: 0
+    max:
+      ==: Vector
+      x: 82.0
+      y: 39.0
+      z: 83.0
+  rtp3:
+    messages: []
+    commands:
+    - rtp:player
+    cooldown: 0
+    exitCommands: []
+    min:
+      ==: Vector
+      x: -116.0
+      y: 4.0
+      z: -62.0
+    world: spawn
+    exitMessages: []
+    max:
+      ==: Vector
+      x: 30.0
+      y: 34.0
+      z: -39.0
+    uses: 0
+  rtp4:
+    world: spawn
+    exitMessages: []
+    cooldown: 0
+    uses: 0
+    exitCommands: []
+    max:
+      ==: Vector
+      x: -67.0
+      y: 29.0
+      z: 90.0
+    messages: []
+    min:
+      ==: Vector
+      x: -116.0
+      y: 0.0
+      z: -38.0
+    commands:
+    - rtp:player
+  rtp5:
+    messages: []
+    cooldown: 0
+    uses: 0
+    exitMessages: []
+    commands:
+    - rtp:player
+    min:
+      ==: Vector
+      x: -87.0
+      y: 26.0
+      z: 69.0
+    world: spawn
+    exitCommands: []
+    max:
+      ==: Vector
+      x: -20.0
+      y: 38.0
+      z: 108.0
+  rtp7:
+    exitMessages: []
+    min:
+      ==: Vector
+      x: -117.0
+      y: 0.0
+      z: -63.0
+    world: spawn
+    max:
+      ==: Vector
+      x: 83.0
+      y: 16.0
+      z: 137.0
+    commands:
+    - rtp:player
+    messages: []
+    cooldown: 0
+    exitCommands: []
+    uses: 0

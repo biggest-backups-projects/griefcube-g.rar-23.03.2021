@@ -1,0 +1,60 @@
+DonatCase:
+  TypeSave: config
+  MySql:
+    Host: 'jdbc:mysql://1.2.3.4:3306/griefcube'
+    User: griefcube
+    Password: U6At3Sw9XnJbWlv7
+  Languages: ru
+  LevelsGroup:
+    default: 1
+    warlock: 2
+    barserk: 3
+    dark: 4
+    titan: 5
+    god: 6
+    ares: 7
+  Title:
+    Title: '&6&lGrief&f&lCube'
+    SubTitle: 'Вы выйграли: %group'
+  Cases:
+    Case1:
+      Title: '&8&lДонат-Кейс'
+      Commands:
+       - optional %player donatcase.%group user %player setgroup %group
+      Items:
+        warlock:
+          Group: warlock
+          Chance: 20
+          Item:
+            ID: 130
+            DisplayName: '&6&lWARLOCK'
+        berserk:
+          Group: berserk
+          Chance: 25
+          Item:
+            ID: 130
+            DisplayName: '&e&lBERSERK'
+        dark:
+          Group: dark
+          Chance: 25
+          Item:
+            ID: 130
+            DisplayName: '&7&lDARK'
+        titan:
+          Group: titan
+          Chance: 20
+          Item:
+            ID: 130
+            DisplayName: '&c&lTITAN'
+        god:
+          Group: god
+          Chance: 7
+          Item:
+            ID: 130
+            DisplayName: '&b&lGOD'
+        ares:
+          Group: ares
+          Chance: 3
+          Item:
+            ID: 130
+            DisplayName: '&4&lARES'

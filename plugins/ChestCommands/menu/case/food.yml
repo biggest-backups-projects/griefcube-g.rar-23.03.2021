@@ -1,0 +1,286 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0&lКейсы'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'cases'
+  
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'sound: BLOCK_ENDERCHEST_OPEN, 1, 1'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+1:
+  COMMAND: 'console:cc open food {player}'
+  NAME: '   &6&lКейс с едой'
+  LORE:
+    - '&fЦена кейса: &6⛂299'
+    - '&fБаланс: &6⛂%vault_eco_balance_fixed%'
+    - ''
+    - '   &a[НАЖМИТЕ ЧТОБЫ ОТКРЫТЬ] {papi}'
+  ID: 'skull:3'
+  TEXTURES: '5a736eb1a7ce5a5f5d5b168931fa31396386c160568b41964ba86cdb9ed6be'
+  PRICE: 299
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 2
+2:
+  COMMAND: 'console:cc open tools {player}'
+  NAME: '   &6&lКейс с инструментами'
+  LORE:
+    - '&fЦена кейса: &6⛂600'
+    - '&fБаланс: &6⛂%vault_eco_balance_fixed%'
+    - ''
+    - '   &a[НАЖМИТЕ ЧТОБЫ ОТКРЫТЬ] {papi}'
+  ID: 'skull:3'
+  TEXTURES: 'f7aadff9ddc546fdcec6ed5919cc39dfa8d0c07ff4bc613a19f2e6d7f2593'
+  PRICE: 600
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 2
+3:
+  COMMAND: 'console:cc open Wonder {player}'
+  NAME: '   &6&lКейс Бойца'
+  LORE:
+    - '&fЦена кейса: &6⛂200'
+    - '&fБаланс: &6⛂%vault_eco_balance_fixed%'
+    - ''
+    - '   &a[НАЖМИТЕ ЧТОБЫ ОТКРЫТЬ] {papi}'
+  ID: 'skull:3'
+  TEXTURES: 'f37cae5c51eb1558ea828f58e0dff8e6b7b0b1a183d737eecf714661761'
+  PRICE: 200
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 2
+4:
+  COMMAND: 'console:cc open case {player}'
+  NAME: '   &6&lКейс Грифера'
+  LORE:
+    - '&fЦена кейса: &6⛂900'
+    - '&fБаланс: &6⛂%vault_eco_balance_fixed%'
+    - ''
+    - '   &a[НАЖМИТЕ ЧТОБЫ ОТКРЫТЬ] {papi}'
+  ID: 'skull:3'
+  TEXTURES: '25807cc4c3b6958aea6156e84518d91a49c5f32971e6eb269a23a25a27145'
+  PRICE: 900
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 2
+5:
+  COMMAND: 'console:cc open toper {player}'
+  NAME: '   &6&lКейс Топера'
+  LORE:
+    - '&fЦена кейса: &6⛂5600'
+    - '&fБаланс: &6⛂%vault_eco_balance_fixed%'
+    - ''
+    - '   &a[НАЖМИТЕ ЧТОБЫ ОТКРЫТЬ] {papi}'
+  ID: 'skull:3'
+  TEXTURES: 'f3d5e43de5d4177c4baf2f44161554473a3b0be5430998b5fcd826af943afe3'
+  PRICE: 5600
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 2
+6:
+  COMMAND: 'console:cc open totem {player}'
+  NAME: '   &6&lКейс с тотемами'
+  LORE:
+    - '&fЦена кейса: &6⛂12600'
+    - '&fБаланс: &6⛂%vault_eco_balance_fixed%'
+    - ''
+    - '   &a[НАЖМИТЕ ЧТОБЫ ОТКРЫТЬ] {papi}'
+  ID: 'skull:3'
+  TEXTURES: 'f3d5e43de5d4177c4baf2f44161554473a3b0be5430998b5fcd826af943afe3'
+  PRICE: 12600
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 2
+7:
+  COMMAND: 'console:cc open shield {player}'
+  NAME: '   &6&lКейс с щитами'
+  LORE:
+    - '&fЦена кейса: &6⛂11000'
+    - '&fБаланс: &6⛂%vault_eco_balance_fixed%'
+    - ''
+    - '   &a[НАЖМИТЕ ЧТОБЫ ОТКРЫТЬ] {papi}'
+  ID: 'skull:3'
+  TEXTURES: '73a11792ac79f382449abe1c6b8defb40dc5654fc8f4e4180927097c6a864'
+  PRICE: 11000
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 2
+8:
+  COMMAND: 'console:cc open XP {player}'
+  NAME: '   &6&lКейс с опытом'
+  LORE:
+    - '&fЦена кейса: &6⛂2275'
+    - '&fБаланс: &6⛂%vault_eco_balance_fixed%'
+    - ''
+    - '   &a[НАЖМИТЕ ЧТОБЫ ОТКРЫТЬ] {papi}'
+  ID: 'skull:3'
+  TEXTURES: '95732d3e57b9a62159b35d2754574452a32b4c221fc4fd363bff522ff04a577e'
+  PRICE: 2275
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 3
+9:
+  COMMAND: 'console:cc open Money {player}'
+  NAME: '   &6&lКейс с Монетками'
+  LORE:
+    - '&fЦена кейса: &6⛂5000'
+    - '&fБаланс: &6⛂%vault_eco_balance_fixed%'
+    - ''
+    - '   &a[НАЖМИТЕ ЧТОБЫ ОТКРЫТЬ] {papi}'
+  ID: 'skull:3'
+  TEXTURES: '9daf65771efd5d3047d4ee46054c4e7c378dc961d8f2be93d13a9dd9568e'
+  PRICE: 5000
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 3
+10:
+  COMMAND: 'console:cc open creditscase {player}'
+  NAME: '   &6&lКейс с кредитами'
+  LORE:
+    - '&fЦена кейса: &6⛂22000'
+    - '&fБаланс: &6⛂%vault_eco_balance_fixed%'
+    - ''
+    - '   &a[НАЖМИТЕ ЧТОБЫ ОТКРЫТЬ] {papi}'
+  ID: 'skull:3'
+  TEXTURES: 'c31b161770f020237b4aa1e928c5480c8b36cbfe3a6aab9e22e557c1d910'
+  PRICE: 22000
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 3
+11:
+  COMMAND: 'console:cc open bog_instr {player}'
+  NAME: '   &6&lКейс с инструментами бога'
+  LORE:
+    - '&fЦена кейса: &6⛂8400'
+    - '&fБаланс: &6⛂%vault_eco_balance_fixed%'
+    - ''
+    - '   &a[НАЖМИТЕ ЧТОБЫ ОТКРЫТЬ] {papi}'
+  ID: 'skull:3'
+  TEXTURES: 'aaa368365b603375d5cdda9daa924b964b1f118a7250187a696a07ff18cf02'
+  PRICE: 8400
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 3
+12:
+  COMMAND: 'console:cc open bog_sword {player}'
+  NAME: '   &6&lКейс с Оружием Бога'
+  LORE:
+    - '&fЦена кейса: &6⛂15600'
+    - '&fБаланс: &6⛂%vault_eco_balance_fixed%'
+    - ''
+    - '   &a[НАЖМИТЕ ЧТОБЫ ОТКРЫТЬ] {papi}'
+  ID: 'skull:3'
+  TEXTURES: '45e83064a2ea2b25641241345339b115599af01e7669101d82f35ab6ced2e8'
+  PRICE: 15600
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 3
+13:
+  COMMAND: 'console:cc open bog_arm1 {player}'
+  NAME: '   &6&lКейс Бога 1LVL'
+  LORE:
+    - '&fЦена кейса: &6⛂9450'
+    - '&fБаланс: &6⛂%vault_eco_balance_fixed%'
+    - ''
+    - '   &a[НАЖМИТЕ ЧТОБЫ ОТКРЫТЬ] {papi}'
+  ID: 'skull:3'
+  TEXTURES: 'f7bf02390d3f3f4cce4bfedc3c190484138a3174d8541a8fd912ebb2147fcc0e'
+  PRICE: 9450
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 4
+14:
+  COMMAND: 'console:cc open bog_arm2 {player}'
+  NAME: '   &6&lКейс Бога 2LVL'
+  LORE:
+    - '&fЦена кейса: &6⛂12000'
+    - '&fБаланс: &6⛂%vault_eco_balance_fixed%'
+    - ''
+    - '   &a[НАЖМИТЕ ЧТОБЫ ОТКРЫТЬ] {papi}'
+  ID: 'skull:3'
+  TEXTURES: '29286187f1534b93c268e6fae988e6d7d8ef4e1721a893c53c1a155de4ee62'
+  PRICE: 12000
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 4
+15:
+  COMMAND: 'console:cc open bog_arm3 {player}'
+  NAME: '   &6&lКейс Бога 3LVL'
+  LORE:
+    - '&fЦена кейса: &6⛂14000'
+    - '&fБаланс: &6⛂%vault_eco_balance_fixed%'
+    - ''
+    - '   &a[НАЖМИТЕ ЧТОБЫ ОТКРЫТЬ] {papi}'
+  ID: 'skull:3'
+  TEXTURES: '3d80617f6b451d0c2fbc1bb939cfeffa06fa375dc57d5e8f61b8e3fa40452b4b'
+  PRICE: 14000
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 4
+16:
+  COMMAND: 'console:cc open bog_arm4 {player}'
+  NAME: '   &6&lКейс Бога 4LVL'
+  LORE:
+    - '&fЦена кейса: &6⛂16100'
+    - '&fБаланс: &6⛂%vault_eco_balance_fixed%'
+    - ''
+    - '   &a[НАЖМИТЕ ЧТОБЫ ОТКРЫТЬ] {papi}'
+  ID: 'skull:3'
+  TEXTURES: '8fe8daffe35ca1832ff99eead4617a369ea033c24b8253f511fd8b91737a7e'
+  PRICE: 16100
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 5
+17:
+  COMMAND: 'console:cc open bog_arm5 {player}'
+  NAME: '   &6&lКейс Бога 5LVL'
+  LORE:
+    - '&fЦена кейса: &6⛂19999'
+    - '&fБаланс: &6⛂%vault_eco_balance_fixed%'
+    - ''
+    - '   &a[НАЖМИТЕ ЧТОБЫ ОТКРЫТЬ] {papi}'
+  ID: 'skull:3'
+  TEXTURES: '9c96be7886eb7df75525a363e5f549626c21388f0fda988a6e8bf487a53'
+  PRICE: 19999
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 6
+18:
+  NAME: '&7???'
+  LORE:
+    - ''
+  ID: 'skull:3'
+  TEXTURES: '4e435652835592b46a24148b4ca742a4bdf8f678d7d70a38792738b85cd33'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 6

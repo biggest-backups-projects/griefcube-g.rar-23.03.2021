@@ -1,0 +1,259 @@
+menu-settings:
+   name: '&0Кредитная лавка › Всё для PvP'
+   open-action: 'sound: BLOCK_STONE_BUTTON_CLICK_ON, 10, 10'
+   rows: 5
+
+item0:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 1
+   POSITION-Y: 1
+
+item1:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 2
+   POSITION-Y: 1
+
+item2:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 3
+   POSITION-Y: 1
+
+item3:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 4
+   POSITION-Y: 1
+
+item4:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 5
+   POSITION-Y: 1
+
+item5:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 6
+   POSITION-Y: 1
+
+item6:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 7
+   POSITION-Y: 1
+
+item7:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 8
+   POSITION-Y: 1
+
+item8:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 9
+   POSITION-Y: 1
+
+item9:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 1
+   POSITION-Y: 2
+
+item10:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 2
+   POSITION-Y: 2
+
+item11:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 3
+   POSITION-Y: 2
+
+item12:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 4
+   POSITION-Y: 2
+
+item13:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 5
+   POSITION-Y: 2
+
+item14:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 6
+   POSITION-Y: 2
+
+item15:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 7
+   POSITION-Y: 2
+
+item16:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 8
+   POSITION-Y: 2
+
+item17:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 9
+   POSITION-Y: 2
+
+item18:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 1
+   POSITION-Y: 3
+
+item19:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 2
+   POSITION-Y: 3
+
+item20:
+   COMMAND:  'console:lgive SHIELD_legacy {player};console:tm msg {player} &eЩит \n &6&l[!] &fУспешно куплен за &6㉿&e30;console:sound {player} UI_TOAST_CHALLENGE_COMPLETE 10 5'
+   NAME: '&6 &eЩит &6 &8⁙ &eЛегендарный'
+   LORE:
+     - ''
+     - ' &6◎ &eРегенирирует &fваше здоровье '
+     - '   &fпока держите в руке'
+     - ''
+     - '    &8⚏ &fСтоимость&8: &6㉿&e150 '
+   ID: SHIELD
+   POINTS: 150
+   ENCHANTMENT: 'protection, 1'
+   KEEP-OPEN: false
+   POSITION-X: 3
+   POSITION-Y: 3
+
+item21:
+   COMMAND:  'console:lgive SHIELD_war {player};console:tm msg {player} &eЩит \n &6&l[!] &fУспешно куплен за &6㉿&e30;console:sound {player} UI_TOAST_CHALLENGE_COMPLETE 10 5'
+   NAME: '&4 &cЩит &4 &8⁙ &cБоевой'
+   LORE:
+     - ''
+     - ' &4◎ &fУвеличивает ваш &cурон'
+     - '   &cв II раза &fпока держите в руке'
+     - ''
+     - '    &8⚏ &fСтоимость&8: &6㉿&e180 '
+   ID: SHIELD
+   POINTS: 180
+   ENCHANTMENT: 'protection, 1'
+   KEEP-OPEN: false
+   POSITION-X: 4
+   POSITION-Y: 3
+
+item22:
+   COMMAND:  'console:lgive SHIELD_speed {player};console:tm msg {player} &eЩит \n &6&l[!] &fУспешно куплен за &6㉿&e30;console:sound {player} UI_TOAST_CHALLENGE_COMPLETE 10 5'
+   NAME: '&7 &bЩит &7 &8⁙ &bСкоростной'
+   LORE:
+     - ''
+     - ' &b◎ &fУвеличивает вашу &b&nскорость&r'
+     - '   &fв II раза &fпока держите в руке'
+     - ''
+     - '    &8⚏ &fСтоимость&8: &6㉿&e80 '
+   ID: SHIELD
+   POINTS: 80
+   ENCHANTMENT: 'protection, 1'
+   KEEP-OPEN: false
+   POSITION-X: 5
+   POSITION-Y: 3
+
+
+
+item25:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 8
+   POSITION-Y: 3
+
+item26:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 9
+   POSITION-Y: 3
+
+item27:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 1
+   POSITION-Y: 4
+
+item28:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 2
+   POSITION-Y: 4
+
+item29:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 3
+   POSITION-Y: 4
+
+item30:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 4
+   POSITION-Y: 4
+
+STR2:
+  COMMAND: 'open:shoppvp.yml;sound: BLOCK_STONE_BUTTON_CLICK_ON, 10, 10'
+  NAME: '&6&l⚠ &fВернуться'
+  ID: 'skull:3'
+  TEXTURES: '2d9287616343d833e9e7317159caa2cb3e59745113962c1379052ce478884fa'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 5
+
+item32:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 6
+   POSITION-Y: 4
+
+item33:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 7
+   POSITION-Y: 4
+
+item34:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 8
+   POSITION-Y: 4
+
+item35:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 9
+   POSITION-Y: 4
+
+item36:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 1
+   POSITION-Y: 5
+
+item37:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 2
+   POSITION-Y: 5
+
+item38:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 3
+   POSITION-Y: 5
+
+item39:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 4
+   POSITION-Y: 5
+
+item40:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 5
+   POSITION-Y: 4
+
+item41:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 6
+   POSITION-Y: 5
+
+item42:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 7
+   POSITION-Y: 5
+
+item43:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 8
+   POSITION-Y: 5
+
+item44:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 9
+   POSITION-Y: 5
+

@@ -1,0 +1,29 @@
+backend: file
+debug: false
+chat-manager:
+    enable: true
+    passive mode: false
+    message-format: <%prefix%%player%%suffix%> %message%
+    global-message-format: <%prefix%%player%%suffix%> &e%message%
+    ranged-mode: false
+    chat-range: 100.0
+backends:
+  file:
+    users: plugins/SimplePerms/users.json
+    groups: plugins/SimplePerms/groups.json
+  redis:
+    database: 0
+    groupsKey: groups
+    usersKey: users
+  commonstorage:
+    userPrefix: users
+    groupPrefix: groups
+  mysql:
+    username: root
+    password: ''
+    host: localhost
+    port: 3306
+    database: db
+    tables:
+        groups: groups
+        users: users

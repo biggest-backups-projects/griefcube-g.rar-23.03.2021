@@ -1,0 +1,137 @@
+ProtocolLib Dump
+Timestamp: 12/05/19 03:05:41
+
+ProtocolLib Version: ProtocolLib v4.4.0
+Bukkit Version: 1.12.2-R0.1-SNAPSHOT
+Server Version: git-Paper-1618 (MC: 1.12.2)
+Java Version: 1.8.0_212
+
+ProtocolLib: com.comphenix.protocol.ProtocolLib@1ea1a736[
+  statistics=com.comphenix.protocol.metrics.Statistics@3e37174b
+  backgroundCompiler=com.comphenix.protocol.reflect.compiler.BackgroundCompiler@612eafc0
+  packetTask=4
+  tickCounter=77544
+  unhookTask=com.comphenix.protocol.injector.DelayedSingleTask@3c3adeb2
+  configExpectedMod=1
+  updater=com.comphenix.protocol.updater.SpigotUpdater@591fb98b
+  redirectHandler=com.comphenix.protocol.ProtocolLib$2@5f1460ac
+  commandProtocol=com.comphenix.protocol.CommandProtocol@4bd09421
+  commandPacket=com.comphenix.protocol.CommandPacket@21750ca7
+  commandFilter=com.comphenix.protocol.CommandFilter@5822ae3
+  packetLogging=com.comphenix.protocol.PacketLogging@796f2bff
+  skipDisable=false
+  isEnabled=true
+  loader=org.bukkit.plugin.java.JavaPluginLoader@3651c96f
+  server=CraftServer{serverName=Paper,serverVersion=git-Paper-1618,minecraftVersion=1.12.2}
+  file=plugins/ProtocolLib.jar
+  description=org.bukkit.plugin.PluginDescriptionFile@2b090b0e
+  dataFolder=plugins/ProtocolLib
+  classLoader=org.bukkit.plugin.java.PluginClassLoader@455ba889
+  naggable=true
+  newConfig=YamlConfiguration[path='', root='YamlConfiguration']
+  configFile=plugins/ProtocolLib/config.yml
+  logger=com.destroystokyo.paper.utils.PaperPluginLogger@139b43fa
+]
+Manager: com.comphenix.protocol.injector.PacketFilterManager@6bf20be4[
+  unhookTask=com.comphenix.protocol.injector.DelayedSingleTask@3c3adeb2
+  packetListeners=[PacketAdapter[plugin=ItemFixer, sending=EMPTY_WHITELIST, receiving=ListeningWhitelist[priority=HIGHEST, packets=[CUSTOM_PAYLOAD[class=PacketPlayInCustomPayload, id=10], SET_CREATIVE_SLOT[class=PacketPlayInSetCreativeSlot, id=36]], gamephase=PLAYING, options=[]]], PacketAdapter[plugin=SystemBoard, sending=ListeningWhitelist[priority=NORMAL, packets=[SCOREBOARD_OBJECTIVE[class=PacketPlayOutScoreboardObjective, id=69], SCOREBOARD_DISPLAY_OBJECTIVE[class=PacketPlayOutScoreboardDisplayObjective, id=62], SCOREBOARD_SCORE[class=PacketPlayOutScoreboardScore, id=72]], gamephase=PLAYING, options=[]], receiving=EMPTY_WHITELIST], PacketAdapter[plugin=FastAsyncWorldEdit, sending=ListeningWhitelist[priority=NORMAL, packets=[POSITION[class=PacketPlayOutPosition, id=50]], gamephase=PLAYING, options=[]], receiving=EMPTY_WHITELIST], PacketAdapter[plugin=FastAsyncWorldEdit, sending=ListeningWhitelist[priority=NORMAL, packets=[BLOCK_CHANGE[class=PacketPlayOutBlockChange, id=11]], gamephase=PLAYING, options=[]], receiving=EMPTY_WHITELIST], PacketAdapter[plugin=HolographicDisplays, sending=ListeningWhitelist[priority=NORMAL, packets=[SPAWN_ENTITY[class=PacketPlayOutSpawnEntity, id=0], SPAWN_ENTITY_LIVING[class=PacketPlayOutSpawnEntityLiving, id=3], ENTITY_METADATA[class=PacketPlayOutEntityMetadata, id=63]], gamephase=PLAYING, options=[]], receiving=EMPTY_WHITELIST], PacketAdapter[plugin=FastAsyncWorldEdit, sending=ListeningWhitelist[priority=NORMAL, packets=[ENTITY_VELOCITY[class=PacketPlayOutEntityVelocity, id=65]], gamephase=PLAYING, options=[]], receiving=EMPTY_WHITELIST], PacketAdapter[plugin=FastAsyncWorldEdit, sending=EMPTY_WHITELIST, receiving=ListeningWhitelist[priority=NORMAL, packets=[USE_ITEM[class=PacketPlayInUseItem, id=41]], gamephase=PLAYING, options=[]]], PacketAdapter[plugin=FastAsyncWorldEdit, sending=ListeningWhitelist[priority=NORMAL, packets=[MAP_CHUNK[class=PacketPlayOutMapChunk, id=34]], gamephase=PLAYING, options=[]], receiving=EMPTY_WHITELIST], PacketAdapter[plugin=FastAsyncWorldEdit, sending=ListeningWhitelist[priority=NORMAL, packets=[MULTI_BLOCK_CHANGE[class=PacketPlayOutMultiBlockChange, id=15]], gamephase=PLAYING, options=[]], receiving=EMPTY_WHITELIST], PacketAdapter[plugin=FastAsyncWorldEdit, sending=EMPTY_WHITELIST, receiving=ListeningWhitelist[priority=NORMAL, packets=[BLOCK_DIG[class=PacketPlayInBlockDig, id=24]], gamephase=PLAYING, options=[]]], PacketAdapter[plugin=FastAsyncWorldEdit, sending=EMPTY_WHITELIST, receiving=ListeningWhitelist[priority=NORMAL, packets=[BLOCK_PLACE[class=PacketPlayInBlockPlace, id=42]], gamephase=PLAYING, options=[]]]]
+  packetInjector=com.comphenix.protocol.injector.netty.ProtocolInjector$5@8402cef
+  playerInjection=com.comphenix.protocol.injector.netty.ProtocolInjector$4@6cf70b41
+  interceptWritePacket=com.comphenix.protocol.injector.packet.InterceptWritePacket@25ba01b6
+  inputBufferedPackets=[]
+  recievedListeners=com.comphenix.protocol.injector.SortedPacketListenerList@5eec83ce
+  sendingListeners=com.comphenix.protocol.injector.SortedPacketListenerList@5742eba8
+  hasClosed=false
+  classLoader=org.bukkit.plugin.java.PluginClassLoader@455ba889
+  reporter=com.comphenix.protocol.ProtocolLib$1@3bb4f02
+  server=CraftServer{serverName=Paper,serverVersion=git-Paper-1618,minecraftVersion=1.12.2}
+  library=ProtocolLib v4.4.0
+  asyncFilterManager=com.comphenix.protocol.async.AsyncFilterManager@76f94972
+  knowsServerPackets=true
+  knowsClientPackets=true
+  phaseLoginCount=0
+  phasePlayingCount=12
+  packetCreation=true
+  spigotInjector=<null>
+  nettyInjector=com.comphenix.protocol.injector.netty.ProtocolInjector@697a07d0
+  pluginVerifier=com.comphenix.protocol.injector.PluginVerifier@2fb9c9b9
+  hasRecycleDistance=true
+  minecraftVersion=(MC: 1.12.2)
+  loginPackets=com.comphenix.protocol.injector.LoginPackets@5474b988
+  debug=false
+]
+
+Listeners:
+ru.leymooo.fixer.NBTListener@650572e5[
+  plugin=ItemFixer v3.1
+  connectionSide=CLIENT_SIDE
+  receivingWhitelist=ListeningWhitelist[priority=HIGHEST, packets=[CUSTOM_PAYLOAD[class=PacketPlayInCustomPayload, id=10], SET_CREATIVE_SLOT[class=PacketPlayInSetCreativeSlot, id=36]], gamephase=PLAYING, options=[]]
+  sendingWhitelist=EMPTY_WHITELIST
+]
+ru.jampire.systemboard.protocol.PacketListener@53007f92[
+  manager=ru.jampire.systemboard.protocol.PacketSbManager@67f0efac
+  plugin=SystemBoard v1.0
+  connectionSide=SERVER_SIDE
+  receivingWhitelist=EMPTY_WHITELIST
+  sendingWhitelist=ListeningWhitelist[priority=NORMAL, packets=[SCOREBOARD_OBJECTIVE[class=PacketPlayOutScoreboardObjective, id=69], SCOREBOARD_DISPLAY_OBJECTIVE[class=PacketPlayOutScoreboardDisplayObjective, id=62], SCOREBOARD_SCORE[class=PacketPlayOutScoreboardScore, id=72]], gamephase=PLAYING, options=[]]
+]
+com.boydti.fawe.bukkit.listener.CFIPacketListener$6@2e316e53[
+  plugin=FastAsyncWorldEdit v18.11.21-1c17b10-1231-21.5.18
+  connectionSide=SERVER_SIDE
+  receivingWhitelist=EMPTY_WHITELIST
+  sendingWhitelist=ListeningWhitelist[priority=NORMAL, packets=[POSITION[class=PacketPlayOutPosition, id=50]], gamephase=PLAYING, options=[]]
+]
+com.boydti.fawe.bukkit.listener.CFIPacketListener$8@3f32bd41[
+  plugin=FastAsyncWorldEdit v18.11.21-1c17b10-1231-21.5.18
+  connectionSide=SERVER_SIDE
+  receivingWhitelist=EMPTY_WHITELIST
+  sendingWhitelist=ListeningWhitelist[priority=NORMAL, packets=[BLOCK_CHANGE[class=PacketPlayOutBlockChange, id=11]], gamephase=PLAYING, options=[]]
+]
+com.gmail.filoghost.holographicdisplays.bridge.protocollib.current.ProtocolLibHookImpl$1@37117285[
+  plugin=HolographicDisplays v2.2.6
+  connectionSide=SERVER_SIDE
+  receivingWhitelist=EMPTY_WHITELIST
+  sendingWhitelist=ListeningWhitelist[priority=NORMAL, packets=[SPAWN_ENTITY[class=PacketPlayOutSpawnEntity, id=0], SPAWN_ENTITY_LIVING[class=PacketPlayOutSpawnEntityLiving, id=3], ENTITY_METADATA[class=PacketPlayOutEntityMetadata, id=63]], gamephase=PLAYING, options=[]]
+]
+com.boydti.fawe.bukkit.listener.CFIPacketListener$5@609961fd[
+  plugin=FastAsyncWorldEdit v18.11.21-1c17b10-1231-21.5.18
+  connectionSide=SERVER_SIDE
+  receivingWhitelist=EMPTY_WHITELIST
+  sendingWhitelist=ListeningWhitelist[priority=NORMAL, packets=[ENTITY_VELOCITY[class=PacketPlayOutEntityVelocity, id=65]], gamephase=PLAYING, options=[]]
+]
+com.boydti.fawe.bukkit.listener.CFIPacketListener$8@44d6068[
+  plugin=FastAsyncWorldEdit v18.11.21-1c17b10-1231-21.5.18
+  connectionSide=CLIENT_SIDE
+  receivingWhitelist=ListeningWhitelist[priority=NORMAL, packets=[USE_ITEM[class=PacketPlayInUseItem, id=41]], gamephase=PLAYING, options=[]]
+  sendingWhitelist=EMPTY_WHITELIST
+]
+com.boydti.fawe.bukkit.listener.CFIPacketListener$4@4975875f[
+  plugin=FastAsyncWorldEdit v18.11.21-1c17b10-1231-21.5.18
+  connectionSide=SERVER_SIDE
+  receivingWhitelist=EMPTY_WHITELIST
+  sendingWhitelist=ListeningWhitelist[priority=NORMAL, packets=[MAP_CHUNK[class=PacketPlayOutMapChunk, id=34]], gamephase=PLAYING, options=[]]
+]
+com.boydti.fawe.bukkit.listener.CFIPacketListener$7@63aaa7f1[
+  plugin=FastAsyncWorldEdit v18.11.21-1c17b10-1231-21.5.18
+  connectionSide=SERVER_SIDE
+  receivingWhitelist=EMPTY_WHITELIST
+  sendingWhitelist=ListeningWhitelist[priority=NORMAL, packets=[MULTI_BLOCK_CHANGE[class=PacketPlayOutMultiBlockChange, id=15]], gamephase=PLAYING, options=[]]
+]
+com.boydti.fawe.bukkit.listener.CFIPacketListener$8@c25dbe9[
+  plugin=FastAsyncWorldEdit v18.11.21-1c17b10-1231-21.5.18
+  connectionSide=CLIENT_SIDE
+  receivingWhitelist=ListeningWhitelist[priority=NORMAL, packets=[BLOCK_DIG[class=PacketPlayInBlockDig, id=24]], gamephase=PLAYING, options=[]]
+  sendingWhitelist=EMPTY_WHITELIST
+]
+com.boydti.fawe.bukkit.listener.CFIPacketListener$8@1d674c99[
+  plugin=FastAsyncWorldEdit v18.11.21-1c17b10-1231-21.5.18
+  connectionSide=CLIENT_SIDE
+  receivingWhitelist=ListeningWhitelist[priority=NORMAL, packets=[BLOCK_PLACE[class=PacketPlayInBlockPlace, id=42]], gamephase=PLAYING, options=[]]
+  sendingWhitelist=EMPTY_WHITELIST
+]
+
+Plugins Using ProtocolLib:
+ItemFixer by [Leymooo]
+FastAsyncWorldEdit by [Empire92]
+SystemBoard by [Jampire]
+HolographicDisplays by []

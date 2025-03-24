@@ -1,0 +1,171 @@
+groups:
+  50k:
+    display: 50㉿
+    message: |
+      &7&m                             &r
+      &6&l[!] &7Игрок &6&l%player &7купил на сайте: &6%donate
+      &6&l[!] &7Сайт для покупки: &6&lGriefCube.Ru
+      &7&m                             &r
+    command: p give %player 50
+  100k:
+    display: 100㉿
+    message: |
+      &7&m                             &r
+      &6&l[!] &7Игрок &6&l%player &7купил на сайте: &6%donate
+      &6&l[!] &7Сайт для покупки: &6&lGriefCube.Ru
+      &7&m                             &r
+    command: p give %player 100
+  300k:
+    display: 300㉿
+    message: |
+      &7&m                             &r
+      &6&l[!] &7Игрок &6&l%player &7купил на сайте: &6%donate
+      &6&l[!] &7Сайт для покупки: &6&lGriefCube.Ru
+      &7&m                             &r
+    command: p give %player 300
+  500k:
+    display: 500㉿
+    message: |
+      &7&m                             &r
+      &6&l[!] &7Игрок &6&l%player &7купил на сайте: &6%donate
+      &6&l[!] &7Сайт для покупки: &6&lGriefCube.Ru
+      &7&m                             &r
+    command: p give %player 500
+  dc1:
+    display: 1 ключ от донат-кейса
+    message: |
+      &r
+      &7&m                                                 &r
+      &6&l[!] &fИгрок &6&l%player &fкупил: &6&l%group
+      &6&l[!] &fСайт для покупки: &6&lGriefCube.Ru
+      &7&m                                                 &r
+      &r
+    command: dc givekey %player case1 1
+  dc2:
+    display: 3 ключа от донат-кейса
+    message: |
+      &r
+      &7&m                                                 &r
+      &6&l[!] &fИгрок &6&l%player &fкупил: &6&l%group
+      &6&l[!] &fСайт для покупки: &6&lGriefCube.Ru
+      &7&m                                                 &r
+      &r
+    command: dc givekey %player case1 3
+  dc3:
+    display: 10 ключей от донат-кейса
+    message: |
+      &r
+      &7&m                                                 &r
+      &6&l[!] &fИгрок &6&l%player &fкупил: &6&l%group
+      &6&l[!] &fСайт для покупки: &6&lGriefCube.Ru
+      &7&m                                                 &r
+      &r
+    command: dc givekey %player case1 10
+  credits:
+    display: '%value㉿'
+    message: |
+      &7&m                                                 &r
+      &6&l[!] &fИгрок &6&l%player &fкупил: &6%group
+      &6&l[!] &fСайт для покупки: &6&lGriefCube.Ru
+      &7&m                                                 &r
+    command: p give %player 50
+  coins:
+    display: '%value⛂'
+    message: |
+      &r
+      &7&m                                                 &r
+      &6&l[!] &fИгрок &6&l%player &fкупил: &6%group
+      &6&l[!] &fСайт для покупки: &6&lGriefCube.Ru
+      &7&m                                                 &r
+      &r
+    command: eco give %player 10000
+  prefix:
+    display: 1 Ключ от кейса кастомизации
+    message: |
+      &r
+      &7&m                                                 &r
+      &6&l[!] &fИгрок &6&l%player &fкупил: &6&l%group
+      &6&l[!] &fСайт для покупки: &6&lGriefCube.Ru
+      &7&m                                                 &r
+      &r
+    command: gocases addkey %player donate 1
+  prefix3:
+    display: 3 Ключ от кейса кастомизации
+    message: |
+      &r
+      &7&m                                                 &r
+      &6&l[!] &fИгрок &6&l%player &fкупил: &6&l%group
+      &6&l[!] &fСайт для покупки: &6&lGriefCube.Ru
+      &7&m                                                 &r
+      &r
+    command: gocases addkey %player donate 3
+  prefix10:
+    display: 10 Ключ от кейса кастомизации
+    message: |
+      &r
+      &7&m                                                 &r
+      &6&l[!] &fИгрок &6&l%player &fкупил: &6&l%group
+      &6&l[!] &fСайт для покупки: &6&lGriefCube.Ru
+      &7&m                                                 &r
+      &r
+    command: gocases addkey %player donate 10
+  warlock:
+    display: '&6&lWARLOCK'
+    message: |
+      &r
+      &7&m                                                 &r
+      &6&l[!] &fИгрок &6&l%player &fкупил: &6&l%group
+      &6&l[!] &fСайт для покупки: &6&lGriefCube.Ru
+      &7&m                                                 &r
+      &r
+    command: user %player setgroup warlock
+  berserk:
+    display: '&e&lBERSERK'
+    message: |
+      &r
+      &7&m                                                 &r
+      &6&l[!] &fИгрок &6&l%player &fкупил: &6&l%group
+      &6&l[!] &fСайт для покупки: &6&lGriefCube.Ru
+      &7&m                                                 &r
+      &r
+    command: user %player setgroup berserk
+  dark:
+    display: '&7&lDARK'
+    message: |
+      &r
+      &7&m                                                 &r
+      &6&l[!] &fИгрок &6&l%player &fкупил: &6&l%group
+      &6&l[!] &fСайт для покупки: &6&lGriefCube.Ru
+      &7&m                                                 &r
+      &r
+    command: user %player setgroup dark
+  titan:
+    display: '&c&lTITAN'
+    message: |
+      &r
+      &7&m                                                 &r
+      &6&l[!] &fИгрок &6&l%player &fкупил: &6&l%group
+      &6&l[!] &fСайт для покупки: &6&lGriefCube.Ru
+      &7&m                                                 &r
+      &r
+    command: user %player setgroup titan
+  god:
+    display: '&b&lGOD'
+    message: |
+      &r
+      &7&m                                                 &r
+      &6&l[!] &fИгрок &6&l%player &fкупил: &6&l%group
+      &6&l[!] &fСайт для покупки: &6&lGriefCube.Ru
+      &7&m                                                 &r
+      &r
+    command: user %player setgroup god
+  ares:
+    display: '&4&lARES'
+    message: |
+      &r
+      &7&m                                                 &r
+      &6&l[!] &fИгрок &6&l%player &fкупил: &6&l%group
+      &6&l[!] &fСайт для покупки: &6&lGriefCube.Ru
+      &7&m                                                 &r
+      &r
+    command: user %player setgroup ares

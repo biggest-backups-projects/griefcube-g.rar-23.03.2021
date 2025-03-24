@@ -1,0 +1,384 @@
+boards:
+  main:
+    '9': §d§m╴ ╴§b§m
+    '8': §6⋅ §fПлюшки§7 §a/gadget
+    '7': §6⋅ §fСемья§7 §a/family
+    '6': §6⋅ §fПитомцы§7 §a/pet
+    '5': §6⋅ §fМеню варпов§7 §a/warp
+    '4': §6ꉩ §bЛегендарное§7 §e/legacy
+    '3': §d§m §b§m
+    '2': §d
+    '1': §c⚠ §eДонат§7 §b/donate
+ranks:
+  '1': §f[Новичок]
+  '2': §3[Бывалый]
+  '3': §6[Офицер]
+  '4': §4[Командир]
+  '5': §a[Генерал]
+  '6': §d[Легенда]
+  '7': §b[Модератор]
+  '8': §e[Заместитель]
+  '9': §c[Глава]
+clans:
+  '&c⇝FAKE⇜':
+    identifier: 69159
+    owner: L0SS_K1LL
+    players:
+    - TheLofty:7:26000:1577913969411
+    - SWOP:1:0:1577992004493
+    - danilka221212:1:0:1577969095794
+    - L0SS_K1LL:9:159649:1577779274185
+    - LilBoPeep1:7:0:1577807477420
+    raiting: 0
+    balance: 830
+  '&1&n&lFSB':
+    identifier: 92798
+    owner: TheVolkGeyming
+    players:
+    - NAGIBATOROOO:1:0:1577868431226
+    - _Kommy_:1:0:1577787068457
+    - TheVolkGeyming:9:100000:1577783277308
+    - TheVolkGaming:1:0:1577871521649
+    raiting: 0
+    balance: 100000
+  xxjokerxx:
+    identifier: 19208
+    owner: GucciGang_
+    players:
+    - GucciGang_:9:556970:1577787591712
+    raiting: 0
+    balance: 2
+  '&m&4Topers':
+    identifier: 86515
+    owner: xa0cit
+    players:
+    - Myxa228337:1:23154:1577787858202
+    - xa0cit:9:15926:1577787817569
+    raiting: 0
+    balance: 26917
+  '&cPvPToP&c':
+    identifier: 27849
+    owner: Blazeeh
+    players:
+    - Zamorozka1337:8:5924:1577788964165
+    - omon21:7:0:1577856251146
+    - Blazeeh:9:277803:1577788948951
+    - MCMAKCY:1:4500:1577955505751
+    - MCMAKC:8:8100:1577799571809
+    - TooPro:8:9162:1577800554661
+    - JustPro:1:0:1578125326097
+    raiting: 0
+    balance: 70624
+    home: world;482.1097999370813;63.0;-693.6515908910343;85.77594;4.200021
+  '&6&lＲＡＩＮ':
+    identifier: 51369
+    owner: danillookYTT
+    players:
+    - Geekofail:1:159000:1577796110971
+    - danillookYTT:9:1129595:1577795778759
+    - SqdForDer:2:96100:1577796166473
+    - Mauknorton:1:71698:1577798920232
+    raiting: 0
+    balance: 500000
+  '&6&lⓇⒺⓈＰＥＣＴ':
+    identifier: 18586
+    owner: BugSone
+    players:
+    - BugSone:9:276035:1577800938468
+    - _Ares_:1:0:1577813691188
+    - Timurka_Top:1:0:1577820667487
+    - YunoKnight_:1:0:1577821340039
+    raiting: 0
+    balance: 5920
+  '&4&3Volki':
+    identifier: 81810
+    owner: MrFix_mix
+    players:
+    - Atlan11:1:0:1577952569237
+    - crn123456:1:0:1578126906678
+    - MrFix_mix:9:109000:1577801231990
+    - _MaHDaRiNKa_:1:0:1578020311617
+    - BlackBorn:1:400:1578127303641
+    - bars:1:10100:1577856304297
+    raiting: 0
+    balance: 400
+  SamSapvP:
+    identifier: 69807
+    owner: xXxSamSaxXx
+    players:
+    - xXxSamSaxXx:9:3721:1577815536380
+    - I3e4Ho_MoJIoD:1:0:1577815606181
+    raiting: 0
+    balance: 4500
+    home: world;-58.55248141964337;67.0;-351.447945156321;45.41201;89.88169
+  '&4&l&mVape':
+    identifier: 65900
+    owner: Ne_Undadada
+    players:
+    - Ne_Undadada:9:57733:1577849325167
+    - morizanto100:1:0:1578128153042
+    - _I_Balera_:8:0:1577859815306
+    - Ve4noMoJIodou:1:0:1578128009170
+    - 1valllka:1:139500:1578040547661
+    - 9_EBAL_BAC_:1:0:1578040795915
+    - begemot_abarmot:1:0:1578040818436
+    - hsero:1:0:1578040963471
+    - xX_4elovek_Xx2:1:0:1577885598492
+    - Diana_lover:1:0:1578128102872
+    - JiuMoH4eGG:1:0:1578128098946
+    - S1ze_:8:0:1577860262677
+    raiting: 0
+    balance: 0
+    home: world;545.7973551734881;74.0;-110.28299269246423;358.6805;12.386529
+  '&4&lHaRD✔':
+    identifier: 76318
+    owner: Top_Dno_228
+    players:
+    - Top_Dno_228:9:598501:1577849560894
+    raiting: 0
+    balance: 100
+    home: world;-321.4844355875748;76.0;342.696147890288;-1.0478301;2.3573928
+  '&4VSB':
+    identifier: 99892
+    owner: pazi2
+    players:
+    - _love_apos_:1:0:1577861829562
+    - BoombaDu:8:1500:1577861487357
+    - wolk01:1:0:1577886195597
+    - _BiR_:1:0:1577865861495
+    - pazi2:9:111012:1577858226049
+    - ANIKYLA72:1:21567:1577947469538
+    raiting: 0
+    balance: 151251
+    home: world;-333.83144607491096;69.0;-154.10321930413085;350.51843;12.994608
+  '&5&nOPG':
+    identifier: 36597
+    owner: lolckek
+    players:
+    - DEKU_777:1:0:1578133003896
+    - MegaDrochka:1:0:1577965871371
+    - Fane_FoxYT:8:0:1577890372182
+    - lolckek:9:0:1577869152873
+    - DarK_CoSmOs:1:0:1577965999281
+    raiting: 0
+    balance: 0
+  '&bSLM':
+    identifier: 79008
+    owner: JaRceey_YT
+    players:
+    - CEKPETHOCTb:1:0:1578149376278
+    - kapr1zzz:6:0:1578069022548
+    - AgroYereal:6:0:1578138742205
+    - _IIpocTo_Wolf:8:0:1577877188284
+    - IIyIIIka:6:0:1578128532971
+    - JaRceey_YT:9:22691:1577876770800
+    raiting: 0
+    balance: 65
+  '&e&nWither':
+    identifier: 23323
+    owner: Sumo222
+    players:
+    - Sumo222:9:191360:1577879293109
+    - 25000:1:0:1577958917605
+    - _POZITIV_02_:8:34049:1577934918816
+    - _PrIzRaK__YT:8:200100:1578049397039
+    - XDshnik:1:5000:1577946861601
+    raiting: 0
+    balance: 200163
+  Mы:
+    identifier: 15509
+    owner: hgfgkfuku
+    players:
+    - hgfgkfuku:9:169200:1577879896119
+    raiting: 0
+    balance: 42270
+  TITAN:
+    identifier: 83641
+    owner: wedtop228
+    players:
+    - FKAmkal:1:0:1578148537372
+    - wedtop228:9:981609:1577884279213
+    - npokc2:1:0:1578147273842
+    - _Offnik_220:1:0:1578146893956
+    raiting: 0
+    balance: 133
+    home: world;-439.2835940581224;65.0;-108.48716205241082;-104.54767;51.449997
+  '&b&lＭＯＯＮ':
+    identifier: 10675
+    owner: Neydachnikkk
+    players:
+    - 12346909:6:0:1577958588395
+    - Neydachnikkk:9:0:1577921753134
+    - LangsKozlovski:8:0:1577921796595
+    - niccc:1:0:1578082459556
+    raiting: 0
+    balance: 0
+  GGWP:
+    identifier: 61328
+    owner: X_PvPGameZ_X
+    players:
+    - X_PvPGameZ_X:9:2500:1577963491463
+    - zlodey2019374:1:0:1578070032552
+    - henne2309:8:0:1577964116881
+    raiting: 0
+    balance: 2500
+  Lis:
+    identifier: 98296
+    owner: 26_ZEWS_26
+    players:
+    - 26_ZEWS_26:9:47773:1577965460651
+    raiting: 0
+    balance: 668
+  '&b&lNeoN':
+    identifier: 61480
+    owner: danillook
+    players:
+    - _zaztoun_:1:0:1577986972502
+    - Toper043:8:0:1577973431529
+    - MikiMaus:8:7818:1577973421500
+    - danillook:9:0:1577973356810
+    raiting: 0
+    balance: 5818
+    home: world;461.5702655094508;79.0;802.6686799054881;-179.74707;-0.60957944
+  '&c&n$OMG$':
+    identifier: 11404
+    owner: TheCoaGamer
+    players:
+    - SPREME_TOP:1:0:1578128391727
+    - TheCoaGamer:9:73420:1577997977705
+    - I_GrozaJETA1228:1:0:1578128384191
+    - Svetozak:2:3400:1578066826143
+    - giparda1208:5:0:1577998274616
+    raiting: 0
+    balance: 31120
+  Dinosaurs:
+    identifier: 50304
+    owner: shelder
+    players:
+    - Dinozawwr:8:522:1578001285617
+    - clarfy:3:0:1578073814380
+    - shelder:9:61242:1578001224935
+    - zlewi33_YT:5:21000:1578057006726
+    - MCMAK:1:0:1578144237086
+    - Mr_Dock:2:0:1578134131358
+    raiting: 0
+    balance: 57564
+    home: world;307.50450043532834;67.0;444.4865342607454;-27.24762;10.144919
+  Ender:
+    identifier: 71141
+    owner: top4ik654
+    players:
+    - top4ik654:9:3075:1578038346217
+    - FayceGames:1:0:1578119963901
+    - 854den89:1:0:1578038826228
+    raiting: 0
+    balance: 3075
+  '&kAVANGER':
+    identifier: 76069
+    owner: pusik_kanapusik
+    players:
+    - cMepTHuk:8:0:1578059551314
+    - pusik_kanapusik:9:43328:1578059448725
+    - topakw:1:0:1578146409629
+    - Ky39I:8:44000:1578059539942
+    raiting: 0
+    balance: 72828
+  TOPpvp:
+    identifier: 67215
+    owner: excFanTom
+    players:
+    - Login_ov:1:100:1578137411783
+    - ikirokox3:1:0:1578135721384
+    - Molnia:1:0:1578149937962
+    - kostie:8:0:1578147402374
+    - excFanTom:9:4884:1578060067913
+    raiting: 0
+    balance: 0
+  '&bEx3m':
+    identifier: 29051
+    owner: Sa1lent
+    players:
+    - Sa1lent:9:0:1578063194941
+    - Zagec_YT:1:0:1578063478794
+    raiting: 0
+    balance: 0
+  '&cDayn':
+    identifier: 82347
+    owner: FineKall
+    players:
+    - FineLOX:1:0:1578066304713
+    - FineKall:9:0:1578066277446
+    raiting: 0
+    balance: 0
+  '&L&1FBI':
+    identifier: 57068
+    owner: Usual
+    players:
+    - Usual:9:208035:1578069858825
+    - LoLiKoNlol:1:0:1578071523939
+    - ___Fox___:1:0:1578079900310
+    - 4iter0k:1:0:1578143196125
+    - xX_SpeedXlava_Xx:1:0:1578079943010
+    - edeIIIulia:1:0:1578071447847
+    - Dinomaster:1:0:1578071489932
+    raiting: 0
+    balance: 35
+  MAREVEL:
+    identifier: 96457
+    owner: 123sergo123
+    players:
+    - Kostynator:1:0:1578094195775
+    - YT_Maks_YT:1:0:1578081298161
+    - 123sergo123:9:0:1578081252716
+    raiting: 0
+    balance: 0
+    home: world;1743.1641960143684;57.0;709.3115270929869;-1.3321195;37.477436
+  Eziki:
+    identifier: 69736
+    owner: DrippinVultex
+    players:
+    - Phask:8:0:1578137144002
+    - LoFFuS___:1:0:1578130369183
+    - xX_LuckyYT_Xx:1:0:1578130390001
+    - Its_Hawkey:1:0:1578130441840
+    - DrippinVultex:9:166864:1578084586860
+    raiting: 0
+    balance: 33864
+  '&a&lᴵᴸᴬ':
+    identifier: 15775
+    owner: Cageee_v2
+    players:
+    - Barumba:8:0:1578085816020
+    - Cageee_v2:9:0:1578085773661
+    - yotiks:1:0:1578085880837
+    raiting: 0
+    balance: 0
+  '&l&4&n▸DROP◂':
+    identifier: 11146
+    owner: Alphaboy007_
+    players:
+    - Alphaboy007_:9:0:1578086735408
+    raiting: 0
+    balance: 0
+  '&1&l&mGrieF':
+    identifier: 99381
+    owner: TheDraKonGaminG
+    players:
+    - HIPPI:1:0:1578125405500
+    - ty13:1:0:1578127052390
+    - TheDraKonGaminG:9:0:1578125326749
+    - 120m:1:0:1578125534011
+    - anime01:1:0:1578126682253
+    - FLOSKER_YT:1:0:1578125690657
+    - SanyaYT58:1:0:1578126291639
+    - fane_top:1:0:1578126304529
+    raiting: 0
+    balance: 0
+    home: world;-508.4494919731291;65.0;-397.3006189117326;180.23126;1.3258834
+  '&4&n&lSibir':
+    identifier: 58797
+    owner: _kira_sibir_
+    players:
+    - _kira_sibir_:9:0:1578144947240
+    raiting: 0
+    balance: 0

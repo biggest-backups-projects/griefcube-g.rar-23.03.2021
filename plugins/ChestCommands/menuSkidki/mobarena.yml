@@ -1,0 +1,33 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: 'МобАрена'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: 'mobstart'
+  
+yes:
+  COMMAND: 'ma j'
+  NAME: '&a[НАЧАТЬ ИГРУ]'
+  KEEP-OPEN: false
+  ID: 'skull:3'
+  TEXTURES: 'e9e4bdcf172d5dc77c2bd4e37ad985399a9f2cdebf72463929ea4b666ef6f80'
+  POSITION-X: 3
+  POSITION-Y: 2
+no:
+  COMMAND: 'tell:&8«&aМобАрена&8» &fВы отменили игру'
+  NAME: '&c[ОТКЛОНИТЬ ИГРУ]'
+  KEEP-OPEN: false
+  ID: 'skull:3'
+  TEXTURES: '5fde3bfce2d8cb724de8556e5ec21b7f15f584684ab785214add164be7624b'
+  POSITION-X: 7
+  POSITION-Y: 2

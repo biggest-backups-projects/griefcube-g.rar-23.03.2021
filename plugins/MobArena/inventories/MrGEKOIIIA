@@ -1,0 +1,49 @@
+items:
+- ==: org.bukkit.inventory.ItemStack
+  type: WOOD_AXE
+  damage: 2
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+armor:
+- null
+- null
+- null
+- null

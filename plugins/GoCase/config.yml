@@ -1,0 +1,387 @@
+messages:
+  setcase: '&fКейс установлен, на $x $y $z'
+  not-key: §6§l[Кейсы] §fУ вас нет ключей! Купить ключи можно сайте &6&l&nGriefCube.ru&r
+  already-open: §6§l[Кейсы] §f Данный &6кейс &fуже открывают!
+  remain-keys: §6§l[Кейсы] §f У вас осталось&6 $keys
+mysql:
+  host: ''
+  user: ''
+  password: ''
+  database: ''
+case-material: '120'
+broadcast: '§6§l[Кейсы] &fИгроку &6$player &fиз кейса выпала кастомизация&f: $group &7(/custom)'
+cases:
+  donate:
+    location: spawn -29 22 72
+    stacks:
+      p1:
+        id: '421'
+        name: '&fПрефикс &e&lЩВАРЦ'
+        command:
+        - user $player add prefix.1
+        - user $player add prefix.clear
+        chance: 30
+      p2:
+        id: '421'
+        name: '&fПрефикс &5&lЧСВ'
+        command:
+        - user $player add prefix.2
+        - user $player add prefix.clear
+        chance: 30
+      p3:
+        id: '421'
+        name: '&fПрефикс &b&lПИЛОТ'
+        command:
+        - user $player add prefix.3
+        - user $player add prefix.clear
+        chance: 30
+      p4:
+        id: '421'
+        name: '&fПрефикс &d&lЭНДЕР'
+        command:
+        - user $player add prefix.4
+        - user $player add prefix.clear
+        chance: 30
+      p5:
+        id: '421'
+        name: '&fПрефикс &c&lСЕКС'
+        command:
+        - user $player add prefix.5
+        - user $player add prefix.clear
+        chance: 30
+      p6:
+        id: '421'
+        name: '&fПрефикс &a&lАГЕНТ'
+        command:
+        - user $player add prefix.6
+        - user $player add prefix.clear
+        chance: 30
+      p7:
+        id: '421'
+        name: '&fПрефикс &3&lСВЯЗИСТ'
+        command:
+        - user $player add prefix.7
+        - user $player add prefix.clear
+        chance: 30
+      p8:
+        id: '421'
+        name: '&fПрефикс &3&lАНГЕЛ'
+        command:
+        - user $player add prefix.8
+        - user $player add prefix.clear
+        chance: 30
+      p9:
+        id: '421'
+        name: '&fПрефикс &e&lКАСИР'
+        command:
+        - user $player add prefix.9
+        - user $player add prefix.clear
+        chance: 30
+      p10:
+        id: '421'
+        name: '&fПрефикс &e&lЧЕЛОВЕК'
+        command:
+        - user $player add prefix.10
+        - user $player add prefix.clear
+        chance: 30
+      p11:
+        id: '421'
+        name: '&fПрефикс &a&lБАТЯ'
+        command:
+        - user $player add prefix.11
+        - user $player add prefix.clear
+        chance: 30
+      p12:
+        id: '421'
+        name: '&fПрефикс &6&lРЫЦАРЬ'
+        command:
+        - user $player add prefix.12
+        - user $player add prefix.clear
+        chance: 30
+      p13:
+        id: '421'
+        name: '&fПрефикс &b&lКАПРАЛ'
+        command:
+        - user $player add prefix.13
+        - user $player add prefix.clear
+        chance: 30
+      p14:
+        id: '421'
+        name: '&fПрефикс &b&lАЛЬФАЧ'
+        command:
+        - user $player add prefix.14
+        - user $player add prefix.clear
+        chance: 30
+      p15:
+        id: '421'
+        name: '&fПрефикс &d&lТЯН'
+        command:
+        - user $player add prefix.15
+        - user $player add prefix.clear
+        chance: 30
+      p16:
+        id: '421'
+        name: '&fПрефикс &e&lФАРАОН'
+        command:
+        - user $player add prefix.16
+        - user $player add prefix.clear
+        chance: 30
+      p17:
+        id: '421'
+        name: '&fПрефикс &b&lДИГГЕР'
+        command:
+        - user $player add prefix.17
+        - user $player add prefix.clear
+        chance: 30
+      p18:
+        id: '421'
+        name: '&fПрефикс &a&lМАЙНЕР'
+        command:
+        - user $player add prefix.18
+        - user $player add prefix.clear
+        chance: 30
+      p19:
+        id: '421'
+        name: '&fПрефикс &c&lЛЕСНИК'
+        command:
+        - user $player add prefix.19
+        - user $player add prefix.clear
+        chance: 30
+      p20:
+        id: '421'
+        name: '&fПрефикс &b&lГАСТ'
+        command:
+        - user $player add prefix.20
+        - user $player add prefix.clear
+        chance: 30
+      p21:
+        id: '421'
+        name: '&fПрефикс &6&lБЛЕЙЗ'
+        command:
+        - user $player add prefix.21
+        - user $player add prefix.clear
+        chance: 30
+      p22:
+        id: '421'
+        name: '&fПрефикс &3&lГРУЗЧИК'
+        command:
+        - user $player add prefix.22
+        - user $player add prefix.clear
+        chance: 30
+      p23:
+        id: '421'
+        name: '&fПрефикс &a&lВОИН'
+        command:
+        - user $player add prefix.23
+        - user $player add prefix.clear
+        chance: 30
+      p24:
+        id: '421'
+        name: '&fПрефикс &c&lЗАЩИТНИК'
+        command:
+        - user $player add prefix.24
+        - user $player add prefix.clear
+        chance: 30
+      p25:
+        id: '421'
+        name: '&fПрефикс &b&lЯГА'
+        command:
+        - user $player add prefix.25
+        - user $player add prefix.clear
+        chance: 30
+      p26:
+        id: '421'
+        name: '&fПрефикс &6&lФРЕДБЕР'
+        command:
+        - user $player add prefix.26
+        - user $player add prefix.clear
+        chance: 30
+      p27:
+        id: '421'
+        name: '&fПрефикс &9&lТАНКИСТ'
+        command:
+        - user $player add prefix.27
+        - user $player add prefix.clear
+        chance: 30
+      p28:
+        id: '421'
+        name: '&fПрефикс &a&lЛИЦЕМЕР'
+        command:
+        - user $player add prefix.28
+        - user $player add prefix.clear
+        chance: 30
+      p29:
+        id: '421'
+        name: '&fПрефикс &c&lГРИФЕР'
+        command:
+        - user $player add prefix.29
+        - user $player add prefix.clear
+        chance: 30
+      p30:
+        id: '421'
+        name: '&fПрефикс &c&lХИРУРГ'
+        command:
+        - user $player add prefix.30
+        - user $player add prefix.clear
+        chance: 30
+      p31:
+        id: '421'
+        name: '&fПрефикс &a&lПИПИДАСТР'
+        command:
+        - user $player add prefix.31
+        - user $player add prefix.clear
+        chance: 30
+      p32:
+        id: '421'
+        name: '&fПрефикс &d&lСТРАННЫЙ '
+        command:
+        - user $player add prefix.32
+        - user $player add prefix.clear
+        chance: 30
+      p33:
+        id: '421'
+        name: '&fПрефикс &a&lЧЁТКИЙ '
+        command:
+        - user $player add prefix.33
+        - user $player add prefix.clear
+        chance: 30
+      p34:
+        id: '421'
+        name: '&fПрефикс &b&lГЕНЕРАЛ'
+        command:
+        - user $player add prefix.34
+        - user $player add prefix.clear
+        chance: 30
+      p35:
+        id: '421'
+        name: '&fПрефикс &e&lМЫСЛИТЕЛЬ'
+        command:
+        - user $player add prefix.35
+        - user $player add prefix.clear
+        chance: 30
+      p36:
+        id: '421'
+        name: '&fПрефикс &e&lПОЕХАВШИЙ'
+        command:
+        - user $player add prefix.36
+        - user $player add prefix.clear
+        chance: 30
+      msg1:
+        id: '339'
+        name: '&6&lСообщение 1'
+        command:
+        - user $player add ujoin.1
+        - user $player add ujoin.use
+        chance: 40
+      msg2:
+        id: '339'
+        name: '&6&lСообщение 2'
+        command:
+        - user $player add ujoin.2
+        - user $player add ujoin.use
+        chance: 40
+      msg3:
+        id: '339'
+        name: '&6&lСообщение 3'
+        command:
+        - user $player add ujoin.3
+        - user $player add ujoin.use
+        chance: 40
+      msg4:
+        id: '339'
+        name: '&6&lСообщение 4'
+        command:
+        - user $player add ujoin.4
+        - user $player add ujoin.use
+        chance: 40
+      msg5:
+        id: '339'
+        name: '&6&lСообщение 5'
+        command:
+        - user $player add ujoin.5
+        - user $player add ujoin.use
+        chance: 40
+      msg6:
+        id: '339'
+        name: '&6&lСообщение 6'
+        command:
+        - user $player add ujoin.6
+        - user $player add ujoin.use
+        chance: 40
+      msg7:
+        id: '339'
+        name: '&6&lСообщение 7'
+        command:
+        - user $player add ujoin.7
+        - user $player add ujoin.use
+        chance: 40
+      msg8:
+        id: '339'
+        name: '&6&lСообщение 8'
+        command:
+        - user $player add ujoin.8
+        - user $player add ujoin.use
+        chance: 40
+      msg9:
+        id: '339'
+        name: '&6&lСообщение 9'
+        command:
+        - user $player add ujoin.9
+        - user $player add ujoin.use
+        chance: 40
+      msg10:
+        id: '339'
+        name: '&6&lСообщение 10'
+        command:
+        - user $player add ujoin.10
+        - user $player add ujoin.use
+        chance: 40
+      msg11:
+        id: '339'
+        name: '&6&lСообщение 11'
+        command:
+        - user $player add ujoin.11
+        - user $player add ujoin.use
+        chance: 40
+      msg12:
+        id: '339'
+        name: '&6&lСообщение 12'
+        command:
+        - user $player add ujoin.12
+        - user $player add ujoin.use
+        chance: 40
+      msg13:
+        id: '339'
+        name: '&6&lСообщение 13'
+        command:
+        - user $player add ujoin.13
+        - user $player add ujoin.use
+        chance: 40
+      msg14:
+        id: '339'
+        name: '&6&lСообщение 14'
+        command:
+        - user $player add ujoin.14
+        - user $player add ujoin.use
+        chance: 40
+      msg15:
+        id: '339'
+        name: '&6&lСообщение 15'
+        command:
+        - user $player add ujoin.15
+        - user $player add ujoin.use
+        chance: 40
+      msg16:
+        id: '339'
+        name: '&6&lСообщение 16'
+        command:
+        - user $player add ujoin.16
+        - user $player add ujoin.use
+        chance: 40
+      msg17:
+        id: '339'
+        name: '&6&lСообщение 17'
+        command:
+        - user $player add ujoin.17
+        - user $player add ujoin.use
+        chance: 40

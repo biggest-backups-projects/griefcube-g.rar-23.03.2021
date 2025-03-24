@@ -1,0 +1,4 @@
+[0;3;0]&6&lLatty&f&lCraft
+[0;3;0]&f&lLatty&6&lCraft
+[0;3;0]&6&lLatty&f&lCraft
+[0;3;0]&f&lLatty&6&lCraft

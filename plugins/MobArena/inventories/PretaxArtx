@@ -1,0 +1,59 @@
+items:
+- null
+- ==: org.bukkit.inventory.ItemStack
+  type: GOLD_AXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DURABILITY: 1
+- null
+- null
+- null
+- null
+- null
+- null
+- ==: org.bukkit.inventory.ItemStack
+  type: STONE_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DURABILITY: 1
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+armor:
+- null
+- null
+- null
+- null

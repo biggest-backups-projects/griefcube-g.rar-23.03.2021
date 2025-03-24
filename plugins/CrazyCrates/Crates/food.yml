@@ -1,0 +1,133 @@
+Crate:
+  CrateType: Wonder
+  CrateName: '&0Идёт открытие кейса...'
+  StartingKeys: 0
+  InGUI: true
+  Slot: 14
+  OpeningBroadCast: false
+  BroadCast: '%Prefix%&6&l%Player% &7is opening a &e&lClassic Chest&7.'
+  Item: '54'
+  Glowing: false
+  Name: '▪ Денежный кейс'
+  Lore:
+          - '&7This crate contains classic items.'
+          - '&7You have &6%Keys% keys &7to open this crate with.'
+          - '&7&l(&e&l!&7&l) Right click to view rewards.'
+  PhysicalKey:
+          Name: '&e&lДенежного &e⛂ &e&lкейса'
+          Lore:
+            - '&7A special Key'
+            - '&7For a special Crate.'
+          Item: '131'
+          Glowing: true
+  Prizes:
+    1:
+      MaxRange: 100
+      Commands:
+      - give %Player% melonslice 64 name:Арбуз
+      DisplayName: Арбуз
+      DisplayAmount: 64
+      Chance: 9
+      Glowing: true
+      DisplayItem: 360
+      Lore: object
+    2:
+      MaxRange: 100
+      Commands:
+      - give %Player% carrot 64 name:Морковь
+      DisplayName: Морковь
+      DisplayAmount: 64
+      Chance: 9
+      Glowing: true
+      DisplayItem: 391
+      Lore: object
+    4:
+      MaxRange: 100
+      Commands:
+      - give %Player% cookedsalmonfish:1 64 name:Жареная рыба
+      DisplayName: Жареная рыба
+      DisplayAmount: 64
+      Chance: 9
+      Glowing: true
+      DisplayItem: 350
+      Lore: object
+    5:
+      MaxRange: 100
+      Commands:
+      - give %Player% rawclownfish:2 64 name:Рыба фугу
+      DisplayName: Рыба фугу
+      DisplayAmount: 64
+      Chance: 9
+      Glowing: true
+      DisplayItem: 349
+      Lore: object
+    6:
+      MaxRange: 100
+      Commands:
+      - give %Player% goldenapple 8 name:Золотое Яблоко
+      DisplayName: Золотое Яблоко
+      DisplayAmount: 8
+      Chance: 3
+      Glowing: true
+      DisplayItem: 322
+      Lore: object
+    7:
+      MaxRange: 100
+      Commands:
+      - give %Player% beef 64 name:Жареный Стэйк
+      DisplayName: Жареный Стэйк
+      DisplayAmount: 64
+      Chance: 4
+      Glowing: true
+      DisplayItem: 364
+      Lore: object
+    8:
+      MaxRange: 100
+      Commands:
+      - give %Player% goldencarrot 32 name:Золотая Морковь
+      DisplayName: Золотая Морковь
+      DisplayAmount: 32
+      Chance: 3
+      Glowing: true
+      DisplayItem: 396
+      Lore: object
+    9:
+      MaxRange: 100
+      Commands:
+      - give %Player% bakedpotato 64 name:Жареная Картошка
+      DisplayName: Жареная Картошка
+      DisplayAmount: 64
+      Chance: 9
+      Glowing: true
+      DisplayItem: 393
+      Lore: object
+    10:
+      MaxRange: 100
+      Commands:
+      - give %Player% bread 64 name:Хлеб
+      DisplayName: Хлеб
+      DisplayAmount: 64
+      Chance: 9
+      Glowing: true
+      DisplayItem: 297
+      Lore: object
+    11:
+      MaxRange: 100
+      Commands:
+      - give %Player% rottenflesh 64 name:Гнилая плоть
+      DisplayName: Гнилая плоть
+      DisplayAmount: 64
+      Chance: 9
+      Glowing: true
+      DisplayItem: 367
+      Lore: object
+    12:
+      MaxRange: 100
+      Commands:
+      - give %Player% cookedmutton 64 name:Баранина
+      DisplayName: Баранина
+      DisplayAmount: 64
+      Chance: 9
+      Glowing: true
+      DisplayItem: 424
+      Lore: object

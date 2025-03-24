@@ -1,0 +1,1354 @@
+items:
+  totem_speed:
+    name: '&6Тотем бессмертия &8⎰ &eСкоростной'
+    icon:
+      material: TOTEM
+      data: 0
+      ammount: 1
+    lore:
+      - '&e     [☀] &fМагический &6&lТотем '
+      - '&fимеет возможности которых нет у других тотемов!'
+      - '     &c♮ &fДаёт скорость &6&lII'
+      - '&f'
+    enchants:
+      - 'THORNS:1'
+    effects:
+      - 'SPEED:2'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  totem_war:
+    name: '&6Тотем бессмертия &8⎰ &eБоевой'
+    icon:
+      material: TOTEM
+      data: 0
+      ammount: 1
+    lore:
+      - '&e     [☀] &fМагический &6&lТотем '
+      - '&fимеет возможности которых нет у других тотемов!'
+      - '     &c♮ &fДаёт Силу &6&lII'
+    enchants:
+      - 'THORNS:1'
+    effects:
+      - 'INCREASE_DAMAGE:2'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  totem_legacy:
+    name: '&6Щит &8⎰ &eЛегендарный'
+    icon:
+      material: TOTEM
+      data: 0
+      ammount: 1
+    lore:
+      - '&e         [☀] &fМагический &6&lТотем '
+      - '&fимеет возможности которых нет у других тотемов!'
+      - '&f    Когда он в руке то его владелец'
+      - '&f        получает&8: &c♮ &6&lРегенерацию'
+    enchants:
+      - 'THORNS:1'
+      - 'MENDING:1'
+    effects:
+      - 'REGENERATION:1'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  SHIELD_legacy:
+    name: '&6Щит &8⎰ &eЛегендарный'
+    icon:
+      material: SHIELD
+      data: 0
+      ammount: 1
+    lore:
+      - '&e         [☀] &fМагический &6&lЩит '
+      - '&fимеет возможности которых нет у других щитов!'
+      - '&f    Когда он в руке то его владелец'
+      - '&f        получает&8: &c♮ &6&lРегенерацию'
+    enchants:
+      - 'THORNS:1'
+      - 'MENDING:1'
+    effects:
+      - 'REGENERATION:1'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  SHIELD_speed:
+    name: '&6Щит &8⎰ &eСкоростной'
+    icon:
+      material: SHIELD
+      data: 0
+      ammount: 1
+    lore:
+      - '&e         [☀] &fМагический &6&lЩит '
+      - '&fимеет возможности которых нет у других щитов!'
+      - '&f    Когда он в руке то его владелец'
+      - '&f        получает&8: &c♮ &6&lСкорость II'
+    enchants:
+      - 'THORNS:1'
+      - 'MENDING:1'
+    effects:
+      - 'SPEED:2'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  SHIELD_FIRE:
+    name: '&6Щит &8⎰ &eОгнестойкий'
+    icon:
+      material: SHIELD
+      data: 0
+      ammount: 1
+    lore:
+      - '&e         [☀] &fМагический &6&lЩит '
+      - '&fимеет возможности которых нет у других щитов!'
+      - '&f    Когда он в руке то его владелец'
+      - '&f        получает&8: &c♮ &6&lЗащиу от огня'
+    enchants:
+      - 'THORNS:1'
+      - 'MENDING:1'
+    effects:
+      - 'FIRE_RESISTANCE:2'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  SHIELD_war:
+    name: '&6Щит &8⎰ &eБоевой'
+    icon:
+      material: SHIELD
+      data: 0
+      ammount: 1
+    lore:
+      - '&e         [☀] &fМагический &6&lЩит '
+      - '&fимеет возможности которых нет у других щитов!'
+      - '&f    Когда он в руке то его владелец'
+      - '&f        получает&8: &c♮ &6&lСилу II'
+    enchants:
+      - 'THORNS:1'
+      - 'MENDING:1'
+    effects:
+      - 'INCREASE_DAMAGE:2'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+
+  shield_toper:
+    name: '&6Щит &8⎰ &eтопера'
+    icon:
+      material: SHIELD
+      data: 0
+      ammount: 1
+    lore:
+      - ''
+    enchants:
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+    effects: []
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+
+  shield_bog:
+    name: '&6Щит &8⎰ &eЩит бога '
+    icon:
+      material: SHIELD
+      data: 0
+      ammount: 1
+    lore:
+      - ''
+    enchants:
+      - 'DURABILITY:10'
+      - 'MENDING:1'
+    effects: []
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  shield_ad:
+    name: '&6Щит &8⎰ &eАда'
+    icon:
+      material: SHIELD
+      data: 0
+      ammount: 1
+    lore:
+      - '&e         [☀] &fМагический &6&lЩит '
+      - '&fимеет возможности которых нет у других щитов!'
+      - '&f    Когда он в руке то его владелец'
+      - '&f        получает&8: &c♮ &6&lЗащиу от огня'
+    enchants:
+      - 'MENDING:1'
+      - 'DURABILITY:3'
+    effects:
+      - 'FIRE_RESISTANCE:1'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  totem_ad:
+    name: '&6Тотем бессмертия &8⎰ &eАдский'
+    icon:
+      material: TOTEM
+      data: 0
+      ammount: 1
+    lore:
+      - '&e     [☀] &fМагический &6&lТотем '
+      - '&fимеет возможности которых нет у других тотемов!'
+      - '     &c♮ &fДаёт &6&lЗащиу от огня'
+    enchants:
+      - 'THORNS:1'
+    effects:
+      - 'FIRE_RESISTANCE:1'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  # 4lvl:
+    # name: '&6Ботинки &8⎰ &eБога'
+    # icon:
+      # material: DIAMOND_BOOTS
+      # data: 0
+      # ammount: 1
+    # lore:
+      # - '&e  [☀] &fБотинки &6&lбога'
+      # - '&fимеет возможности которых нет у других Ботинок!'
+      # - '&f'
+      # - '  &c♮ &fДаёт вечный эффект &6&lСкорость II'
+    # enchants:
+      # - 'PROTECTION_PROJECTILE:1'
+      # - 'DURABILITY:3'
+      # - 'MENDING:1'
+      # - 'DEPTH_STRIDER:3'
+      # - 'PROTECTION_FALL:4'
+    # effects:
+      # - 'SPEED:2'
+    # sound: []
+    # functions:
+      # break: true
+      # drop: true
+      # save: false
+  # ponozi:
+    # name: '&6Поножи &8⎰ &eБога'
+    # icon:
+      # material: DIAMOND_LEGGINGS
+      # data: 0
+      # ammount: 1
+    # lore:
+      # - '&e  [☀] &fПоножи &6&lбога'
+      # - '&fимеет возможности которых нет у других Понож!'
+      # - '&f'
+      # - '  &c♮ &fДаёт вечные эффекты: '
+      # - '     &fСкорость &6&lII'
+      # - '     &fИсцеление &6&lIII'
+    # enchants:
+      # - 'PROTECTION_ENVIRONMENTAL:4'
+      # - 'DURABILITY:3'
+      # - 'MENDING:1'
+      # - 'PROTECTION_FIRE:2'
+      # - 'PROTECTION_EXPLOSIONS:2'
+      # - 'PROTECTION_PROJECTILE:2'
+    # effects:
+      # - 'HEALTH_BOOST:1'
+      # - 'FIRE_RESISTANCE:1'
+    # sound: []
+    # functions:
+      # break: true
+      # drop: true
+      # save: false
+  # kurtka:
+    # name: '&6Нагрудник &8⎰ &eБога'
+    # icon:
+      # material: DIAMOND_CHESTPLATE
+      # data: 0
+      # ammount: 1
+    # lore:
+      # - '&e  [☀] &fНагрудник &6&lбога'
+      # - '&fимеет возможности которых нет у других Нагрудников!'
+      # - '&f'
+      # - '  &c♮ &fДаёт вечные эффекты: '
+      # - '     &fОгнестойкость &6&lI'
+      # - '     &fСкорость &6&lII'
+      # - '     &fСила &6&lII'
+    # enchants:
+      # - 'PROTECTION_ENVIRONMENTAL:4'
+      # - 'DURABILITY:3'
+      # - 'MENDING:1'
+      # - 'PROTECTION_FIRE:2'
+      # - 'PROTECTION_EXPLOSIONS:2'
+      # - 'PROTECTION_PROJECTILE:2'
+    # effects:
+      # - 'INCREASE_DAMAGE:2'
+      # - 'SPEED:1'
+      # - 'FIRE_RESISTANCE:1'
+    # sound: []
+    # functions:
+      # break: true
+      # drop: true
+      # save: false
+  # shapka:
+    # name: '&6Шлем &8⎰ &eБога'
+    # icon:
+      # material: DIAMOND_HELMET
+      # data: 0
+      # ammount: 1
+    # lore:
+      # - '&e  [☀] &fШлем &6&lбога'
+      # - '&fимеет возможности которых нет у других Шлем!'
+      # - '&f'
+      # - '  &c♮ &fДаёт вечные эффекты: '
+      # - '     &fНочное зрение &6&lI'
+      # - '     &fУдача &6&lII'
+      # - '     &fНевидимость &6&lI'
+    # enchants:
+      # - 'PROTECTION_ENVIRONMENTAL:4'
+      # - 'DURABILITY:3'
+      # - 'MENDING:1'
+      # - 'PROTECTION_FIRE:2'
+      # - 'PROTECTION_EXPLOSIONS:2'
+      # - 'PROTECTION_PROJECTILE:2'
+      # - 'WATER_WORKER:1'
+    # effects:
+      # - 'NIGHT_VISION:1'
+      # - 'LUCK:2'
+    # sound: []
+    # functions:
+      # break: true
+      # drop: true
+      # save: false
+  # sword:
+    # name: '&6Мечь &8&l⎰ &eбога ⚔'
+    # icon:
+      # material: DIAMOND_SWORD
+      # data: 0
+      # ammount: 1
+    # lore:
+      # - '&e [☀] &fМечь &6&lБога'
+      # - '&fимеет возможности которых нет у других мечей!'
+      # - '&f'
+      # - '  &c♮ &fДаёт вечный эффект &cСила II'
+      # - '&f'
+    # enchants:
+      # - 'KNOCKBACK:1'
+      # - 'FIRE_ASPECT:2'
+      # - 'LOOT_BONUS_MOBS:3'
+      # - 'MENDING:1'
+      # - 'DAMAGE_ALL:4'
+      # - 'SWEEPING_EDGE:3'
+    # effects:
+      # - 'INCREASE_DAMAGE:2'
+    # sound: []
+    # functions:
+      # break: true
+      # drop: true
+      # save: false
+  lvl1helm:
+    name: '&6Шлем &8⎰ &eLVL 1'
+    icon:
+      material: DIAMOND_HELMET
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fШлем &6&lбога'
+      - '&fимеет возможности которых нет у других шлемов!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lНочное зрение'
+      - '  &c♮ &fДаёт эффект &6&lУдача 1'
+    enchants:
+      - 'PROTECTION_ENVIRONMENTAL:3'
+      - 'THORNS:1'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+      - 'OXYGEN:1'
+    effects:
+      - 'NIGHT_VISION:1'
+      - 'LUCK:1'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl1chest:
+    name: '&6Нагрудник &8⎰ &eБога &f| &bLVL 1'
+    icon:
+      material: DIAMOND_CHESTPLATE
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fНагрудник &6&lбога'
+      - '&fимеет возможности которых нет у других нагрудников!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lСила 1'
+      - '  &c♮ &fДаёт эффект &6&lСопротивляемость 1'
+    enchants:
+      - 'PROTECTION_ENVIRONMENTAL:3'
+      - 'THORNS:1'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+    effects:
+      - 'INCREASE_DAMAGE:1'
+      - 'DAMAGE_RESISTANCE:1'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl1legg:
+    name: '&6Поножи &8⎰ &eБога &f| &bLVL 1'
+    icon:
+      material: DIAMOND_LEGGINGS
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fПоножи &6&lбога'
+      - '&fимеет возможности которых нет у других поножей!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lОгнестойкость'
+      - '  &c♮ &fДаёт эффект &6&lПовышение здоровья 1'
+    enchants:
+      - 'PROTECTION_ENVIRONMENTAL:3'
+      - 'THORNS:1'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+    effects:
+      - 'FIRE_RESISTANCE:1'
+      - 'HEALTH_BOOST:1'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl1bots:
+    name: '&6Ботинки &8⎰ &eБога &f| &bLVL 1'
+    icon:
+      material: DIAMOND_BOOTS
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fБотинки &6&lбога'
+      - '&fимеет возможности которых нет у других ботинок!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lСкорость 1'
+    enchants:
+      - 'PROTECTION_ENVIRONMENTAL:3'
+      - 'THORNS:3'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+      - 'PROTECTION_FALL:3'
+      - 'DEPTH_STRIDER:2'
+    effects:
+      - 'SPEED:1'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl1axe:
+    name: '&6Топор &8⎰ &eБога &f| &bLVL 1'
+    icon:
+      material: DIAMOND_AXE
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fТопор &6&lбога'
+      - '&fимеет возможности которых нет у других топоров!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lСпешка 1'
+    enchants:
+      - 'DIG_SPEED:3'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+      - 'LOOT_BONUS_BLOCKS:2'
+    effects:
+      - 'FAST_DIGGING:1'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl1sho:
+    name: '&6Лопата &8⎰ &eБога &f| &bLVL 1'
+    icon:
+      material: DIAMOND_SPADE
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fЛопата &6&lбога'
+      - '&fимеет возможности которых нет у других лопат!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lСпешка 1'
+    enchants:
+      - 'DIG_SPEED:3'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+      - 'LOOT_BONUS_BLOCKS:2'
+    effects:
+      - 'FAST_DIGGING:1'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl1pic:
+    name: '&6Кирка &8⎰ &eБога &f| &bLVL 1'
+    icon:
+      material: DIAMOND_PICKAXE
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fКирка &6&lбога'
+      - '&fимеет возможности которых нет у других кирок!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lСпешка 1'
+    enchants:
+      - 'DIG_SPEED:3'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+      - 'LOOT_BONUS_BLOCKS:2'
+    effects:
+      - 'FAST_DIGGING:1'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl1sword:
+    name: '&6Меч Бога &8⎰ &eLVL 1'
+    icon:
+      material: DIAMOND_SWORD
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fМеч &6&lбога'
+      - '&fимеет возможности которых нет у других мечей!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lСила 2'
+    enchants:
+      - 'DAMAGE_ALL:3'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+      - 'LOOT_BONUS_MOBS:3'
+      - 'SWEEPING_EDGE:3'
+      - 'KNOCKBACK:1'
+    effects:
+      - 'INCREASE_DAMAGE:2'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl2helm:
+    name: '&6Шлем Бога &8⎰ &eLVL 2'
+    icon:
+      material: DIAMOND_HELMET
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fШлем &6&lбога'
+      - '&fимеет возможности которых нет у других шлемов!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lНочное зрение'
+      - '  &c♮ &fДаёт эффект &6&lПодводное дыхание'
+      - '  &c♮ &fДаёт эффект &6&lУдача 2'
+    enchants:
+      - 'PROTECTION_ENVIRONMENTAL:3'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+      - 'OXYGEN:1'
+    effects:
+      - 'NIGHT_VISION:1'
+      - 'WATER_BREATHING:1'
+      - 'LUCK:2'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl2chest:
+    name: '&6Нагрудник &8⎰ &eБога &f| &bLVL 2'
+    icon:
+      material: DIAMOND_CHESTPLATE
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fНагрудник &6&lбога'
+      - '&fимеет возможности которых нет у других нагрудников!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lСопротивляемость 1'
+      - '  &c♮ &fДаёт эффект &6&lСила 2'
+    enchants:
+      - 'PROTECTION_ENVIRONMENTAL:3'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+    effects:
+      - 'DAMAGE_RESISTANCE:1'
+      - 'INCREASE_DAMAGE:2'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl2legg:
+    name: '&6Поножи &8⎰ &eБога &f| &bLVL 2'
+    icon:
+      material: DIAMOND_LEGGINGS
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fПоножи &6&lбога'
+      - '&fимеет возможности которых нет у других поножей!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lОгнестойкость'
+      - '  &c♮ &fДаёт эффект &6&lПовышение здоровья 1'
+    enchants:
+      - 'PROTECTION_ENVIRONMENTAL:3'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+    effects:
+      - 'FIRE_RESISTANCE:1'
+      - 'HEALTH_BOOST:1'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl2bots:
+    name: '&6Ботинки &8⎰ &eБога &f| &bLVL 2'
+    icon:
+      material: DIAMOND_BOOTS
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fБотинки &6&lбога'
+      - '&fимеет возможности которых нет у других ботинок!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lСкорость 2'
+    enchants:
+      - 'PROTECTION_ENVIRONMENTAL:3'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+      - 'DEPTH_STRIDER:3'
+      - 'PROTECTION_FALL:3'
+    effects:
+      - 'SPEED:2'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl2axe:
+    name: '&6Топор &8⎰ &eБога &f| &bLVL 2'
+    icon:
+      material: DIAMOND_AXE
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fТопор &6&lбога'
+      - '&fимеет возможности которых нет у других топоров!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lСпешка 2'
+    enchants:
+      - 'DIG_SPEED:3'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+      - 'LOOT_BONUS_BLOCKS:3'
+    effects:
+      - 'FAST_DIGGING:2'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl2sho:
+    name: '&6Лопата &8⎰ &eБога &f| &bLVL 2'
+    icon:
+      material: DIAMOND_SPADE
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fЛопата &6&lбога'
+      - '&fимеет возможности которых нет у других лопат!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lСпешка 2'
+    enchants:
+      - 'DIG_SPEED:3'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+      - 'LOOT_BONUS_BLOCKS:3'
+    effects:
+      - 'FAST_DIGGING:2'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl2pic:
+    name: '&6Кирка &8⎰ &eБога &f| &bLVL 2'
+    icon:
+      material: DIAMOND_PICKAXE
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fКирка &6&lбога'
+      - '&fимеет возможности которых нет у других кирок!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lСпешка 2'
+    enchants:
+      - 'DIG_SPEED:3'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+      - 'LOOT_BONUS_BLOCKS:3'
+    effects:
+      - 'FAST_DIGGING:2'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl2sword:
+    name: '&6Меч Бога &8⎰ &eLVL 2'
+    icon:
+      material: DIAMOND_SWORD
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fМеч &6&lбога'
+      - '&fимеет возможности которых нет у других мечей!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lСила 2'
+      - '  &c♮ &fДаёт эффект &6&lСкорость 1'
+    enchants:
+      - 'DAMAGE_ALL:4'
+      - 'FIRE_ASPECT:2'
+      - 'KNOCKBACK:1'
+      - 'LOOT_BONUS_MOBS:3'
+      - 'SWEEPING_EDGE:3'
+      - 'MENDING:1'
+    effects:
+      - 'INCREASE_DAMAGE:2'
+      - 'SPEED:1'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl3helm:
+    name: '&6Шлем Бога &8⎰ &eLVL 3'
+    icon:
+      material: DIAMOND_HELMET
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fШлем &6&lбога'
+      - '&fимеет возможности которых нет у других шлемов!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lНочное зрение'
+      - '  &c♮ &fДаёт эффект &6&lУдача 2'
+    enchants:
+      - 'PROTECTION_ENVIRONMENTAL:4'
+      - 'THORNS:1'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+      - 'OXYGEN:1'
+    effects:
+      - 'NIGHT_VISION:1'
+      - 'LUCK:2'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl3chest:
+    name: '&6Нагрудник &8⎰ &eБога &f| &bLVL 3'
+    icon:
+      material: DIAMOND_CHESTPLATE
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fНагрудник &6&lбога'
+      - '&fимеет возможности которых нет у других нагрудников!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lСила 2'
+      - '  &c♮ &fДаёт эффект &6&lСопротивляемость 1'
+    enchants:
+      - 'PROTECTION_ENVIRONMENTAL:4'
+      - 'THORNS:1'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+    effects:
+      - 'INCREASE_DAMAGE:2'
+      - 'DAMAGE_RESISTANCE:1'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl3legg:
+    name: '&6Поножи &8⎰ &eБога &f| &bLVL 3'
+    icon:
+      material: DIAMOND_LEGGINGS
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fПоножи &6&lбога'
+      - '&fимеет возможности которых нет у других поножей!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lОгнестойкость 1'
+      - '  &c♮ &fДаёт эффект &6&lПовышение здоровья 2'
+    enchants:
+      - 'PROTECTION_ENVIRONMENTAL:4'
+      - 'THORNS:1'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+    effects:
+      - 'FIRE_RESISTANCE:1'
+      - 'HEALTH_BOOST:1'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl3bots:
+    name: '&6Ботинки &8⎰ &eБога &f| &bLVL 3'
+    icon:
+      material: DIAMOND_BOOTS
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fБотинки &6&lбога'
+      - '&fимеет возможности которых нет у других ботинок!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lСкорость 2'
+    enchants:
+      - 'PROTECTION_ENVIRONMENTAL:4'
+      - 'THORNS:1'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+      - 'DEPTH_STRIDER:3'
+      - 'PROTECTION_FALL:4'
+    effects:
+      - 'SPEED:2'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl3axe:
+    name: '&6Топор &8⎰ &eБога &f| &bLVL 3'
+    icon:
+      material: DIAMOND_AXE
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fТопор &6&lбога'
+      - '&fимеет возможности которых нет у других топоров!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lСпешка 2'
+    enchants:
+      - 'DIG_SPEED:4'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+      - 'LOOT_BONUS_BLOCKS:3'
+    effects:
+      - 'FAST_DIGGING:2'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl3sho:
+    name: '&6Лопата &8⎰ &eБога &f| &bLVL 3'
+    icon:
+      material: DIAMOND_SPADE
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fЛопата &6&lбога'
+      - '&fимеет возможности которых нет у других лопат!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lСпешка 2'
+    enchants:
+      - 'DIG_SPEED:4'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+      - 'LOOT_BONUS_BLOCKS:3'
+    effects:
+      - 'FAST_DIGGING:2'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl3pic:
+    name: '&6Кирка &8⎰ &eБога &f| &bLVL 3'
+    icon:
+      material: DIAMOND_PICKAXE
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fКирка &6&lбога'
+      - '&fимеет возможности которых нет у других кирок!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lСпешка 2'
+    enchants:
+      - 'DIG_SPEED:4'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+      - 'LOOT_BONUS_BLOCKS:3'
+    effects:
+      - 'FAST_DIGGING:2'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl3sword:
+    name: '&6Меч Бога &8⎰ &eLVL 3'
+    icon:
+      material: DIAMOND_SWORD
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &7Меч &6&lбога'
+      - '&fимеет возможности которых нет у других мечей!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lСила 2'
+      - '  &c♮ &fДаёт эффект &6&lСкорость 2'
+      - '&e'
+    enchants:
+      - 'DAMAGE_ALL:5'
+      - 'FIRE_ASPECT:2'
+      - 'DURABILITY:3'
+      - 'KNOCKBACK:1'
+      - 'LOOT_BONUS_MOBS:3'
+      - 'SWEEPING_EDGE:3'
+      - 'MENDING:1'
+    effects:
+      - 'INCREASE_DAMAGE:2'
+      - 'SPEED:2'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl4helm:
+    name: '&6Шлем Бога &8⎰ &eLVL 4'
+    icon:
+      material: DIAMOND_HELMET
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fШлем &6&lбога'
+      - '&fимеет возможности которых нет у других шлемов!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lНочное зрение'
+      - '  &c♮ &fДаёт эффект &6&lУдача 2'
+    enchants:
+      - 'PROTECTION_ENVIRONMENTAL:4'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+      - 'OXYGEN:1'
+    effects:
+      - 'NIGHT_VISION:1'
+      - 'LUCK:2'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl4chest:
+    name: '&6Нагрудник &8⎰ &eLVL 4'
+    icon:
+      material: DIAMOND_CHESTPLATE
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fНагрудник &6&lбога'
+      - '&fимеет возможности которых нет у других нагрудников!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lСила 2'
+      - '  &c♮ &fДаёт эффект &6&lОгнестойкость'
+      - '  &c♮ &fДаёт эффект &6&lСкорость'
+    enchants:
+      - 'PROTECTION_ENVIRONMENTAL:4'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+    effects:
+      - 'INCREASE_DAMAGE:2'
+      - 'FIRE_RESISTANCE:1'
+      - 'SPEED:1'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl4legg:
+    name: '&6Поножи &8⎰ &eLVL 4'
+    icon:
+      material: DIAMOND_LEGGINGS
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fПоножи &6&lбога'
+      - '&fимеет возможности которых нет у других поножей!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lОгнестойкость'
+      - '  &c♮ &fДаёт эффект &6&lПовышение здоровья'
+    enchants:
+      - 'PROTECTION_ENVIRONMENTAL:4'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+    effects:
+      - 'FIRE_RESISTANCE:1'
+      - 'HEALTH_BOOST:1'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl4bots:
+    name: '&6Ботинки &8⎰ &eLVL 4'
+    icon:
+      material: DIAMOND_BOOTS
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fБотинки &6&lбога'
+      - '&fимеет возможности которых нет у других ботинок!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lСкорость 2'
+      - '  &c♮ &fДаёт эффект &6&lОгнестойкость'
+    enchants:
+      - 'PROTECTION_ENVIRONMENTAL:4'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+      - 'DEPTH_STRIDER:3'
+      - 'PROTECTION_FALL:4'
+    effects:
+      - 'SPEED:2'
+      - 'FIRE_RESISTANCE:1'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl4axe:
+    name: '&6Топор &8⎰ &eLVL 4'
+    icon:
+      material: DIAMOND_AXE
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fТопор &6&lбога'
+      - '&fимеет возможности которых нет у других топоров!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lСпешка 2'
+    enchants:
+      - 'DIG_SPEED:5'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+      - 'LOOT_BONUS_BLOCKS:3'
+    effects:
+      - 'FAST_DIGGING:2'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl5axe:
+    name: '&6Топор &8⎰ &eLVL 5'
+    icon:
+      material: DIAMOND_AXE
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fТопор &6&lбога'
+      - '&fимеет возможности которых нет у других топоров!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lСпешка 2'
+    enchants:
+      - 'DIG_SPEED:5'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+      - 'LOOT_BONUS_BLOCKS:3'
+    effects:
+      - 'FAST_DIGGING:2'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl4sho:
+    name: '&6Лопата &8⎰ &eLVL 4'
+    icon:
+      material: DIAMOND_SPADE
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fЛопата &6&lбога'
+      - '&fимеет возможности которых нет у других лопат!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lСпешка 2'
+    enchants:
+      - 'DIG_SPEED:5'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+      - 'LOOT_BONUS_BLOCKS:3'
+    effects:
+      - 'FAST_DIGGING:2'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl5sho:
+    name: '&6Лопата &8⎰ &eLVL 4'
+    icon:
+      material: DIAMOND_SPADE
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fЛопата &6&lбога'
+      - '&fимеет возможности которых нет у других лопат!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lСпешка 2'
+    enchants:
+      - 'DIG_SPEED:5'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+      - 'LOOT_BONUS_BLOCKS:3'
+    effects:
+      - 'FAST_DIGGING:2'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl4pic:
+    name: '&6Кирка &8⎰ &eLVL 4'
+    icon:
+      material: DIAMOND_PICKAXE
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fКирка &6&lбога'
+      - '&fимеет возможности которых нет у других кирок!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lСпешка 2'
+    enchants:
+      - 'DIG_SPEED:5'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+      - 'LOOT_BONUS_BLOCKS:3'
+    effects:
+      - 'FAST_DIGGING:2'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl5pic:
+    name: '&6Кирка &8⎰ &eLVL 5'
+    icon:
+      material: DIAMOND_PICKAXE
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fКирка &6&lбога'
+      - '&fимеет возможности которых нет у других кирок!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lСпешка 2'
+    enchants:
+      - 'DIG_SPEED:5'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+      - 'LOOT_BONUS_BLOCKS:3'
+    effects:
+      - 'FAST_DIGGING:2'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl4sword:
+    name: '&6Меч Бога &8⎰ &eLVL 4'
+    icon:
+      material: DIAMOND_SWORD
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fМеч &6&lбога'
+      - '&fимеет возможности которых нет у других мечей!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lСила 2'
+      - '  &c♮ &fДаёт эффект &6&lСкорость 2'
+    enchants:
+      - 'DAMAGE_ALL:5'
+      - 'FIRE_ASPECT:2'
+      - 'LOOT_BONUS_MOBS:3'
+      - 'SWEEPING_EDGE:3'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+    effects:
+      - 'INCREASE_DAMAGE:2'
+      - 'SPEED:2'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl5sword:
+    name: '&6Меч Бога &8⎰ &eLVL 5'
+    icon:
+      material: DIAMOND_SWORD
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fМеч &6&lбога'
+      - '&fимеет возможности которых нет у других мечей!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lСила 2'
+      - '  &c♮ &fДаёт эффект &6&lСкорость 2'
+    enchants:
+      - 'DAMAGE_ALL:5'
+      - 'FIRE_ASPECT:2'
+      - 'LOOT_BONUS_MOBS:3'
+      - 'SWEEPING_EDGE:3'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+    effects:
+      - 'INCREASE_DAMAGE:2'
+      - 'SPEED:2'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl5helm:
+    name: '&6Шлем Бога &8⎰ &eLVL 5'
+    icon:
+      material: DIAMOND_HELMET
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fШлем &6&lбога'
+      - '&fимеет возможности которых нет у других шлемов!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lНочное зрение'
+      - '  &c♮ &fДаёт эффект &6&lУдача 2'
+    enchants:
+      - 'PROTECTION_ENVIRONMENTAL:4'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+      - 'OXYGEN:1'
+      - 'PROTECTION_FIRE:2'
+      - 'PROTECTION_EXPLOSIONS:2'
+      - 'PROTECTION_PROJECTILE:2'
+    effects:
+      - 'NIGHT_VISION:1'
+      - 'LUCK:2'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl5chest:
+    name: '&6Нагрудник &8⎰ &eБога &f| &bLVL 5'
+    icon:
+      material: DIAMOND_CHESTPLATE
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fНагрудник &6&lбога'
+      - '&fимеет возможности которых нет у других нагрудников!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lСила 2'
+      - '  &c♮ &fДаёт эффект &6&lСкорость 1'
+      - '  &c♮ &fДаёт эффект &6&lОгнестойкость'
+    enchants:
+      - 'PROTECTION_ENVIRONMENTAL:4'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+      - 'PROTECTION_FIRE:2'
+      - 'PROTECTION_EXPLOSIONS:2'
+      - 'PROTECTION_PROJECTILE:2'
+    effects:
+      - 'INCREASE_DAMAGE:2'
+      - 'SPEED:1'
+      - 'FIRE_RESISTANCE:1'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl5legg:
+    name: '&6Поножи &8⎰ &eБога &f| &bLVL 5'
+    icon:
+      material: DIAMOND_LEGGINGS
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fПоножи &6&lбога'
+      - '&fимеет возможности которых нет у других поножей!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lОгнестойкость'
+      - '  &c♮ &fДаёт эффект &6&lПовышение здоровья'
+    enchants:
+      - 'PROTECTION_ENVIRONMENTAL:4'
+      - 'DURABILITY:3'
+      - 'PROTECTION_FIRE:2'
+      - 'PROTECTION_EXPLOSIONS:2'
+      - 'PROTECTION_PROJECTILE:2'
+      - 'MENDING:1'
+    effects:
+      - 'FIRE_RESISTANCE:1'
+      - 'HEALTH_BOOST:1'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false
+  lvl5bots:
+    name: '&6Ботинки &8⎰ &eБога &f| &bLVL 5'
+    icon:
+      material: DIAMOND_BOOTS
+      data: 0
+      ammount: 1
+    lore:
+      - '&e  [☀] &fБотинки &6&lбога'
+      - '&fимеет возможности которых нет у других ботинок!'
+      - '&f'
+      - '  &c♮ &fДаёт эффект &6&lСкорость 2'
+      - '  &c♮ &fДаёт эффект &6&lОгнестойкость'
+    enchants:
+      - 'PROTECTION_ENVIRONMENTAL:4'
+      - 'DURABILITY:3'
+      - 'MENDING:1'
+      - 'PROTECTION_FIRE:2'
+      - 'PROTECTION_EXPLOSIONS:2'
+      - 'PROTECTION_PROJECTILE:2'
+      - 'PROTECTION_FALL:4'
+      - 'DEPTH_STRIDER:3'
+    effects:
+      - 'SPEED:2'
+      - 'FIRE_RESISTANCE:1'
+    sound: []
+    functions:
+      break: true
+      drop: true
+      save: false

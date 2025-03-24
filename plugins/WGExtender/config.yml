@@ -1,0 +1,56 @@
+claim:
+  vertexpand:
+    enabled: false
+  blocklimits:
+    enabled: true
+    limits:
+      default: 100000
+      mlmoder: 100000
+      warlock: 100000
+      berserk: 100000
+      dark: 100000
+      titan: 100000
+      god: 100000
+      ares: 100000
+      yt: 100000
+      sponsor: 100000
+regionprotect:
+  flow:
+    lava:
+      enabled: false
+    water:
+      enabled: false
+    otherliquid:
+      enabled: true
+  ignitebyplayer:
+    enabled: false
+  fire:
+    spread:
+      toregion:
+        enabled: false
+      inregion:
+        enabled: false
+    burn:
+      enabled: false
+  explosion:
+    block:
+      enabled: false
+    entity:
+      enabled: false
+  pistonmove:
+    enabled: true
+autoflags:
+  enabled: true
+  flags:
+    tnt: allow
+    mob-spawning: allow
+    pvp: allow
+    damage-animals: allow
+    pistons: allow
+restrictcommands:
+  enabled: false
+  commands: []
+extendedwewand:
+  enabled: false
+misc:
+  pvpmode: default

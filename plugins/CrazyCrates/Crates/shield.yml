@@ -1,0 +1,73 @@
+Crate:
+  CrateType: Wonder
+  CrateName: '&0Идёт открытие кейса...'
+  StartingKeys: 0
+  InGUI: true
+  Slot: 14
+  OpeningBroadCast: false
+  BroadCast: '%Prefix%&6&l%Player% &7is opening a &e&lClassic Chest&7.'
+  Item: '54'
+  Glowing: false
+  Name: '▪ Денежный кейс'
+  Lore:
+          - '&7This crate contains classic items.'
+          - '&7You have &6%Keys% keys &7to open this crate with.'
+          - '&7&l(&e&l!&7&l) Right click to view rewards.'
+  PhysicalKey:
+          Name: '&e&lДенежного &e⛂ &e&lкейса'
+          Lore:
+            - '&7A special Key'
+            - '&7For a special Crate.'
+          Item: '131'
+          Glowing: true
+  Prizes:
+    0:
+      MaxRange: 100
+      Commands:
+      - lattygive SHIELD_legacy %Player%  
+      DisplayName: 'Легендарный щит'
+      DisplayAmount: 1
+      Chance: 10
+      Glowing: true
+      DisplayItem: 442
+      Lore: object
+    1:
+      MaxRange: 100
+      Commands:
+      - lattygive shield_toper %Player%
+      DisplayName: 'Щит топера'
+      DisplayAmount: 1
+      Chance: 30
+      Glowing: true
+      DisplayItem: 442
+      Lore: object
+    2:
+      MaxRange: 100
+      Commands:
+      - lattygive SHIELD_legacy %Player%
+      DisplayName: 'Щит регенерации'
+      DisplayAmount: 1
+      Chance: 14
+      Glowing: true
+      DisplayItem: 442
+      Lore: object
+    3:
+      MaxRange: 100
+      Commands:
+      - lattygive SHIELD_speed %Player%
+      DisplayName: 'Щит скорости'
+      DisplayAmount: 1
+      Chance: 20
+      Glowing: true
+      DisplayItem: 442
+      Lore: object
+    4:
+      MaxRange: 100
+      Commands:
+      - lattygive SHIELD_war %Player%
+      DisplayName: 'Щит боевой'
+      DisplayAmount: 1
+      Chance: 16
+      Glowing: true
+      DisplayItem: 442
+      Lore: object

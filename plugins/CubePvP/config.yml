@@ -1,0 +1,20 @@
+Command: /joinpvp
+ExitCommand: /exitpvp
+Locations:
+- spawn:-89.5:18.0:28.5:6.114841E-5:89.25176
+Exitlocations:
+- spawn:-70.5:18.0:28.5:-1.1999748:88.65083
+Title: §6⚔
+Subtitle: '&fУдачных сражений на арене'
+ExitTitle: §6Телепортация
+ExitSubTitle: '&fВжух...'
+regions:
+- pvp|spawn
+- king|spawn
+block commands: true
+block commands message: '&6&l[!] &fНа PvP арене нельзя использовать команды!'
+allowcmds:
+- /exitpvp
+block eat message: '&6&l[!] &fНа PvP арене нельзя использовать хорусы!'
+badItemsEat:
+- CHORUS_FRUIT

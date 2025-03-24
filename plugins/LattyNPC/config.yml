@@ -1,0 +1,5 @@
+blocks:
+  -31;59;-84;spawn:
+    command: ma leave
+  -33;22;72;spawn:
+    command: cases

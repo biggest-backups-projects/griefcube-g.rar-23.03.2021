@@ -1,0 +1,853 @@
+default_hologram_lines:
+- '&6&l&k|&e&l&k|&6&l&k|&6&l Кейсы &6&l&k|&e&l&k|&6&l&k|'
+group_leveling:
+  enable: true
+  warlock: 1
+  berserk: 2
+  dark: 3
+  titan: 4
+  god: 5
+  ares: 6
+  sponsor: 7
+  mlmoder: 8
+  moder: 9
+  admin: 10
+boxes:
+  #название кейса (должно совпадать с названием в гуи
+  donate:
+    #предметы
+    warlock:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '§6§lWARLOCK'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'setgroup:warlock'
+      - 'title:§6§lПоздравляем;§fВы выбили §6§lWARLOCK'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл привилегию §6§lWARLOCK'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &650 рублей!'  
+      - 'broadcast:'   
+    berserk:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '§e§lBERSERK'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'setgroup:berserk'
+      - 'title:§6§lПоздравляем;§fВы выбили §e§lBERSERK'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл привилегию §e§lBERSERK'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &650 рублей!'  
+      - 'broadcast:'   
+    dark:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '§7§lDARK'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'setgroup:dark'
+      - 'title:§6§lПоздравляем;§fВы выбили §7§lDARK'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл привилегию §7§lDARK'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &650 рублей!'  
+      - 'broadcast:'   
+    titan:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '§c§lTITAN'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'setgroup:titan'
+      - 'title:§6§lПоздравляем;§fВы выбили §c§lTITAN'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл привилегию §c§lTITAN'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &650 рублей!'  
+      - 'broadcast:'  
+    god:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '§b§lGOD'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'setgroup:god'
+      - 'title:§6§lПоздравляем;§fВы выбили §b§lGOD'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл привилегию §b§lGOD'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &650 рублей!'  
+      - 'broadcast:'  
+    ares:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '§4§lARES'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'setgroup:god'
+      - 'title:§6§lПоздравляем;§fВы выбили §4§lARES'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл привилегию §4§lARES'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &650 рублей!'  
+      - 'broadcast:'  
+  #название кейса (должно совпадать с названием в гуи
+  prefix:
+    #предметы
+    p2:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&e&lЩВАРЦ'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.1'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &e&lЩВАРЦ'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &e&lЩВАРЦ'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:'  
+    p4:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&5&lЧСВ'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.4'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &5&lЧСВ'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &5&lЧСВ'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:' 
+    p5:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&5&lЧСВ'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.5'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &5&lЧСВ'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &5&lЧСВ'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:' 
+    p6:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&b&lПИЛОТ'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.6'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &b&lПИЛОТ'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &b&lПИЛОТ'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:' 
+    p7:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&d&lЭНДЕР'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.7'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &d&lЭНДЕР'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &d&lЭНДЕР'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:' 
+    p8:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&c&lСЕКС'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.8'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &c&lСЕКС'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &c&lСЕКС'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:' 
+    p9:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&a&lАГЕНТ'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.9'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &a&lАГЕНТ'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &a&lАГЕНТ'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:' 
+    p10:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&3&lСВЯЗИСТ'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.10'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &3&lСВЯЗИСТ'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &3&lСВЯЗИСТ'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:' 
+    p11:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&3&lАНГЕЛ'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.11'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &3&lАНГЕЛ'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &3&lАНГЕЛ'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:' 
+    p12:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&e&lКАСИР'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.12'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &e&lКАСИР'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &e&lКАСИР'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:' 
+    p13:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&e&lЧЕЛОВЕК'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.13'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &e&lЧЕЛОВЕК'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &e&lЧЕЛОВЕК'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:' 
+    p14:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&a&lБАТЯ'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.14'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &6&lРЫЦАРЬ'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &6&lРЫЦАРЬ'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:' 
+    p15:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&b&lКАПРАЛ'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.15'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &b&lКАПРАЛ'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &b&lКАПРАЛ'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:' 
+    p16:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&b&lАЛЬФАЧ'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.16'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &b&lАЛЬФАЧ'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &b&lАЛЬФАЧ'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:' 
+    p17:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&d&lТЯН'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.17'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &d&lТЯН'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &d&lТЯН'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:' 
+    p18:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&e&lФАРАОН'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.18'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &e&lФАРАОН'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &e&lФАРАОН'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:' 
+    p19:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&b&lДИГГЕР'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.19'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &b&lДИГГЕР'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &b&lДИГГЕР'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:' 
+    p20:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&a&lМАЙНЕР'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.20'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &a&lМАЙНЕР'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &a&lМАЙНЕР'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:' 
+    p21:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&5&lЧСВ'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.21'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &c&lЛЕСНИК'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &c&lЛЕСНИК'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:' 
+    p22:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&6&lБЛЕЙЗ'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.22'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &6&lБЛЕЙЗ'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &6&lБЛЕЙЗ'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:' 
+    p23:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&3&lГРУЗЧИК'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.23'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &3&lГРУЗЧИК'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &3&lГРУЗЧИК'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:' 
+    p24:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&a&lВОИН'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.24'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &a&lВОИН'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &a&lВОИН'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:' 
+    p25:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&c&lЗАЩИТНИК'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.25'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &c&lЗАЩИТНИК'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &c&lЗАЩИТНИК'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:' 
+    p26:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&6&lФРЕДБЕР'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.26'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &6&lФРЕДБЕР'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &6&lФРЕДБЕР'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:' 
+    p27:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&9&lТАНКИСТ'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.27'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &9&lТАНКИСТ'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &9&lТАНКИСТ'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:' 
+    p28:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&a&lЛИЦЕМЕР'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.28'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &a&lЛИЦЕМЕР'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &a&lЛИЦЕМЕР'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:' 
+    p29:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&c&lГРИФЕР'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.29'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &c&lГРИФЕР'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &c&lГРИФЕР'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:' 
+    p30:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&c&lХИРУРГ'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.30'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &c&lХИРУРГ'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &c&lХИРУРГ'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:' 
+    p31:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&a&lПИПИДАСТР'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.31'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &a&lПИПИДАСТР'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &a&lПИПИДАСТР'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:' 
+    p32:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&d&lСТРАННЫЙ'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.32'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &d&lСТРАННЫЙ'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &d&lСТРАННЫЙ'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:' 
+    p33:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&a&lЧЁТКИЙ'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.33'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &a&lЧЁТКИЙ'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &a&lЧЁТКИЙ'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:' 
+    p34:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&b&lГЕНЕРАЛ'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.34'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &b&lГЕНЕРАЛ'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &b&lГЕНЕРАЛ'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:' 
+    p35:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&e&lМЫСЛИТЕЛЬ'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.35'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &e&lМЫСЛИТЕЛЬ'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &e&lМЫСЛИТЕЛЬ'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:' 
+    p36:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '&5&lЧСВ'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'console:user {player} add prefix.36'
+      - 'console:user {player} add prefix.clear'
+      - 'title:§6§lПоздравляем;§fВы выбили префикс &e&lПОЕХАВШИЙ'
+      - 'broadcast:'
+      - 'broadcast:   &6&l[!] &fИгрок &c{player} &fвыиграл префикс &e&lПОЕХАВШИЙ'  
+      - 'broadcast:   &6&l[!] &fЦелых &6&l1 &fкейсов за &7- &615 рублей!'  
+      - 'broadcast:' 
+    
+  #название кейса (должно совпадать с названием в гуи
+  msg:
+    #предметы
+    vip:
+      icon: '397:3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=='
+      title: '§c§l[Вип]'
+      #суммарные шансы в 1 кейсе должны быть = 100, не больше, не меньше
+      chance: 50
+      #награды. поддерживаемые переменные:
+      #setgroup:название_группы (выдается само, с учетом group_leveling), например setgroup:vip
+      #title:
+      #broadcast:
+      #tell:
+      #console:
+      #op:
+      rewards:
+      - 'setgroup:vip'
+      - 'title:§d§lПоздравляем;§fВы выбили §c[Вип]'
+      - 'broadcast:'
+      - 'broadcast:   §f Игрок §6{player}§f выбил §c[Вип] §fв окупаемом §e§lДонат-Кейсе'  
+      - 'broadcast:   §fТолько сегодня успей купить §2§l50§f кейсов всего за §6§l120§f руб!'
+      - 'broadcast:   §fКупить кейс §eбез комиссии §fможно на сайте » §6§lMineCloud.Su'
+      - 'broadcast:         §fПовышенные шансы §a§l+100%⇪§f только сегодня!'
+      - 'broadcast:'   
+    premium:
+      icon: '95:6'
+      title: '§2§l[Премиум]'
+      chance: 50
+      rewards:
+      - 'setgroup:premium'
+      - 'title:§d§lПоздравляем;§fВы выбили §2[Премиум]'
+      - 'broadcast:'
+      - 'broadcast:   §f Игрок §6{player}§f выбил §2[Премиум] §fв окупаемом §e§lДонат-Кейсе'  
+      - 'broadcast:   §fТолько сегодня успей купить §2§l50§f кейсов всего за §6§l120§f руб!'
+      - 'broadcast:   §fКупить кейс §eбез комиссии §fможно на сайте » §6§lMineCloud.Su'
+      - 'broadcast:         §fПовышенные шансы §a§l+100%⇪§f только сегодня!'
+      - 'broadcast:'   

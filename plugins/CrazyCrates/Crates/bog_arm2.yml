@@ -1,0 +1,106 @@
+Crate:
+  CrateType: Wonder
+  CrateName: '&0Идёт открытие кейса...'
+  StartingKeys: 0
+  InGUI: true
+  Slot: 14
+  OpeningBroadCast: false
+  BroadCast: '%Prefix%&6&l%Player% &7открыл кейс с &e&lброней бога &b2 LVL&7.'
+  Item: '54'
+  Glowing: true
+  Name: '▪ Кейс с броней бога 2 LVL'
+  Lore:
+  PhysicalKey:
+    Name: '&e&lКейс с броней бога 2 LVL'
+    Lore:
+    Item: '131'
+    Glowing: true
+  Prizes:
+    1:
+      DisplayName: '&eШлем бога &b2 LVL'
+      DisplayItem: '310'
+      DisplayAmount: 1
+      Lore:
+      MaxRange: 100
+      Chance: 3
+      Firework: false
+      Glowing: true
+      Commands:
+        - 'lattyg lvl2helm %Player%'
+    2:
+      DisplayName: '&eНагрудник бога &b2 LVL'
+      DisplayItem: '311'
+      DisplayAmount: 1
+      Lore:
+      MaxRange: 100
+      Chance: 3
+      Firework: false
+      Glowing: true
+      Commands:
+        - 'lattyg lvl2chest %Player%'
+    3:
+      DisplayName: '&eПоножи бога &b2 LVL'
+      DisplayItem: '312'
+      DisplayAmount: 1
+      Lore:
+      MaxRange: 100
+      Chance: 3
+      Firework: false
+      Glowing: true
+      Commands:
+        - 'lattyg lvl2legg %Player%'
+    4:
+      DisplayName: '&eБотинки бога &b2 LVL'
+      DisplayItem: '313'
+      DisplayAmount: 1
+      Lore:
+      MaxRange: 100
+      Chance: 3
+      Firework: false
+      Glowing: true
+      Commands:
+        - 'lattyg lvl2bots %Player%'
+    5:
+      DisplayName: '&6Меч Бога &8⎰ &eLVL 2'
+      DisplayItem: '277'
+      DisplayAmount: 1
+      Lore:
+      MaxRange: 100
+      Chance: 3
+      Firework: false
+      Glowing: true
+      Commands:
+        - 'lattyg lvl2sword %Player%'
+    6:
+      DisplayName: '&6Кирка &8⎰ &eLVL 2'
+      DisplayItem: '278'
+      DisplayAmount: 1
+      Lore:
+      MaxRange: 100
+      Chance: 3
+      Firework: false
+      Glowing: true
+      Commands:
+        - 'lattyg lvl2pic %Player%'
+    7:
+      DisplayName: '&6Лопата &8⎰ &eLVL 2'
+      DisplayItem: '277'
+      DisplayAmount: 1
+      Lore:
+      MaxRange: 100
+      Chance: 3
+      Firework: false
+      Glowing: true
+      Commands:
+        - 'lattyg lvl2sho %Player%'
+    8:
+      DisplayName: '&6Топор &8⎰ &eLVL 2'
+      DisplayItem: '279'
+      DisplayAmount: 1
+      Lore:
+      MaxRange: 100
+      Chance: 3
+      Firework: false
+      Glowing: true
+      Commands:
+        - 'lattyg lvl2axe %Player%'

@@ -1,0 +1,57 @@
+# - - - - - - - - - - - - - - - - - - - - -
+# Автор плагина: _MasterDay_
+# - - - - - - - - - - - - - - - - - - - - -
+# Формат файла — YAML
+# Для проверки правильности используйте
+# http://yaml-online-parser.appspot.com/
+# Если что-то пошло не так, то вы всегда
+# можете удалить конфиг.
+# - - - - - - - - - - - - - - - - - - - - -
+
+mysql:
+  hostname: "1.2.3.4"
+  database: "griefcube"
+  username: "griefcube"
+  password: "U6At3Sw9XnJbWlv7"
+
+warlock:
+    god: 2
+    ares: 2
+    sponsor: 2
+    admin: 999
+
+berserk:
+    god: 1
+    ares: 2
+    sponsor: 2
+    admin: 999
+dark:
+    god: 1
+    ares: 1
+    sponsor: 1
+    admin: 999
+titan:
+    ares: 1
+    sponsor: 1
+    admin: 999
+god:
+    ares: 1
+    sponsor: 1
+    admin: 999
+
+
+command: 'user %player% setgroup %group%;tm bc &6&lCube&f&lGrant \n&6&l%granter%&f выдал донат &6&l%group% &fигроку &6&l%player%&f!'
+
+
+weight:
+    default: 1
+    warlock: 2
+    berserk: 3
+    dark: 4
+    titan: 5
+    god: 6
+    ares: 7
+    sponsor: 8
+    mlmoder: 9
+    moder: 10
+    admin: 11

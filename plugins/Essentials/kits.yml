@@ -1,0 +1,278 @@
+# EssentialsX kit configuration.
+# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
+# 
+# Note: All items MUST be followed by a quantity!
+# All kit names should be lower case, and will be treated as lower in permissions/costs.
+# Syntax: - name[:durability] amount [enchantment:level]... [itemmeta:value]...
+# For Item Meta information visit http://wiki.ess3.net/wiki/Item_Meta
+# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
+# Set delay to -1 for a one time kit.
+# For more information, visit http://wiki.ess3.net/wiki/Kits
+kits:
+  start:
+    delay: 1
+    items:
+    - GOLD_SPADE 1 durability:1
+    - BOW 1 durability:1
+    - STONE_PICKAXE 1 durability:1
+    - GOLD_AXE 1 durability:1
+    - STONE_SWORD 1 durability:1
+    - CHAINMAIL_HELMET 1 durability:1
+    - LEATHER_CHESTPLATE 1 durability:1 color:1908001
+    - CHAINMAIL_LEGGINGS 1 durability:1
+    - CHAINMAIL_BOOTS 1 durability:1
+    - FLINT_AND_STEEL 1
+    - BOAT 1
+    - CHEST 1
+    - FISHING_ROD 1
+    - BUCKET 1
+    - GOLD_HOE 1 durability:1
+    - ARROW 10
+    - SHIELD 1 basecolor:1908001
+    - GRILLED_PORK 2
+    - COOKIE 32
+    - BEETROOT 64
+    - TORCH 4
+    - STONE 8
+    - LOG 12
+  warlock:
+    delay: 1
+    items:
+    - IRON_PICKAXE 1 dig_speed:1 durability:1
+    - IRON_AXE 1 dig_speed:1 durability:1
+    - IRON_SPADE 1 dig_speed:1 durability:1
+    - BOW 1 arrow_damage:1 durability:1
+    - IRON_SWORD 1 damage_all:1 durability:1
+    - IRON_BOOTS 1 protection_projectile:1 durability:1
+    - DIAMOND_LEGGINGS 1 protection_fire:2 durability:1
+    - IRON_CHESTPLATE 1 protection_projectile:2 durability:1
+    - IRON_HELMET 1 protection_fire:1 durability:1
+    - FLINT_AND_STEEL 1
+    - EXP_BOTTLE 16
+    - INK_SACK:4 8
+    - SLIME_BALL 3
+    - IRON_INGOT 16
+    - GOLD_INGOT 8
+    - DIAMOND 3
+    - BUCKET 3
+    - DIAMOND_HOE 1 durability:1
+    - GOLDEN_APPLE 1
+    - ARROW 32
+    - SHIELD 1 basecolor:1908001
+    - COOKED_BEEF 16
+    - COOKED_FISH:1 32
+    - CHEST 16
+    - ENDER_PEARL 1
+    - LOG 24
+  berserk:
+    delay: 1
+    items:
+    - IRON_SPADE 1 dig_speed:2 durability:1
+    - IRON_PICKAXE 1 dig_speed:3 durability:1
+    - IRON_AXE 1 dig_speed:3 durability:1
+    - BOW 1 arrow_damage:2 durability:2
+    - DIAMOND_SWORD 1 damage_all:1 durability:1 knockback:1
+    - DIAMOND_HELMET 1 protection_environmental:1 durability:2
+    - DIAMOND_CHESTPLATE 1 protection_environmental:1 durability:2
+    - DIAMOND_LEGGINGS 1 protection_environmental:1 durability:2
+    - DIAMOND_BOOTS 1 protection_environmental:1 durability:2
+    - FLINT_AND_STEEL 1
+    - EXP_BOTTLE 32
+    - INK_SACK:4 16
+    - SLIME_BALL 6
+    - IRON_INGOT 32
+    - GOLD_INGOT 16
+    - DIAMOND 6
+    - BUCKET 8
+    - DIAMOND_HOE 1 durability:2
+    - GOLDEN_APPLE 3
+    - SHIELD 1 basecolor:1908001
+    - COOKED_BEEF 24
+    - COOKED_FISH:1 64
+    - ARROW 64
+    - CHEST 24
+    - LOG 48
+    - ENDER_PEARL 2
+  dark:
+    delay: 1
+    items:
+    - DIAMOND_SPADE 1 dig_speed:2 durability:2
+    - DIAMOND_PICKAXE 1 dig_speed:2 durability:2
+    - DIAMOND_AXE 1 dig_speed:2 durability:2
+    - BOW 1 arrow_damage:3 durability:2
+    - DIAMOND_SWORD 1 damage_all:2 durability:2 knockback:1 loot_bonus_mobs:1
+    - DIAMOND_BOOTS 1 protection_environmental:2 durability:2
+    - DIAMOND_LEGGINGS 1 protection_environmental:2 durability:2
+    - DIAMOND_CHESTPLATE 1 protection_environmental:2 durability:2
+    - DIAMOND_HELMET 1 protection_environmental:2 durability:2
+    - FLINT_AND_STEEL 1
+    - EXP_BOTTLE 48
+    - INK_SACK:4 32
+    - SLIME_BALL 9
+    - IRON_INGOT 48
+    - GOLD_INGOT 24
+    - DIAMOND 8
+    - BUCKET 12
+    - ENDER_PEARL 3
+    - DIAMOND_HOE 1 durability:2
+    - GOLDEN_APPLE 5
+    - SHIELD 1 basecolor:1908001
+    - COOKED_BEEF 32
+    - COOKED_FISH:1 64
+    - ARROW 64
+    - ARROW 64
+    - CHEST 32
+    - LOG 56
+  titan:
+    delay: 1
+    items:
+    - DIAMOND_SPADE 1 dig_speed:3 durability:3
+    - DIAMOND_PICKAXE 1 dig_speed:3 durability:3
+    - DIAMOND_AXE 1 dig_speed:3 durability:3
+    - BOW 1 arrow_damage:4 durability:3 arrow_fire:1
+    - DIAMOND_SWORD 1 damage_all:3 durability:3 knockback:1 fire_aspect:1 loot_bonus_mobs:1
+      sweeping_edge:1
+    - DIAMOND_HELMET 1 protection_environmental:3 durability:3 thorns:2
+    - DIAMOND_CHESTPLATE 1 protection_environmental:3 durability:3 thorns:2
+    - DIAMOND_LEGGINGS 1 protection_environmental:3 durability:3 thorns:2
+    - DIAMOND_BOOTS 1 protection_environmental:3 durability:3 thorns:2
+    - EXP_BOTTLE 64
+    - TOTEM 1
+    - SLIME_BALL 16
+    - INK_SACK:4 64
+    - IRON_INGOT 64
+    - GOLD_INGOT 32
+    - DIAMOND 12
+    - BUCKET 16
+    - ENDER_PEARL 4
+    - LOG 64
+    - CHEST 48
+    - DIAMOND_HOE 1 durability:3
+    - GOLDEN_APPLE 6
+    - SHIELD 1 basecolor:1908001
+    - COOKED_BEEF 48
+    - COOKED_FISH:1 64
+    - COOKED_FISH:1 64
+    - ARROW 64
+    - ARROW 64
+    - ARROW 64
+  god:
+    delay: 1
+    items:
+    - DIAMOND_SPADE 1 dig_speed:4 durability:3
+    - DIAMOND_PICKAXE 1 dig_speed:4 durability:3
+    - DIAMOND_AXE 1 dig_speed:4 durability:3
+    - BOW 1 arrow_damage:5 arrow_fire:1 durability:3 arrow_infinite:1
+    - DIAMOND_SWORD 1 damage_all:4 durability:3 knockback:2 fire_aspect:1 loot_bonus_mobs:2
+      sweeping_edge:2
+    - DIAMOND_HELMET 1 protection_environmental:4 durability:3 oxygen:1 water_worker:1
+      thorns:3
+    - DIAMOND_CHESTPLATE 1 protection_environmental:4 durability:3 thorns:3
+    - DIAMOND_LEGGINGS 1 protection_environmental:4 durability:3 thorns:3
+    - DIAMOND_BOOTS 1 protection_environmental:4 depth_strider:2 durability:3 protection_fall:2
+      thorns:3
+    - SLIME_BALL 32
+    - INK_SACK:4 64
+    - INK_SACK:4 64
+    - EXP_BOTTLE 64
+    - EXP_BOTTLE 64
+    - TOTEM 1
+    - TOTEM 1
+    - IRON_INGOT 64
+    - IRON_INGOT 64
+    - GOLD_INGOT 64
+    - DIAMOND 20
+    - BUCKET 16
+    - ENDER_PEARL 5
+    - LOG 64
+    - LOG 64
+    - CHEST 64
+    - DIAMOND_HOE 1 durability:3
+    - GOLDEN_APPLE 8
+    - SHIELD 1 basecolor:1908001
+    - COOKED_BEEF 32
+    - COOKED_BEEF 64
+    - ARROW 64
+    - ARROW 64
+    - ARROW 64
+    - ARROW 64
+  ares:
+    delay: 1
+    items:
+    - DIAMOND_SPADE 1 dig_speed:5 durability:3
+    - DIAMOND_PICKAXE 1 dig_speed:5 durability:3
+    - DIAMOND_AXE 1 dig_speed:5 durability:3
+    - BOW 1 arrow_damage:5 arrow_fire:1 durability:3 arrow_infinite:1
+    - DIAMOND_SWORD 1 damage_all:5 durability:3 knockback:2 fire_aspect:2 sweeping_edge:2 looting:3
+    - DIAMOND_BOOTS 1 protection_fall:4 protection_environmental:4 depth_strider:2 durability:3 thorns:2
+    - DIAMOND_LEGGINGS 1 protection_environmental:4 durability:3 thorns:2
+    - DIAMOND_CHESTPLATE 1 protection_environmental:4 durability:3 thorns:2
+    - DIAMOND_HELMET 1 protection_environmental:4 durability:3 oxygen:2 water_worker:1
+      thorns:2
+    - IRON_INGOT 64
+    - IRON_INGOT 64
+    - SLIME_BALL 64
+    - INK_SACK:4 64
+    - EXP_BOTTLE 64
+    - EXP_BOTTLE 64
+    - TOTEM 1
+    - EXP_BOTTLE 64
+    - TOTEM 1
+    - IRON_INGOT 64
+    - GOLD_INGOT 64
+    - GOLD_INGOT 64
+    - DIAMOND 24
+    - BUCKET 16
+    - ENDER_PEARL 8
+    - LOG 64
+    - GOLDEN_APPLE 12
+    - LOG 64
+    - CHEST 64
+    - DIAMOND_HOE 1 durability:3
+    - SHIELD 1 basecolor:1908001
+    - COOKED_BEEF 64
+    - COOKED_BEEF 64
+    - ARROW 64
+    - ARROW 64
+    - ARROW 64
+    - ARROW 64
+  yt:
+    delay: 1
+    items:
+    - DIAMOND_SPADE 1 dig_speed:5 durability:3
+    - DIAMOND_PICKAXE 1 dig_speed:5 durability:3
+    - DIAMOND_AXE 1 dig_speed:5 durability:3
+    - BOW 1 arrow_damage:5 arrow_fire:1 durability:3 arrow_infinite:1
+    - DIAMOND_SWORD 1 damage_all:5 durability:3 knockback:2 fire_aspect:2 sweeping_edge:2
+    - DIAMOND_BOOTS 1 protection_environmental:4 depth_strider:2 durability:3 thorns:2
+    - DIAMOND_LEGGINGS 1 protection_environmental:4 durability:3 thorns:2
+    - DIAMOND_CHESTPLATE 1 protection_environmental:4 durability:3 thorns:2
+    - DIAMOND_HELMET 1 protection_environmental:4 durability:3 oxygen:2 water_worker:1
+      thorns:2
+    - IRON_INGOT 64
+    - IRON_INGOT 64
+    - SLIME_BALL 64
+    - INK_SACK:4 64
+    - EXP_BOTTLE 64
+    - EXP_BOTTLE 64
+    - TOTEM 1
+    - EXP_BOTTLE 64
+    - TOTEM 1
+    - IRON_INGOT 64
+    - GOLD_INGOT 64
+    - GOLD_INGOT 64
+    - DIAMOND 24
+    - BUCKET 16
+    - ENDER_PEARL 8
+    - LOG 64
+    - GOLDEN_APPLE 12
+    - LOG 64
+    - CHEST 64
+    - DIAMOND_HOE 1 durability:3
+    - SHIELD 1 basecolor:1908001
+    - COOKED_BEEF 64
+    - COOKED_BEEF 64
+    - ARROW 64
+    - ARROW 64
+    - ARROW 64
+    - ARROW 64

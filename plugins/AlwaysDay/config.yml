@@ -1,0 +1,12 @@
+enabled: true
+worlds:
+  day:
+  - spawn
+  - spawn_nether
+  - spawn_the_end
+  night: []
+  calm: []
+  storm: []
+updates:
+  autoupdate: false
+  remind: true

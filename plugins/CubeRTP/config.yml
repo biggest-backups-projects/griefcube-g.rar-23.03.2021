@@ -1,0 +1,29 @@
+findDelay: 1000
+findInterval: 100
+teleportTitle: "&6&lТелепортированы!&f/nl/§6 {x}§f/§6{y}§f/§6{z}§f - от спавна: §6{dist}"
+cost: 1
+needFood: "&6&l[Телепортация] §fНужно §6§l{cost} §fеды, чтобы телепортироваться"
+spentFood: "&6&l[Телепортация] §fВы потратили §6&l{cost}§f еды за телепортацию"
+alreadyFinding: ""
+
+radius:
+    max_X: 600
+    max_Z: 600
+    min_X: -600 
+    min_Z: -600
+    
+blacklist: 
+    biomes:
+     - OCEAN
+     - RIVER
+     - NETHER
+     - DEEP_OCEAN
+    blocks:
+     - CACTUS
+     - LEAVES
+     - WATER
+
+animation:
+ interval: 3.4
+ titleFrames:
+  - ""

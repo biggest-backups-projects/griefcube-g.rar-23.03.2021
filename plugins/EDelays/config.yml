@@ -1,0 +1,200 @@
+cooldowns:
+  message: "&6&l[Задержка] &fПодождите &6&l%time%&f перед использованием команды"
+  list:
+   sticktab:
+    cooldown: 5
+    lenght: 2
+   rtp:
+    cooldown: 5
+   tpaall:
+    cooldown: 10000
+   grant:
+    cooldown: 30
+   stick:
+    cooldown: 10
+   sms:
+    cooldown: 10000
+   broadcast:
+    cooldown: 1000
+   op:
+    cooldown: 9999
+   ans:
+    cooldown: 30
+   ask:
+    cooldown: 30
+   sprivate:
+    cooldown: 9999
+   cash:
+    cooldown: 9999
+   ptags:
+    cooldown: 10
+   withdraw:
+    cooldown: 9999
+   reviews:
+    cooldown: 30
+   rev:
+    cooldown: 30
+   set:
+    cooldown: 5
+    lenght: 2
+   kill:
+    cooldown: 10000
+    lenght: 2
+   ban:
+    cooldown: 60
+    lenght: 2
+   mute:
+    cooldown: 60
+    lenght: 2
+   kick:
+    cooldown: 60
+    lenght: 2
+   ptags:
+    cooldown: 15
+   tphere:
+    cooldown: 300
+    lenght: 2
+   give:
+    cooldown: 500
+    lenght: 3
+   crack:
+    cooldown: 10000
+   item:
+    cooldown: 500
+    lenght: 2
+   vanish:
+    cooldown: 5
+   kittycannon:
+    cooldown: 15
+   helpop:
+    cooldown: 30
+    lenght: 2
+   hack:
+    cooldown: 2000
+   ipban:
+    cooldown: 60
+    lenght: 2
+   tp:
+    cooldown: 3
+    lenght: 2
+   tpo:
+    cooldown: 50
+    lenght: 2
+   suicide:
+    cooldown: 9999
+   tempban:
+    cooldown: 60
+    lenght: 2
+   tempmute:
+    cooldown: 25
+    lenght: 2
+   bc:
+    cooldown: 500
+    lenght: 2
+   burn:
+    cooldown: 5000
+    lenght: 2
+   time:
+    cooldown: 100
+    lenght: 2
+   eco:
+    cooldown: 100
+    lenght: 2
+   warn:
+    cooldown: 50
+    lenght: 2
+   afk:
+    cooldown: 15
+   msg:
+    cooldown: 5
+    lenght: 3
+   antioch:
+    cooldown: 15
+   me:
+    cooldown: 50
+    lenght: 2
+   jump:
+    cooldown: 50
+   fireball:
+    cooldown: 60
+   time:
+    cooldown: 100
+   banip:
+    cooldown: 60
+    lenght: 2
+   ipban:
+    cooldown: 60
+    lenght: 2
+   titlemanager:
+    cooldown: 10000
+    lenght: 3
+   spamtroll:
+    cooldown: 500
+    lenght: 2
+   voidtroll:
+    cooldown: 500
+    lenght: 2
+   achievementtroll:
+    cooldown: 500
+    lenght: 2
+   slaptroll:
+    cooldown: 500
+    lenght: 2
+   lifttroll:
+    cooldown: 500
+    lenght: 2
+   starvetroll:
+    cooldown: 500
+    lenght: 2
+   pumpkintroll:
+    cooldown: 500
+    lenght: 2
+   dirttroll:
+    cooldown: 500
+    lenght: 2
+   optroll:
+    cooldown: 500
+    lenght: 2
+   deoptroll:
+    cooldown: 500
+    lenght: 2
+   demotroll:
+    cooldown: 500
+    lenght: 2
+   healtroll:
+    cooldown: 500
+    lenght: 2
+   jointroll:
+    cooldown: 500
+    lenght: 2
+   leavetroll:
+    cooldown: 500
+    lenght: 2
+   droptroll:
+    cooldown: 500
+    lenght: 2
+   freezetroll:
+    cooldown: 500
+    lenght: 2
+   drunktroll:
+    cooldown: 500
+    lenght: 2
+   disarmtroll:
+    cooldown: 500
+    lenght: 2
+   timeswitchtroll:
+    cooldown: 500
+    lenght: 2
+   rotatetroll:
+    cooldown: 500
+    lenght: 2
+   paytroll:
+    cooldown: 500
+    lenght: 2
+   shock:
+    cooldown: 500
+   publicinvtroll:
+    cooldown: 5500
+    lenght: 2
+   clearchat:
+    cooldown: 9000

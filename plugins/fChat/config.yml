@@ -1,0 +1,8 @@
+local: '&8[&6Ⓛ&8] %prefix &8⁙ &7%player &6&l► &f%message'
+global: '&8[&aⒼ&8] %prefix &8⁙ &7%player &6&l► &f%message'
+global-symbol: '!'
+range: true
+radius: 100
+#Permission color codes - chat.color
+#Permission other codes - chat.other
+#Permission for reload plugin - chat.reload

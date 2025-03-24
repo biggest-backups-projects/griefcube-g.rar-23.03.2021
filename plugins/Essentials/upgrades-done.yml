@@ -1,0 +1,10 @@
+kitsyml: true
+updateSpawnsToNewSpawnsConfig: true
+updateJailsToNewJailsConfig: true
+warnMetrics: true
+sanitizeAllUserFilenames: true
+updateUsersPowerToolsFormat: true
+updateUsersHomesFormat: true
+deleteOldItemsCsv: true
+banFormatChange: true
+userMapRepaired: true

@@ -1,0 +1,557 @@
+menu-settings:
+   name: '&0&lВЫБОР ПРЕФИКСА:&r'
+   rows: 5
+   command: 'prefix'
+
+item0:
+   NAME: '&e&lЩВАРЦ &7'
+   ID: '421'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &e&lЩВАРЦ &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.1'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 1
+   POSITION-Y: 1
+
+item1:
+   NAME: '&5&lЧСВ &7'
+   ID: '421, 2'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &5&lЧСВ &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.2'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 2
+   POSITION-Y: 1
+
+item2:
+   NAME: '&b&lПИЛОТ &7'
+   ID: '421, 3'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &b&lПИЛОТ &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.3'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 3
+   POSITION-Y: 1
+
+item3:
+   NAME: '&d&lЭНДЕР &7'
+   ID: '421, 4'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &d&lЭНДЕР &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.4'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 4
+   POSITION-Y: 1
+
+item4:
+   NAME: '&c&lСЕКС &7'
+   ID: '421, 5'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &c&lСЕКС &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.5'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 5
+   POSITION-Y: 1
+
+item5:
+   NAME: '&a&lАГЕНТ &7'
+   ID: '421, 6'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &a&lАГЕНТ  &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.6'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 6
+   POSITION-Y: 1
+
+item6:
+   NAME: '&3&lСВЯЗИСТ &7'
+   ID: '421, 7'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &3&lСВЯЗИСТ &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.7'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 7
+   POSITION-Y: 1
+
+item7:
+   NAME: '&3&lАНГЕЛ &7'
+   ID: '421, 8'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &3&lАНГЕЛ &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.8'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 8
+   POSITION-Y: 1
+
+item8:
+   NAME: '&e&lКАСИР &7'
+   ID: '421, 9'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &e&lКАСИР &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.9'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 9
+   POSITION-Y: 1
+
+item9:
+   NAME: '&e&lЧЕЛОВЕК &7'
+   ID: '421, 10'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &e&lЧЕЛОВЕК &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.10'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 1
+   POSITION-Y: 2
+
+item10:
+   NAME: '&a&lБАТЯ &7'
+   ID: '421, 11'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &a&lБАТЯ &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.11'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 2
+   POSITION-Y: 2
+
+item11:
+   NAME: '&6&lРЫЦАРЬ &7'
+   ID: '421, 12'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &6&lРЫЦАРЬ &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.12'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 3
+   POSITION-Y: 2
+
+item12:
+   NAME: '&b&lКАПРАЛ &7'
+   ID: '421, 13'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &b&lКАПРАЛ  &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.13'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 4
+   POSITION-Y: 2
+
+item13:
+   NAME: '&b&lАЛЬФАЧ &7'
+   ID: '421, 14'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &b&lАЛЬФАЧ &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.14'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 5
+   POSITION-Y: 2
+
+item14:
+   NAME: '&d&lТЯН &7'
+   ID: '421, 15'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &d&lТЯН  &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.15'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 6
+   POSITION-Y: 2
+
+item15:
+   NAME: '&e&lФАРАОН &7'
+   ID: '421, 16'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &e&lФАРАОН  &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.16'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 7
+   POSITION-Y: 2
+
+item16:
+   NAME: '&b&lДИГГЕР &7'
+   ID: '421, 17'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &b&lДИГГЕР &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.17'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 8
+   POSITION-Y: 2
+
+item17:
+   NAME: '&a&lМАЙНЕР &7'
+   ID: '421, 18'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &a&lМАЙНЕР &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.18'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 9
+   POSITION-Y: 2
+
+item18:
+   NAME: '&c&lЛЕСНИК &7'
+   ID: '421, 19'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &c&lЛЕСНИК &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.19'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 1
+   POSITION-Y: 3
+
+item19:
+   NAME: '&b&lГАСТ &7'
+   ID: '421, 20'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &b&lГАСТ &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.20'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 2
+   POSITION-Y: 3
+
+item20:
+   NAME: '&6&lБЛЕЙЗ &7'
+   ID: '421, 21'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &6&lБЛЕЙЗ &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.21'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 3
+   POSITION-Y: 3
+
+item21:
+   NAME: '&3&lГРУЗЧИК &7'
+   ID: '421, 22'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &3&lГРУЗЧИК &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.22'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 4
+   POSITION-Y: 3
+
+item22:
+   NAME: '&a&lВОИН &7'
+   ID: '421, 23'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &a&lВОИН &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.23'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 5
+   POSITION-Y: 3
+
+item23:
+   NAME: '&c&lЗАЩИТНИК &7'
+   ID: '421, 24'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &c&lЗАЩИТНИК &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.24'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 6
+   POSITION-Y: 3
+
+item24:
+   NAME: '&b&lЯГА &7'
+   ID: '421, 25'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &b&lЯГА &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.25'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 7
+   POSITION-Y: 3
+
+item25:
+   NAME: '&6&lФРЕДБЕР &7'
+   ID: '421, 26'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &6&lФРЕДБЕР &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.26'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 8
+   POSITION-Y: 3
+
+item26:
+   NAME: '&9&lТАНКИСТ &7'
+   ID: '421, 27'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &9&lТАНКИСТ &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.27'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 9
+   POSITION-Y: 3
+item27:
+   NAME: '&a&lЛИЦЕМЕР &7'
+   ID: '421, 28'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &a&lЛИЦЕМЕР &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.28'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 1
+   POSITION-Y: 4
+
+item28:
+   NAME: '&c&lГРИФЕР &7'
+   ID: '421, 29'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &c&lГРИФЕР &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.29'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 2
+   POSITION-Y: 4
+
+item29:
+   NAME: '&c&lХИРУРГ &7'
+   ID: '421, 30'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &c&lХИРУРГ &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.30'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 3
+   POSITION-Y: 4
+
+item30:
+   NAME: '&a&lПИПИДАСТР &7'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &a&lПИПИДАСТР &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.31'
+   ID: '421, 31'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 4
+   POSITION-Y: 4
+
+item31:
+   NAME: '&d&lСТРАННЫЙ &7'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &d&lСТРАННЫЙ &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.32'
+   ID: '421, 32'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 5
+   POSITION-Y: 4
+
+item32:
+   NAME: '&a&lЧЁТКИЙ &7'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &a&lЧЁТКИЙ &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.33'
+   ID: '421, 33'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 6
+   POSITION-Y: 4
+
+item33:
+   NAME: '&b&lГЕНЕРАЛ &7'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &b&lГЕНЕРАЛ &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.34'
+   ID: '421, 34'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 7
+   POSITION-Y: 4
+
+item34:
+   NAME: '&e&lМЫСЛИТЕЛЬ &7'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &e&lМЫСЛИТЕЛЬ &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.35'
+   ID: '421, 35'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 8
+   POSITION-Y: 4
+
+item35:
+   NAME: '&e&lПОЕХАВШИЙ &7'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно установлен.; console:nte player {player} prefix &e&lПОЕХАВШИЙ &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет прав на этот префикс.'
+   PERMISSION: 'prefix.36'
+   ID: '421, 36'
+   LORE:
+   - '&7Уникальные префиксы, выбить'
+   - '&7можно в кейсе &2&l&k|&a&l&k|&2&l&k|&a&l Кейс с Кастомизациями &2&l&k|&a&l&k|&2&l&k|'
+   - ''
+   - '&7Нажмите, чтобы установить префикс'
+   POSITION-X: 9
+   POSITION-Y: 4
+clear:
+   NAME: '&4&l✖ &fОчистить префикс'
+   COMMAND: 'tell: &6&l[Префиксы] &fПрефикс успешно очищен.; console:nte player {player} clear &7'
+   PERMISSION-MESSAGE: '&6&l[Префиксы] &fУ вас нет префиксов.'
+   PERMISSION: 'prefix.clear'
+   ID: 'barrier'
+   LORE:
+   - '&7Нажмите, чтобы очистить префикс'
+   POSITION-X: 5
+   POSITION-Y: 5
+1:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: '160:1'
+   POSITION-X: 1
+   POSITION-Y: 5
+2:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: '160:1'
+   POSITION-X: 2
+   POSITION-Y: 5
+3:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: '160:1'
+   POSITION-X: 3
+   POSITION-Y: 5
+4:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: '160:1'
+   POSITION-X: 4
+   POSITION-Y: 5
+6:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: '160:1'
+   POSITION-X: 6
+   POSITION-Y: 5
+7:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: '160:1'
+   POSITION-X: 7
+   POSITION-Y: 5
+8:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: '160:1'
+   POSITION-X: 8
+   POSITION-Y: 5
+9:
+   NAME: '&6&lGRIEF&f&lCUBE'
+   ID: '160:1'
+   POSITION-X: 9
+   POSITION-Y: 5

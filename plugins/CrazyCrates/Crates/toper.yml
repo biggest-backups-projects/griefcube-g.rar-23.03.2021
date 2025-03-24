@@ -1,0 +1,123 @@
+Crate:
+  CrateType: Wonder
+  CrateName: '&0Идёт открытие кейса...'
+  StartingKeys: 0
+  InGUI: true
+  Slot: 14
+  OpeningBroadCast: false
+  BroadCast: '%Prefix%&6&l%Player% &7is opening a &e&lClassic Chest&7.'
+  Item: '54'
+  Glowing: false
+  Name: '▪ Денежный кейс'
+  Lore:
+          - '&7This crate contains classic items.'
+          - '&7You have &6%Keys% keys &7to open this crate with.'
+          - '&7&l(&e&l!&7&l) Right click to view rewards.'
+  PhysicalKey:
+          Name: '&e&lДенежного &e⛂ &e&lкейса'
+          Lore:
+            - '&7A special Key'
+            - '&7For a special Crate.'
+          Item: '131'
+          Glowing: true
+  Prizes:
+    0:
+      MaxRange: 100
+      Commands:
+      - give %Player% enchantedgoldenapple:1 1 
+      DisplayName: 'Зачаренное яблоко'
+      DisplayAmount: 1
+      Chance: 5
+      Glowing: true
+      DisplayItem: 322
+      Lore: object
+    1:
+      MaxRange: 100
+      Commands:
+      - give %Player% diamondboots 1  protection_environmental:4 protection_fall:4 depth_strider:3 durability:3 mending:1
+      DisplayName: 'Алмазные ботинки'
+      DisplayAmount: 1
+      Chance: 10
+      Glowing: true
+      DisplayItem: 313
+      Lore: object
+    2:
+      MaxRange: 100
+      Commands:
+      - give %Player% diamondleggings 1  protection_environmental:4 durability:3 mending:1
+      DisplayName: 'Алмазные поножи'
+      DisplayAmount: 1
+      Chance: 10
+      Glowing: true
+      DisplayItem: 312
+      Lore: object
+    3:
+      MaxRange: 100
+      Commands:
+      - give %Player% diamondchestplate 1  protection_environmental:4 durability:3 mending:1
+      DisplayName: 'Алмазный нагрудник'
+      DisplayAmount: 1
+      Chance: 10
+      Glowing: true
+      DisplayItem: 311
+      Lore: object
+    4:
+      MaxRange: 100
+      Commands:
+      - give %Player% diamondhelmet 1  protection_environmental:4 oxygen:3 water_worker:1 durability:3 mending:1
+      DisplayName: 'Алмазный шлем'
+      DisplayAmount: 1
+      Chance: 5
+      Glowing: true
+      DisplayItem: 310
+      Lore: object
+    5:
+      MaxRange: 100
+      Commands:
+      - give %Player% diamondpickaxe 1 dig_speed:5 durability:3 mending:1
+      DisplayName: 'Алмазная кирка'
+      DisplayAmount: 1
+      Chance: 20
+      Glowing: true
+      DisplayItem: 278
+      Lore: object
+    6:
+      MaxRange: 100
+      Commands:
+      - give %Player% diamondaxe 1  damage_all:5 fire_aspect:2 dig_speed:5 durability:3 mending:1
+      DisplayName: 'Алмазный топор'
+      DisplayAmount: 1
+      Chance: 10
+      Glowing: true
+      DisplayItem: 279
+      Lore: object
+    7:
+      MaxRange: 100
+      Commands:
+      - give %Player% bow 1 durability:3 arrow_damage:5 arrow_fire:1
+      DisplayName: 'Крутой лук'
+      DisplayAmount: 1
+      Chance: 20
+      Glowing: true
+      DisplayItem: 261
+      Lore: object
+    8:
+      MaxRange: 100
+      Commands:
+      - give %Player% diamondsword 1  damage_all:5 fire_aspect:2 durability:3 mending:1
+      DisplayName: 'Крутой меч'
+      DisplayAmount: 1
+      Chance: 5
+      Glowing: true
+      DisplayItem: 276
+      Lore: object
+    9:
+      MaxRange: 100
+      Commands:
+      - give %Player% totem 1 
+      DisplayName: 'Тотем'
+      DisplayAmount: 1
+      Chance: 5
+      Glowing: true
+      DisplayItem: 449
+      Lore: object

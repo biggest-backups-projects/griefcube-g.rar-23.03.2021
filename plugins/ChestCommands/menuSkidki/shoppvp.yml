@@ -1,0 +1,317 @@
+menu-settings:
+   name: '&0Кредитная лавка › Всё для PvP'
+   open-action: 'sound: BLOCK_STONE_BUTTON_CLICK_ON, 10, 10'
+   command: 'pvp'
+   rows: 6
+
+item0:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 1
+   POSITION-Y: 1
+
+item1:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 2
+   POSITION-Y: 1
+
+item2:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 3
+   POSITION-Y: 1
+
+item3:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 4
+   POSITION-Y: 1
+
+item4:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 5
+   POSITION-Y: 1
+
+item5:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 6
+   POSITION-Y: 1
+
+item6:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 7
+   POSITION-Y: 1
+
+item7:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 8
+   POSITION-Y: 1
+
+item8:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 9
+   POSITION-Y: 1
+
+item9:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 1
+   POSITION-Y: 2
+
+item10:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 2
+   POSITION-Y: 2
+
+item11:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 3
+   POSITION-Y: 2
+
+item12:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 4
+   POSITION-Y: 2
+
+item13:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 5
+   POSITION-Y: 2
+
+item14:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 6
+   POSITION-Y: 2
+
+item15:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 7
+   POSITION-Y: 2
+
+item16:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 8
+   POSITION-Y: 2
+
+item17:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 9
+   POSITION-Y: 2
+
+item18:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 1
+   POSITION-Y: 3
+
+item19:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 2
+   POSITION-Y: 3
+
+item20:
+   ID: 'SHIELD'
+   NAME: '&6&l⚠ &fЩиты'
+   COMMAND: 'open: shield.yml'
+   POSITION-X: 3
+   POSITION-Y: 3
+
+item21:
+   ID: 'TOTEM'
+   NAME: '&6&l⚠ &fТотемы'
+   COMMAND: 'open: totem.yml'
+   POSITION-X: 4
+   POSITION-Y: 3
+
+item22:
+   COMMAND: 'tell:&6&l[Магазин] &fВы успешно купили&8: &eЗолотое яблоко;console:give {player} 322 1;console:sound {player} UI_TOAST_CHALLENGE_COMPLETE 10 5;console:tm msg {player} &eЗолотое яблоко \n &6&l[!] &fУспешно куплен за &6㉿&e5'
+   NAME: '&6&l⚠ &fЗолотое яблоко'
+   LORE:
+     - '&7После применения:'
+     - ' &8◦ &eПоглащение урона &7(2:00)'
+     - ' &8◦ &eВосстановление &7(0:5)'
+     - ''
+     - '&8› &fЦена&8: &6㉿&e5'
+     - '{papi}&8› &fБаланс&8: &6㉿&e%playerpoints_points%'
+     - '&a [нажми для покупки]'
+   ID: 322
+   POINTS: 5
+   POSITION-X: 5
+   POSITION-Y: 3
+
+item23:
+   COMMAND: 'tell:&6&l[Магазин] &fВы успешно купили&8: &eЗачарованое золотое яблоко;console:give {player} 322:1 1 {display:{Name:"§6Зачарованное золотое яблоко"}};console:sound {player} UI_TOAST_CHALLENGE_COMPLETE 10 5;console:tm msg {player} &6Зачарованное яблоко \n &6&l[!] &fУспешно куплен за &6㉿&e50'
+   NAME: '&6&l⚠ &fЗачарованное золотое яблоко'
+   LORE:
+     - '&7После применения:'
+     - ' &8◦ &6Поглащение урона&7 (2:00)'
+     - ' &8◦ &6Восстановление &7(0:30)'
+     - ' &8◦ &6Сопротивление &7(5:00)'
+     - ' &8◦ &6Огнеупорность &7(5:00)'
+     - ''
+     - '&8› &fЦена&8: &6㉿&e50'
+     - '{papi}&8› &fБаланс&8: &6㉿&e%playerpoints_points%'
+     - '&a [нажми для покупки]'
+   ID: 322:1, 1
+   POINTS: 50
+   POSITION-X: 6
+   POSITION-Y: 3
+
+item25:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 8
+   POSITION-Y: 3
+
+item26:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 9
+   POSITION-Y: 3
+
+item27:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 1
+   POSITION-Y: 4
+
+item28:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 2
+   POSITION-Y: 4
+
+item29:
+   ID: 'skull:3'
+   NAME: '&6&l⚠ &fБроня &6&l1 LVL'
+   COMMAND: 'open: 1lvl.yml;sound: BLOCK_STONE_BUTTON_CLICK_ON, 10, 10'
+   TEXTURES: '5a736eb1a7ce5a5f5d5b168931fa31396386c160568b41964ba86cdb9ed6be'
+   POSITION-X: 3
+   POSITION-Y: 4
+
+item30:
+   ID: 'skull:3'
+   NAME: '&6&l⚠ &fБроня &6&l2 LVL'
+   COMMAND: 'open: 2lvl.yml;sound: BLOCK_STONE_BUTTON_CLICK_ON, 10, 10'
+   TEXTURES: 'f7aadff9ddc546fdcec6ed5919cc39dfa8d0c07ff4bc613a19f2e6d7f2593'
+   POSITION-X: 4
+   POSITION-Y: 4
+
+item31:
+   ID: 'skull:3'
+   NAME: '&6&l⚠ &fБроня &6&l3 LVL'
+   COMMAND: 'open: 3lvl.yml;sound: BLOCK_STONE_BUTTON_CLICK_ON, 10, 10'
+   TEXTURES: 'f37cae5c51eb1558ea828f58e0dff8e6b7b0b1a183d737eecf714661761'
+   POSITION-X: 5
+   POSITION-Y: 4
+
+item32:
+   ID: 'skull:3'
+   NAME: '&6&l⚠ &fБроня &6&l4 LVL'
+   COMMAND: 'open: 4lvl.yml;sound: BLOCK_STONE_BUTTON_CLICK_ON, 10, 10'
+   TEXTURES: '25807cc4c3b6958aea6156e84518d91a49c5f32971e6eb269a23a25a27145'
+   POSITION-X: 6
+   POSITION-Y: 4
+
+item33:
+   ID: 'skull:3'
+   NAME: '&6&l⚠ &fБроня &6&l5 LVL'
+   COMMAND: 'open: 5lvl.yml;sound: BLOCK_STONE_BUTTON_CLICK_ON, 10, 10'
+   TEXTURES: 'f3d5e43de5d4177c4baf2f44161554473a3b0be5430998b5fcd826af943afe3'
+   POSITION-X: 7
+   POSITION-Y: 4
+
+item34:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 8
+   POSITION-Y: 4
+
+item35:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 9
+   POSITION-Y: 4
+
+item36:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 1
+   POSITION-Y: 5
+
+item37:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 2
+   POSITION-Y: 5
+
+item38:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 3
+   POSITION-Y: 5
+
+item39:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 4
+   POSITION-Y: 5
+
+item40:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 5
+   POSITION-Y: 5
+
+item41:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 6
+   POSITION-Y: 5
+
+item42:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 7
+   POSITION-Y: 5
+
+item43:
+   ID: 'STAINED_GLASS_PANE:4'
+   POSITION-X: 8
+   POSITION-Y: 5
+
+item44:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 9
+   POSITION-Y: 5
+
+item45:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 1
+   POSITION-Y: 6
+
+item46:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 2
+   POSITION-Y: 6
+
+item47:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 3
+   POSITION-Y: 6
+
+item48:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 4
+   POSITION-Y: 6
+
+STR2:
+  COMMAND: 'open:credits.yml;sound: BLOCK_STONE_BUTTON_CLICK_ON, 10, 10'
+  NAME: '&6&l⚠ &fВернуться'
+  ID: 'skull:3'
+  TEXTURES: '2d9287616343d833e9e7317159caa2cb3e59745113962c1379052ce478884fa'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 6
+
+item50:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 6
+   POSITION-Y: 6
+
+item51:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 7
+   POSITION-Y: 6
+
+item52:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 8
+   POSITION-Y: 6
+
+item53:
+   ID: 'STAINED_GLASS_PANE:1'
+   POSITION-X: 9
+   POSITION-Y: 6

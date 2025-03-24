@@ -1,0 +1,37 @@
+cfg-version: 11
+message: '&6&l[!] &fВы достигли границы мира.'
+round-border: true
+debug-mode: false
+whoosh-effect: true
+portal-redirection: true
+knock-back-dist: 3.0
+timer-delay-ticks: 5
+remount-delay-ticks: 0
+dynmap-border-enabled: true
+dynmap-border-message: The border of the world.
+player-killed-bad-spawn: false
+deny-enderpearl: true
+fill-autosave-frequency: 30
+bypass-list-uuids: []
+fill-memory-tolerance: 500
+prevent-block-place: false
+prevent-mob-spawn: false
+worlds:
+  world:
+    x: 7.300000011920929
+    z: 56.4936001086057
+    radiusX: 2000
+    radiusZ: 2000
+    wrapping: false
+  world_the_end:
+    x: 100.48418852622609
+    z: 0.5190926769658877
+    radiusX: 5000
+    radiusZ: 5000
+    wrapping: false
+  spawn:
+    x: -29.75366861747743
+    z: 140.0699386241871
+    radiusX: 1000
+    radiusZ: 1000
+    wrapping: true

@@ -1,0 +1,187 @@
+items:
+- ==: org.bukkit.inventory.ItemStack
+  type: IRON_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §a⚔ §cМеч
+- ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_PICKAXE
+- ==: org.bukkit.inventory.ItemStack
+  type: IRON_AXE
+  damage: 7
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §a⚑ §cТопор
+- ==: org.bukkit.inventory.ItemStack
+  type: IRON_INGOT
+  amount: 15
+- ==: org.bukkit.inventory.ItemStack
+  type: COBBLESTONE
+  amount: 16
+- ==: org.bukkit.inventory.ItemStack
+  type: GOLD_INGOT
+  amount: 10
+- ==: org.bukkit.inventory.ItemStack
+  type: COAL
+  amount: 17
+- ==: org.bukkit.inventory.ItemStack
+  type: WORKBENCH
+- ==: org.bukkit.inventory.ItemStack
+  type: COOKED_MUTTON
+  amount: 30
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §a☕ §cЕда
+- ==: org.bukkit.inventory.ItemStack
+  type: APPLE
+  amount: 13
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: Яблочко
+    repair-cost: 1
+- ==: org.bukkit.inventory.ItemStack
+  type: IRON_PICKAXE
+  damage: 32
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §a⚒ §cКирка
+- ==: org.bukkit.inventory.ItemStack
+  type: WATCH
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §a∘ §eМеню §a∘
+- ==: org.bukkit.inventory.ItemStack
+  type: LOG
+  amount: 63
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §a▪ §cДуб
+- ==: org.bukkit.inventory.ItemStack
+  type: DOUBLE_PLANT
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §aДонат §e☀ §8| §b[СКИДКИ НА ВСЁ]
+- ==: org.bukkit.inventory.ItemStack
+  type: ENDER_CHEST
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §eОсобенное §a✈
+- ==: org.bukkit.inventory.ItemStack
+  type: ARROW
+  amount: 15
+- ==: org.bukkit.inventory.ItemStack
+  type: TRAPPED_CHEST
+- ==: org.bukkit.inventory.ItemStack
+  type: GLASS
+  amount: 32
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §a▪ §cСтекло
+- null
+- ==: org.bukkit.inventory.ItemStack
+  type: SMOOTH_BRICK
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §a▪ §cКаменные кирпичи
+- ==: org.bukkit.inventory.ItemStack
+  type: SMOOTH_BRICK
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §a▪ §cКаменные кирпичи
+- ==: org.bukkit.inventory.ItemStack
+  type: SMOOTH_BRICK
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §a▪ §cКаменные кирпичи
+- ==: org.bukkit.inventory.ItemStack
+  type: BED
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §a⚘ §cКровать
+- ==: org.bukkit.inventory.ItemStack
+  type: CHEST
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: TILE_ENTITY
+    display-name: §a〄 §cСундук
+    blockMaterial: CHEST
+- ==: org.bukkit.inventory.ItemStack
+  type: LOG
+  damage: 3
+  amount: 5
+- ==: org.bukkit.inventory.ItemStack
+  type: LOG
+  amount: 11
+- ==: org.bukkit.inventory.ItemStack
+  type: LOG_2
+  amount: 7
+- ==: org.bukkit.inventory.ItemStack
+  type: LOG
+  damage: 1
+  amount: 6
+- null
+- null
+- null
+- null
+- null
+- ==: org.bukkit.inventory.ItemStack
+  type: STICK
+  amount: 6
+- ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND
+  amount: 2
+- ==: org.bukkit.inventory.ItemStack
+  type: LOG
+  damage: 2
+  amount: 6
+armor:
+- ==: org.bukkit.inventory.ItemStack
+  type: IRON_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §a☘ §cЖелезный ботинки
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 2
+- ==: org.bukkit.inventory.ItemStack
+  type: IRON_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §a☘ §cЖелезные поножи
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 2
+- ==: org.bukkit.inventory.ItemStack
+  type: IRON_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §a☘ §cЖелезный нагрудник
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 2
+- ==: org.bukkit.inventory.ItemStack
+  type: IRON_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §a☘ §cЖелезный шлем
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 2

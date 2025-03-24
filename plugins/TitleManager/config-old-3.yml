@@ -1,0 +1,35 @@
+LattyCraft:
+  ru: true
+config-version: 3
+using-bungeecord: true
+legacy-client-support: false
+updater:
+  check-automatically: false
+tabmenu:
+  enabled: false
+  header: animation:test1
+  footer: '&aОнлайн выживания &f[&e{online}&f]'
+welcome_message:
+  enabled: true
+  title: '&8▫ &eС возвращением!'
+  subtitle: '&fСегодня скидки &d&l90%&f, успей купить!'
+  fadeIn: 20
+  stay: 40
+  fadeOut: 20
+  first-join:
+    title: '&8▫ &eДобро пожаловать'
+    subtitle: '&fСегодня скидки &d&l90%&f, успей купить!'
+actionbar-welcome:
+  enabled: false
+  message: '&a&lСкидки на донат 90%! &c&lLattyDonate.ru'
+  first-join:
+    message: '&2&lУспей купить донат!'
+number-format:
+  enabled: true
+  format: '#,###.##'
+date-format:
+  format: EEE, dd MMM yyyy HH:mm:ss z
+disabled-variables:
+- my-disabled-variable
+- also-called-placeholders
+usingConfig: true

@@ -1,0 +1,27 @@
+# ������ ����������� ������ KleksyStudio - vk.com/kleksystudio
+# ������ ������ ������� ���������� ������!
+# ����� ���������, ��������� ������������� ��������� ��� ���������� ������ ������� - KleksyStudio
+Messages:
+  prefix: '&6&lGriefCube &7>> '
+  getMoney: §fВы получили &6%money &fмонет!
+  onlyWood: §cЗдесь можно ломать только древесину!
+  placeDeny: §cЗдесь нельзя ставить блоки!
+  cut: §fОсталось еще §6%number &fраз!
+  reload: '&aПлагин перезагружен!'
+  noMoney: '&cДля получения зарплаты нужно нарубить дров!'
+  getMoneyTitle: '&aУспешно!'
+  WoodBreakTitle: '&aДерево срублено!'
+  WoodBreak: '&fВы &aуспешно &fсрубили дерево!'
+  noMoneyTitle: '&cОшибка!'
+  usage: '&7Правильное использование команды: &6/woodcutter &7<&6salary&7/&6reload&7>'
+Settings:
+  salary: 20
+regions:
+  '1':
+    x1: -62
+    y1: 18
+    z1: -19
+    x2: -87
+    y2: 26
+    z2: -42
+    cooldown: 5

@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "XakinYT",
+      "uniqueId": "105a6dee-6f99-3437-a7c5-aeda77a28105"
+    },
+    "time": 1575504033791,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "plugins/spark/heap-2019-12-05_03.00.31.hprof"
+    }
+  }
+]

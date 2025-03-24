@@ -1,0 +1,63 @@
+Crate:
+  CrateType: Wonder
+  CrateName: '&0Идёт открытие кейса...'
+  StartingKeys: 0
+  InGUI: true
+  Slot: 14
+  OpeningBroadCast: false
+  BroadCast: '%Prefix%&6&l%Player% &7is opening a &e&lClassic Chest&7.'
+  Item: '54'
+  Glowing: false
+  Name: '▪ Денежный кейс'
+  Lore:
+          - '&7This crate contains classic items.'
+          - '&7You have &6%Keys% keys &7to open this crate with.'
+          - '&7&l(&e&l!&7&l) Right click to view rewards.'
+  PhysicalKey:
+          Name: '&e&lДенежного &e⛂ &e&lкейса'
+          Lore:
+            - '&7A special Key'
+            - '&7For a special Crate.'
+          Item: '131'
+          Glowing: true
+  Prizes:
+    2:
+      DisplayName: '&d250 XP'
+      MaxRange: 20
+      Commands:
+      - essentials:xp give %Player% 250
+      DisplayAmount: 1
+      Chance: 50
+      Glowing: true
+      DisplayItem: 384
+      Lore: object
+    3:
+      DisplayName: '&d350 XP'
+      MaxRange: 20
+      Commands:
+      - essentials:xp give %Player% 350
+      DisplayAmount: 1
+      Chance: 40
+      Glowing: true
+      DisplayItem: 384
+      Lore: object
+    4:
+      DisplayName: '&d500 XP'
+      MaxRange: 20
+      Commands:
+      - essentials:xp give %Player% 500
+      DisplayAmount: 1
+      Chance: 30
+      Glowing: true
+      DisplayItem: 384
+      Lore: object
+    5:
+      DisplayName: '&c750 XP'
+      MaxRange: 1
+      Commands:
+      - essentials:xp give %Player% 750
+      DisplayAmount: 1
+      Chance: 20
+      Glowing: true
+      DisplayItem: 384
+      Lore: object

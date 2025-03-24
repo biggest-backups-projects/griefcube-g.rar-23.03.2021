@@ -1,0 +1,94 @@
+Crate:
+  CrateType: QuickCrate
+  CrateName: '&0Игрового кейса'
+  StartingKeys: 0
+  InGUI: false
+  Slot: 14
+  OpeningBroadCast: false
+  BroadCast: '%Prefix%&6&l%Player% &7is opening a &e&lClassic Chest&7.'
+  Item: '54'
+  Glowing: false
+  Name: '▪ Игровой кейс'
+  Lore:
+    - '&7This crate contains classic items.'
+    - '&7You have &6%Keys% keys &7to open this crate with.'
+    - '&7&l(&e&l!&7&l) Right click to view rewards.'
+  PhysicalKey:
+    Name: '&fКлюч от &c&l#REWARD CASE&f за &a&n１２０&f минут игры'
+    Lore:
+      - '&fДанным ключем можно открыть'
+      - '&creward case &fза &c30 &Fминут игры'
+    Item: '131'
+    Glowing: True
+  Prizes:
+    1:
+      DisplayName: '&e⛂1000'
+      DisplayItem: '175'
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 25
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'eco give %Player% 1000'
+    2:
+      DisplayName: '&eЩит'
+      DisplayItem: '442'
+      DisplayAmount: 1
+      Lore:
+      MaxRange: 100
+      Chance: 35
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'give %Player% 442 1'
+    3:
+      DisplayName: '&eЗолотые яблоки'
+      DisplayItem: '322'
+      DisplayAmount: 6
+      MaxRange: 100
+      Chance: 25
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'give %Player% 322 6'
+    4:
+      DisplayName: '&eПорох'
+      DisplayItem: '289'
+      DisplayAmount: 3
+      MaxRange: 100
+      Chance: 27
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'give %Player% 289 3'
+    5:
+      DisplayName: '&eЗолото'
+      DisplayItem: '266'
+      DisplayAmount: 16
+      MaxRange: 100
+      Chance: 20
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'give %Player% 266 16'
+    6:
+      DisplayName: '&eЖелезо'
+      DisplayItem: '265'
+      DisplayAmount: 32
+      MaxRange: 100
+      Chance: 19
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'give %Player% 265 32'
+    7:
+      DisplayName: '&eАлмазная Кирка'
+      DisplayItem: '278'
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 18
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'give %Player% 278 1'

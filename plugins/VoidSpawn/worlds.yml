@@ -1,0 +1,4 @@
+version: 1
+spawn:
+  command: 'rtp '
+  mode: command

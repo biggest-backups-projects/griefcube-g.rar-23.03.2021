@@ -1,0 +1,76 @@
+#
+# Файл регионов WorldGuard
+#
+# ПРЕДУПРЕЖДЕНИЕ: ЭТОТ ФАЙЛ АВТОМАТИЧЕСКИ СГЕНЕРИРОВАН. Если изменить этот файл
+# вручную, имейте в виду, ЧТО ОДИН НЕПРАВИЛЬНО ВВЕДЕННЫЙ СИМВОЛ МОЖЕТ ПОВЕРЕДИТЬ ФАЙЛ. Если
+# WorldGuard будет неспособен разобрать файл, ваши регионы НЕ ЗАГРУЗЯТСЯ, и
+# содержимое этого файла будет сброшено. Пожалуйста, используйте валидатор YAML, такой как
+# http://yaml-online-parser.appspot.com (для небольших файлов).
+#
+# НЕ ЗАБУДЬТЕ ПЕРИОДИЧЕСКИ ДЕЛАТЬ РЕЗЕРВНЫЕ КОПИИ.
+#
+regions:
+    mine:
+        min: {x: 1.0, y: 0.0, z: 69.0}
+        max: {x: 4.0, y: 5.0, z: 75.0}
+        members: {}
+        flags: {build: allow, invincible: allow, use: allow, tnt: deny, pvp: deny}
+        owners: {}
+        type: cuboid
+        priority: 4
+    mob:
+        min: {x: 16.0, y: 15.0, z: -11.0}
+        max: {x: 28.0, y: 25.0, z: 17.0}
+        members: {}
+        flags: {item-drop: deny, creeper-explosion: deny, invincible: deny, damage-animals: allow,
+            pvp: deny}
+        owners: {}
+        type: cuboid
+        priority: 4
+    spawn:
+        min: {x: -177.0, y: 0.0, z: -154.0}
+        max: {x: 189.0, y: 255.0, z: 219.0}
+        members: {}
+        flags: {invincible: allow, use: allow, chest-access: allow, pvp: deny, mob-spawning: deny}
+        owners: {}
+        type: cuboid
+        priority: 1
+    king:
+        min: {x: -20.0, y: 8.0, z: 107.0}
+        max: {x: -14.0, y: 39.0, z: 113.0}
+        members: {}
+        flags: {invincible: deny, pvp: allow}
+        owners: {}
+        type: cuboid
+        priority: 5
+    edhrhwe:
+        min: {x: -79.0, y: 0.0, z: 266.0}
+        max: {x: -69.0, y: 120.0, z: 274.0}
+        members: {}
+        flags: {damage-animals: allow, tnt: allow, pvp: allow, pistons: allow, mob-spawning: allow}
+        owners:
+            unique-ids: [c5efc06e-0263-3dec-8d58-c43b6f7e2461]
+        type: cuboid
+        priority: 0
+    pvp:
+        min: {x: -111.0, y: 7.0, z: 12.0}
+        max: {x: -85.0, y: 27.0, z: 44.0}
+        members: {}
+        flags: {invincible: deny, pvp: allow}
+        owners: {}
+        type: cuboid
+        priority: 5
+    miner:
+        min: {x: 20.0, y: 1.0, z: 44.0}
+        max: {x: 32.0, y: 17.0, z: 56.0}
+        members: {}
+        flags: {build: allow, invincible: allow, use: allow, pvp: deny, block-place: deny}
+        owners: {}
+        type: cuboid
+        priority: 4
+    __global__:
+        members: {}
+        flags: {}
+        owners: {}
+        type: global
+        priority: 0

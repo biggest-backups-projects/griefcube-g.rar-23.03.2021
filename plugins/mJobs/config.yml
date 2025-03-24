@@ -1,0 +1,85 @@
+settings:
+  carrier:
+    range: 15
+    maxBoxes: 5
+    blockedCommands:
+    - egm
+    - gm
+    - gamemode
+    - egamemode
+  woodcutter: {}
+  miner:
+    blockedCommands:
+    - egm
+    - gm
+    - gamemode
+    - egamemode
+    - more
+    - emore
+    - ah
+    - auction
+    - auc
+    - trade
+    - marry
+    - c
+    - clan
+    - hat
+    ore_time: 15
+    prices:
+    - 16 32 5
+    - 73 32 7
+    - 15 32 10
+    - 14 32 15
+    - 56 16 30
+    - 129 16 40
+data:
+  carrier:
+    routes: {}
+    regions: {}
+  woodcutter:
+    regions:
+      wc:
+        ==: ru.jampire.mjobs.jobs.woodcutter.RegionForest
+        reward: 2
+        world: spawn
+        z1: -38
+        y1: 29
+        z2: -23
+        cooldown: 4
+        x1: -87
+        y2: 18
+        health: 1
+        x2: -66
+  miner:
+    routes:
+      mine:
+        ==: ru.jampire.mjobs.jobs.miner.MinerRoute
+        world: spawn
+        minecartSpawn:
+          ==: ru.jampire.mjobs.utils.LocationInteger
+          x: -2
+          y: 2
+          z: 76
+        name: mine
+        storage:
+          ==: ru.jampire.mjobs.jobs.Region
+          world: spawn
+          z1: 69
+          y1: 1
+          z2: 75
+          x1: 1
+          y2: 5
+          x2: 4
+        time: 3
+        speed: 2.5
+        direction: 1
+    mines:
+      mine:
+        ==: ru.jampire.mjobs.jobs.miner.RegionMine
+        world: spawn
+        z1: 52
+        y1: 13
+        z2: 82
+        x1: -21
+        y2: 0
+        x2: 14
